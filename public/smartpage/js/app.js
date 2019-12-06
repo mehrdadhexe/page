@@ -99,7 +99,7 @@ let theme = [
 let themeId = "theme-0";
 
 $('#edit_page').click(function () {
-
+    ObjectStore.dispatch({type: 'SEND_DATA'});
     let id = $('#edit_page').attr('data-id');
     let get_theme = theme.filter(themes => themes.name == themeId)
     $('body').css({
@@ -125,7 +125,7 @@ $('#edit_page').click(function () {
     });
 });
 $('#save_page').click(function () {
-
+    ObjectStore.dispatch({type: 'SEND_DATA'});
     let get_theme = theme.filter(themes => themes.name == themeId)
     $('body').css({
         background: get_theme[0].color
@@ -165,7 +165,7 @@ let initObject = {
     social: {},
     messengers: {},
     title: {title: "name", description: "description"},
-    block: {},
+    block: {id:0},
     setting: {},
     form: "",
 }
@@ -502,7 +502,7 @@ function form_social(data) {
 function show_svg(line) {
     return '<svg aria-labelledby="svg-inline--fa-title-KoYZcqoCTJn0" data-prefix="fab" data-icon="whatsapp" class="svg-inline--fa fa-whatsapp fa-w-14 fa-network" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title id="svg-inline--fa-title-KoYZcqoCTJn0">whatsapp</title><path fill="currentColor" d="' + line + '"></path></svg>';
 }
-function form_messengers_remove(data) {}
+
 function form_messengers(data) {
 
     let count = 0;
@@ -569,7 +569,7 @@ function form_messengers(data) {
     else
         $('.add_messengers_bt').parents('.add-block-button').show();
 
-    form_messengers_remove(data);
+
 
 }
 
