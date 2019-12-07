@@ -66,14 +66,12 @@ class SMS extends Model
             $user->F_SmsCode = $sms;
             $user->password = Hash::make($sms);
             $user->save();
-            return response()->json(['state' => 1,'msg'=>'کاربر از قبل وجود داشته'], 200);
 
         } else {
             $sms = rand(1000, 9999);
             $this->VerifyLookup($number, $sms);
             $data = ['F_Username' => $number, 'F_SmsCode' => $sms, 'password' => Hash::make($sms)];
             User::insert($data);
-            return response()->json(['state' => 2,'msg'=>'کاربر جدید ثبت شد'], 200);
         }
 
 
@@ -96,17 +94,14 @@ class SMS extends Model
                 $user->F_Active = 1;
                 $user->password = Hash::make($sms);
                 $user->save();
-
                 Auth::loginUsingId($data->id);
-                $success['token'] = $user->createToken('MyApp')->accessToken;
-
-                return response()->json(['state' => 'ok','token' =>'Bearer '.$success['token'],'userState'=>1,'redirect'=>url("/")], 200);
+                return response()->json(['state' => 'ok','redirect'=>url("/")], 200);
             } else {
-                return response()->json(['state' => 'no','userState'=>-1], 401);
+                return response()->json(['state' => 'no'], 401);
             }
         }
         else{
-            return response()->json(['state' => 'no','userState'=>-1], 401);
+            return response()->json(['state' => 'no'], 401);
         }
 
     }

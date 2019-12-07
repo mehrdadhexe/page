@@ -16,7 +16,10 @@ Route::get('page/smartpage', function () {
 
 Route::post('/smartpage/save', 'PageSmart@savePage');
 Route::get('/smartpage/{id}', 'PageSmart@getPage');
-//
+Route::get('/smartpage/edit/{id}', 'PageSmart@editPage');
+Route::get('/smartpage/ajax/edit/{id}', 'PageSmart@editPageAjex');
+Route::post('/smartpage/ajax/save/{id}', 'PageSmart@savePageAjex');
+
 
 //صفحه اصلی سایت
 Route::get('/', 'PageBargContoroller@index');
