@@ -58,7 +58,19 @@ Route::prefix('users/userProfiles')->group(function () {
     Route::get('/', function () {
         return view('users.userProfiles');
     });
-    Route::get('index', function () {
+    Route::get('tab2', function () {
+
+        return view('users.userProfiles');
+    });
+    Route::get('tab3', function () {
+
+        return view('users.userProfiles');
+    });
+    Route::get('tab3', function () {
+
+        return view('users.userProfiles');
+    });
+    Route::get('tab3', function () {
 
         return view('users.userProfiles');
     });

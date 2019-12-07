@@ -324,6 +324,7 @@
     <script src="/assets/site/js/AutoComplete/jquery.easy-autocomplete.js?v=1.0.5"></script>
     <script src="/assets/site/js/elastic.js"></script>
     <script src="/assets/site/js/ajax.js"></script>
+    <script src="/assets/site/js/bandarTakhfif.js"></script>
     <script src="/assets/site/js/ajaxcall.js"></script>
     <script src="https://client.crisp.chat/l.js" async=""></script>
     <link href="https://client.relay.crisp.chat" rel="dns-prefetch" crossorigin="">
@@ -1162,7 +1163,7 @@
                             </div>
                             <ul role="tablist" class="nav nav-tabs nav-justified">
                                 <li role="presentation" class=""><a href="/user/UserProfiles/edit" aria-controls=""
-                                                                    role="tab" data-toggle="tabajax"
+                                                                    role="tab" onclick="show_tab_profile(this)" data-toggle="tabajax"
                                                                     data-target="#tab1"><i
                                                 class="icon icon-user-avatar"></i><span class="hidden-xs hidden-sm">ویرایش پروفایل شخصی</span></a>
                                 </li>
