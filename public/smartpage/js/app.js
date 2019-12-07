@@ -192,9 +192,8 @@ const updateObjectReducer = (state = initObject, actions) => {
             return actions.data;
         case 'SEND_DATA':
             return {...state, form: "edit"}
-            case 'EDIT_DATA':
-                return {...state, form: "edit"}
-
+        case 'EDIT_DATA':
+            return {...state, form: "edit"}
         default:
             return state;
     }

@@ -1,0 +1,306 @@
+#cards{
+    background-color: #7d99904d;
+    z-index: 5;
+}
+#cats {
+    z-index: 5;
+    background-color:white;
+}
+body {
+    overflow: hidden;
+
+}
+.card {
+    padding: 10px 10px 3px;
+    margin: 4px 8px 0 4px;
+    background-color: #FFF;
+    border-right: 3px solid transparent;
+    cursor: pointer;
+}
+.container-fluid {
+    max-width: 1366px;
+}
+#cards .card .w-bottom .badge {
+    float: left;
+    width: 54px;
+    height: 27px;
+    line-height: 30px;
+    font-style: normal;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    border-radius: 27px;
+    padding: 0;
+    text-align: center;
+    font-weight: normal;
+    background-color: #f58221;
+    color: #FFF;
+    font-size: 1.4rem;
+}
+#cards .card .w-bottom ins {
+    float: left;
+    line-height: 28px;
+    text-decoration: none;
+}
+#cards .card .w-bottom .badge {
+    float: left;
+    width: 54px;
+    height: 27px;
+    line-height: 30px;
+    font-style: normal;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    border-radius: 27px;
+    padding: 0;
+    text-align: center;
+    font-weight: normal;
+    background-color: #f58221;
+    color: #FFF;
+    font-size: 1.4rem;
+}
+#cards .card .w-bottom del {
+    float: left;
+    line-height: 28px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    color: #999;
+}
+#cards .card.hey .green-link {
+    display: block !important;
+    float: right;
+    width: auto;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    line-height: 27px;
+    background-color: #4ec51c;
+}
+#cards .card .w-bottom .green-link {
+    display: none;
+}
+#cards .card .w-bottom .count {
+    float: right;
+    padding-right: 30px;
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+    color: #999;
+}
+#cards .card .w-bottom .count .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2.3rem;
+    color: #b4b4b4;
+}
+#cards .card.hey .w-top p {
+    color: #f58221;
+}
+#cards .card.hey {
+    background-color: #F5f5f5;
+    border: 0 solid #dcdcdc;
+    border-right-width: 0px;
+    border-right-style: solid;
+    border-right-color: rgb(220, 220, 220);
+    border-right: 3px solid #f58221;
+}
+#cats {
+    direction: ltr;
+}
+#cats .result .checkbox {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding-top: 2px;
+}
+#cats .result {
+    line-height: 35px;
+    text-align: left;
+    color: gray;
+    direction: rtl;
+}
+.checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: -1px;
+    top: -8px;
+    margin-right: -20px;
+    padding-right: 3px;
+    padding-top: 0px;
+    font-size: 1rem;
+    color: #555555;
+}
+label {
+    font-weight: normal !important;
+    font-size: 1.2rem;
+    color: #a0a0a0;
+}
+.checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: -1px;
+    top: -8px;
+    margin-right: -20px;
+    padding-right: 3px;
+    padding-top: 0px;
+    font-size: 1rem;
+    color: #555555;
+}
+#cats .result .checkbox {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding-top: 2px;
+}
+#cats .result {
+    padding: 0 40px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: gray;
+    background-color: #FFF;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+    margin: 15px 0 0 20px;
+    direction: rtl;
+    max-width: 205px;
+}
+#cats .result i._2 {
+    position: absolute;
+    top: 7px;
+    left: 14px;
+    color: #ff8f00;
+}
+#cats ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0 0 0 20px;
+    direction: rtl;
+    max-width: 225px;
+}
+#cats ul li {
+    padding: 0 40px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: gray;
+    background-color: #FFF;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+}
+#cats ul li {
+    line-height: 35px;
+    text-align: left;
+    color: gray;
+}
+#cats ul li span {
+    font-size: 1.2rem;
+}
+#cats ul li .checkbox {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding-top: 2px;
+}
+.checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: -1px;
+    top: -8px;
+    margin-right: -20px;
+    padding-right: 3px;
+    padding-top: 0px;
+    font-size: 1rem;
+    color: #555555;
+}
+#cats ul li i {
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    width: 17px;
+    height: 22px;
+    display: block;
+    background-image: url("../img/pin-t-1.png");
+    background-repeat: no-repeat;
+}
+
+#cats ul li[data-alias="product"] i {
+    background-image: url("../img/pin-t-product.png");
+}
+#cats ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+    direction: rtl;
+}
+#cards .card .w-bottom .count {
+    line-height: 28px;
+    color: #999;
+}
+#cards .card .w-top span {
+    font-size: 1.2rem;
+    color: #999;
+}
+#cards .card .w-bottom {
+    padding-top: 8px;
+}
+#cards .card .w-top span {
+    width: calc(100% - 130px);
+    float: right;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#cards .card .w-top p {
+    font-size: 1.3rem;
+    line-height: 20px;
+    color: #4e4e4e;
+    max-height: 42px;
+    overflow: hidden;
+}
+#cards .card .w-bottom .spacer {
+    float: left;
+    width: 1px;
+    height: 27px;
+    margin: 0 10px;
+    background: #e2e2e2;
+}
+#cards .card .w-top img {
+    float: right;
+    margin-left: 10px;
+    width: 117px;
+}
+body * {
+    font-size: 1.4rem;
+}
+/*#cards .wr {*/
+/*    padding-bottom: 650px;*/
+/*    background-color: rgba(0, 0, 0, 0.1);*/
+/*    max-width: 370px;*/
+/*}*/
+/* #cards .card.hey {*/
+/*    background-color: #F5f5f5;*/
+/*    border: 0 solid #dcdcdc;*/
+/*    border-right-width: 0px;*/
+/*    border-right-style: solid;*/
+/*    border-right-color: rgb(220, 220, 220);*/
+/*    border-right: 3px solid #f58221;*/
+/*}*/
+/*p {*/
+/*    font-size: 1.4rem;*/
+/*    line-height: 18px;*/
+/*}*/
+/* #cards .card.hey .w-top p {*/
+/*    color: #f58221;*/
+/*}*/
+/*#cards .card.hey .count {*/
+/*    display: none;*/
+/*}*/
