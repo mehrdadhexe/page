@@ -134,7 +134,7 @@ $('#edit_page').click(function () {
     });
 });
 $('#save_page').click(function () {
-    ObjectStore.dispatch({type: 'SEND_DATA'});
+   // ObjectStore.dispatch({type: 'SEND_DATA'});
     let get_theme = theme.filter(themes => themes.name == themeId)
     $('body').css({
         background: get_theme[0].color
@@ -145,13 +145,19 @@ $('#save_page').click(function () {
     });
     let url = "http://" + window.location.host;
     let html = $('.smartpage-container').html();
+    let blocks = get_blocks();
+    let messengers = get_messengers();
+    let socials = get_socials();
+    let title = get_title();
+    let img=$('.avatar').attr('src-data');
+    let data = [{img:img,block: blocks, title: title, socials: socials, messengers: messengers}]
 
     jQuery.ajax({
         url: url + '/smartpage/save',
         method: 'post',
         data: {
             html: html,
-            data: stateMain,
+            data: data,
             theme: get_theme[0].color,
         },
         success: function (result) {
