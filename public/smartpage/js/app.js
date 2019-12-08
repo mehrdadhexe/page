@@ -3,6 +3,7 @@ $.ajaxSetup({
         'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
     }
 });
+let all_block = [];
 let icon = [
     {
         line: 'M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z',
@@ -99,7 +100,9 @@ let theme = [
 let themeId = "theme-0";
 
 $('#edit_page').click(function () {
-    ObjectStore.dispatch({type: 'SEND_DATA'});
+
+
+    //   ObjectStore.dispatch({type: 'SEND_DATA'});
     let id = $('#edit_page').attr('data-id');
     let get_theme = theme.filter(themes => themes.name == themeId)
     $('body').css({
@@ -111,12 +114,18 @@ $('#edit_page').click(function () {
     });
     let url = "http://" + window.location.host;
     let html = $('.smartpage-container').html();
+    let blocks = get_blocks();
+    let messengers = get_messengers();
+    let socials = get_socials();
+    let title = get_title();
+    let img=$('.avatar').attr('src-data');
+    let data = [{img:img,block: blocks, title: title, socials: socials, messengers: messengers}]
     jQuery.ajax({
-        url: url + '/smartpage/ajax/save/'+id+'',
+        url: url + '/smartpage/ajax/save/' + id + '',
         method: 'post',
         data: {
             html: html,
-            data: stateMain,
+            data: data,
             theme: get_theme[0].color,
         },
         success: function (result) {
@@ -153,7 +162,23 @@ $('#save_page').click(function () {
 
 
 function update_data_state(result) {
-    ObjectStore.dispatch({type: 'UPDATE_DATA', data: result});
+    ObjectStore.dispatch({type: 'UPDATE_SOCIAL', form: "social", social: result[0].socials});
+    ObjectStore.dispatch({type: 'UPDATE_TITLE', form: "title", title: result[0].title});
+    ObjectStore.dispatch({type: 'UPDATE_MESSENGERS', form: "messengers", title: result[0].messengers});
+$.each(result[0].block,function (key,value) {
+    form_block(value)
+   // ObjectStore.dispatch({type: 'UPDATE_BLOCK', form: "block_update", block:value});
+})
+
+
+    $('.avatar').attr('src-data',result[0].img);
+    $('.avatar').attr('style', 'background-image: url("' + result[0].img+ '");')
+    $('.avatar').html('');
+    // form_block(result[0].block)
+     form_messengers_r(result[0].messengers)
+    // form_title(result[0].title)
+    // form_social(result[0].socials)
+
 }
 
 
@@ -165,14 +190,14 @@ let initObject = {
     social: {},
     messengers: {},
     title: {title: "name", description: "description"},
-    block: {id:0},
+    block: {},
     setting: {},
     form: "",
 }
 ///////
 const updateObjectReducer = (state = initObject, actions) => {
 
-    let {social = {}, messengers = {}, title = {}, block = {}, setting = {}} = actions;
+    let {social = {}, messengers = {}, title = {}, block = {id: 0}, setting = {}} = actions;
     switch (actions.type) {
         case 'UPDATE_SOCIAL':
             return {...state, form: "social", social: {...social}}
@@ -190,6 +215,8 @@ const updateObjectReducer = (state = initObject, actions) => {
             return {...state, form: "setting", block: {...setting}}
         case 'UPDATE_DATA':
             return actions.data;
+        case 'ALL_BLOCK':
+            return actions.data;
         case 'SEND_DATA':
             return {...state, form: "edit"}
         case 'EDIT_DATA':
@@ -206,8 +233,6 @@ const ObjectStore = Redux.createStore(updateObjectReducer);
 ObjectStore.subscribe(() => {
     let {block, messengers, title, form, social} = ObjectStore.getState();
     stateMain = ObjectStore.getState();
-    console.log(stateMain)
-    console.log(form)
     if (form === "block")
         form_block(block)
     else if (form === "block_remove")
@@ -221,15 +246,7 @@ ObjectStore.subscribe(() => {
     else if (form === "block_update")
         block_update(block)
     else if (form === "edit") {
-        if (block != undefined)
-            form_block(block)
-        if (title != undefined)
-            form_title(title)
-        if (messengers != undefined)
-            form_messengers(messengers)
-        if (social != undefined)
-            form_social(social)
-
+        edit_form(stateMain)
 
     }
 
@@ -397,6 +414,7 @@ $('.avatar').click(function () {
     //https://cdn.filestackcontent.com/AFrHW1QRsWxmu5ZLU2qg"
     const options = {
         onUploadDone: file => {
+            $('.avatar').attr('src-data',file.filesUploaded[0].url);
             $('.avatar').attr('style', 'background-image: url("' + file.filesUploaded[0].url + '");')
             $('.avatar').html('');
         }
@@ -491,8 +509,8 @@ function form_social(data) {
             '                    </span>\n' +
             '                </div>';
 
-
-        $('.social-links').append(item)
+        if (i.value != null)
+            $('.social-links').append(item)
     });
 
 
@@ -500,6 +518,77 @@ function form_social(data) {
 
 function show_svg(line) {
     return '<svg aria-labelledby="svg-inline--fa-title-KoYZcqoCTJn0" data-prefix="fab" data-icon="whatsapp" class="svg-inline--fa fa-whatsapp fa-w-14 fa-network" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title id="svg-inline--fa-title-KoYZcqoCTJn0">whatsapp</title><path fill="currentColor" d="' + line + '"></path></svg>';
+}
+
+function form_messengers_r(data) {
+
+    let count = 0;
+    let is_data = false;
+
+    let html = "";
+    $.each(data, function (index, value) {
+
+        if (value.name == 'whatsapp') {
+            if (value.watsapp_number != null) {
+                is_data = true;
+                count = count + 1;
+                html = html + '<div class="links-block" data-watsapp_text="' + value.watsapp_text + '"  data-name="' + value.name + '" data-number="' + value.watsapp_number + '" onclick="show_messengers(this)"><div class="block-item layout-button"><span> ' + show_svg(get_icon(value.name).line) + ' <span></span></span></div></div>';
+            }
+
+        } else if (value.name == 'facebook') {
+
+            if (value.facebook_number != null) {
+                is_data = true;
+                count = count + 1;
+                html = html + '<div class="links-block" data-facebook_number="' + value.facebook_number + '" data-name="' + value.name + '" onclick="show_messengers(this)"><div class="block-item layout-button"><span data=".slidein-enter-done" onclick="open_f(event)">' + show_svg(get_icon(value.name).line) + '<span></span></span></div></div>';
+
+            }
+
+        } else if (value.name == 'telegram') {
+            if (value.telegram_number != null) {
+                is_data = true;
+                count = count + 1;
+                html = html + '<div class="links-block" data-telegram_number="' + value.telegram_number + '" data-name="' + value.name + '" onclick="show_messengers(this)"><div class="block-item layout-button"><span>' + show_svg(get_icon(value.name).line) + '<span></span></span></div></div>';
+
+            }
+        } else if (value.name == 'skype') {
+
+            if (value.skype_id != null) {
+                is_data = true;
+                count = count + 1;
+                html = html + '<div class="links-block" data-skype_id="' + value.skype_id + '" data-name="' + value.name + '"  onclick="show_messengers(this)"><div class="block-item layout-button"><span>' + show_svg(get_icon(value.name).line) + '<span></span></span></div></div>';
+
+            }
+        } else if (value.name == 'viber') {
+            if (value.viber_id != null) {
+                is_data = true;
+                count = count + 1;
+                html = html + '<div class="links-block" data-viber_id="' + value.viber_id + '"  data-name="' + value.name + '" onclick="show_messengers(this)"><div class="block-item layout-button"><span class="add_messengers_bt">' + show_svg(get_icon(value.name).line) + '<span></span></span></div></div>';
+            }
+        } else if (value.name == 'envelope') {
+            if (value.email != null) {
+                is_data = true;
+                count = count + 1;
+                html = html + '<div class="links-block" data-email_subject="' + value.email_subject + '" data-email_body="' + value.email_body + '" data-email="' + value.email + '" data-name="' + value.name + '" onclick="show_messengers(this)"><div class="block-item layout-button"><span>' + show_svg(get_icon(value.name).line) + '<span></span></span></div></div>';
+            }
+        } else if (value.name == 'phone') {
+            if (value.number != null) {
+                is_data = true;
+                count = count + 1;
+                html = html + '<div class="links-block" data-number="' + value.number + '" data-name="' + value.name + '" onclick="show_messengers(this)"><div class="block-item layout-button"><span>' + show_svg(get_icon(value.name).line) + '<span></span></span></div></div>';
+
+            }
+        }
+    })
+
+    $('.messengers_items').attr('class', 'blocks-num-' + count + ' messengers messengers_items');
+    $('.messengers_items').html(html);
+    if (is_data)
+        $('.add_messengers_bt').parents('.add-block-button').hide();
+    else
+        $('.add_messengers_bt').parents('.add-block-button').show();
+
+
 }
 
 function form_messengers(data) {
@@ -569,7 +658,6 @@ function form_messengers(data) {
         $('.add_messengers_bt').parents('.add-block-button').show();
 
 
-
 }
 
 function openTheme() {
@@ -608,7 +696,7 @@ function form_title() {
 }
 
 function form_block(block) {
-    let html = '<div id="block_' + block.id + '" data-url="' + block.url + '" data-title="' + block.title + '" class="block-item layout-button" id-data="' + block.id + '" onclick="add_block(this)"><span><span>' + block.name + '</span></span></div>';
+    let html = '<div id="block_' + block.id + '" data-url="' + block.url + '" data-title="' + block.title + '" class="block-item layout-button" id-data="' + block.id + '" onclick="add_block(this)"><span><span>' + block.title + '</span></span></div>';
     $('.block_warp').append(html);
     // $('#block_0').remove();
 
@@ -631,5 +719,77 @@ let block_remove = (block) => {
     $('#block_' + parseInt(block.id)).remove();
 
 }
-// <h1 class="">klkl</h1><div class="bio-description"><p>p[[k;lk;lk;lk;lkllllk</p></div>
+let edit_form = (data) => {
+
+    if (data.block != undefined) {
+        $('.block_warp').html("");
+
+    }
+
+    if (data.title != undefined)
+        form_title(data.title)
+    if (data.messengers != undefined)
+        form_messengers(data.messengers)
+    if (data.social != undefined)
+        form_social(data.social)
+
+
+    console.log(data.block)
+
+
+}
+
+function get_blocks() {
+    let blocks = [];
+    $('.block_warp').children().each(function (index, value) {
+        let url = $(this).attr('data-url');
+        let title = $(this).attr('data-title');
+        blocks.push({url: url, title: title})
+    });
+
+    return blocks;
+}
+
+function get_blocks() {
+    // let block = {}
+    // if (ObjectStore.getState().block != undefined) {
+    //     block = ObjectStore.getState().block;
+    // }
+    // return block;
+    let blocks = [];
+    let id =0;
+    $('.block_warp').children().each(function (index, value) {
+        let url = $(this).attr('data-url');
+        let title = $(this).attr('data-title');
+        let id = $(this).attr('id-data');
+        blocks.push({id:id,url: url, title: title})
+    });
+
+    return blocks;
+}
+
+function get_messengers() {
+    let messengers = {}
+    if (ObjectStore.getState().messengers != undefined) {
+        messengers = ObjectStore.getState().messengers;
+    }
+    return messengers;
+}
+
+function get_socials() {
+    let socials = {}
+    if (ObjectStore.getState().social != undefined) {
+        socials = ObjectStore.getState().social;
+    }
+    return socials;
+}
+
+function get_title() {
+    let title = {}
+    if (ObjectStore.getState().title != undefined) {
+        title = ObjectStore.getState().title;
+    }
+    return title;
+}
+
 
