@@ -12,28 +12,6 @@ class PageSmart extends Controller
         $page = \App\PageSmart::find($id);
         return view('smartpage.page',['page'=>$page]);
     }
-    public function savePageAjex($id,Request $request)
-    {
-
-        $page = \App\PageSmart::find($id);
-        $page->data=serialize($request->data);
-        $page->html=$request->html;
-        $page->theme=$request->theme;
-        $page->save();
-
-        return $id;
-    }
-    public function editPageAjex($id)
-    {
-        $page = \App\PageSmart::find($id);
-
-        return unserialize($page->data) ;
-    }
-    public function editPage($id)
-    {
-        $page = \App\PageSmart::find($id);
-        return view('smartpage.page_edit',['page'=>$page]);
-    }
     public function savePage(Request $request)
     {
 
@@ -43,7 +21,6 @@ class PageSmart extends Controller
         $page = new \App\PageSmart();
         $page->html=$request->html;
         $page->theme=$request->theme;
-        $page->data=serialize($request->data);
         $page->user_id=$user_id;
         $page->date=$date_now;
         $page->save();

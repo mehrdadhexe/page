@@ -18,5 +18,5 @@ class Category extends Model
         return $this->hasMany('App\Barg','F_CategoryID');
     }
 
-   
+
 }

@@ -2,7 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3d2b50c-4c2a-4b18-a602-935f63a195bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Barg.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Barg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DocumentDetail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DocumentDetail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BargController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BargController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PageBargContoroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageBargContoroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PageSmart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageSmart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/OrderDetail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/OrderDetail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/SMS.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/SMS.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/site/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/site/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/site/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/site/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/site/css/kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/site/css/kit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/smartpage/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/smartpage/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/baskets.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/baskets.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page/map.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/map.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page/off_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/off_page.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/smartpage/page_edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/smartpage/smartpageb.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/smartpage/smartpageb.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/takhfifan(1).sql" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +80,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\xampp\htdocs\laravel\.idea" />
-      </set>
-    </option>
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -154,7 +185,6 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1SQyqIoV28DhZyyzvMkrAlY8saM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -162,7 +192,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/page" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -170,11 +200,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\laravel" />
-      <recent name="C:\xampp\htdocs\laravel\resources\views\smartpage" />
       <recent name="C:\xampp\htdocs\laravel\public\smartpage\css" />
       <recent name="F:\xamppp7\htdocs\laravel\resources\views\layout" />
       <recent name="F:\xamppp7\htdocs\laravel\resources\views\page" />
+      <recent name="F:\xampp\htdocs\laravel\public\assets\site\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -250,29 +279,8 @@
       <workItem from="1575231803234" duration="1789000" />
       <workItem from="1575234512983" duration="14053000" />
       <workItem from="1575306926727" duration="613000" />
-      <workItem from="1575567663524" duration="6571000" />
-      <workItem from="1575647290599" duration="10085000" />
-      <workItem from="1575744307340" duration="1144000" />
+      <workItem from="1577386034623" duration="4235000" />
     </task>
-    <task id="LOCAL‎۰۰۰۰۱" summary="اولین ویرایش">
-      <created>1575662492941</created>
-      <option name="number" value="LOCAL‎۰۰۰۰۱" />
-      <option name="presentableId" value="LOCAL‎۰۰۰۰۱" />
-      <updated>1575662492941</updated>
-    </task>
-    <task id="LOCAL‎۰۰۰۰۲" summary="اضافه کردن دیتا بیس">
-      <created>1575662831032</created>
-      <option name="number" value="LOCAL‎۰۰۰۰۲" />
-      <option name="presentableId" value="LOCAL‎۰۰۰۰۲" />
-      <updated>1575662831032</updated>
-    </task>
-    <task id="LOCAL‎۰۰۰۰۳" summary="ویرایش دوم">
-      <created>1575663885376</created>
-      <option name="number" value="LOCAL‎۰۰۰۰۳" />
-      <option name="presentableId" value="LOCAL‎۰۰۰۰۳" />
-      <updated>1575663885376</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,33 +291,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="اولین ویرایش" />
-    <MESSAGE value="اضافه کردن دیتا بیس" />
-    <MESSAGE value="ویرایش دوم" />
-    <option name="LAST_COMMIT_MESSAGE" value="ویرایش دوم" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/public/smartpage/js/app.js</url>
-          <line>360</line>
+          <line>212</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/public/smartpage/js/app.js</url>
-          <line>599</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

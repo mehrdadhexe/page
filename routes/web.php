@@ -16,28 +16,24 @@ Route::get('page/smartpage', function () {
 
 Route::post('/smartpage/save', 'PageSmart@savePage');
 Route::get('/smartpage/{id}', 'PageSmart@getPage');
-Route::get('/smartpage/edit/{id}', 'PageSmart@editPage');
-Route::get('/smartpage/ajax/edit/{id}', 'PageSmart@editPageAjex');
-Route::post('/smartpage/ajax/save/{id}', 'PageSmart@savePageAjex');
 
 
 //صفحه اصلی سایت
 Route::get('/', 'PageBargContoroller@index');
+//نمایش بر اساس شهر
+Route::get('/city/{slug}', 'PageBargContoroller@indexByCity');
 //درخواست های ایجکس
 Route::post('/ajax/{action}', 'PageBargContoroller@ajax');
 //صفحه نمایش تخفیف
 Route::get('{city}/off/{id}/{title}', 'BargController@ShowBarg');
 ///صفحه دسته بندی تخفیف
-Route::get('{city}/category/{cat_id}/{title}', function () {
-    return view('page.category');
-});
+///
+Route::get('{city}/category/{cat_id}/{title}', 'BargController@showByCategory');
 
 //لیست فروشندگان روی نقشه
-Route::prefix('{city}/map')->group(function () {
+Route::get('{city}/map', 'BargController@showBylocation');
 
-    Route::get('/','PageBargContoroller@index');
 
-});
 
 //سبد خرید
 Route::get('/baskets', function () {

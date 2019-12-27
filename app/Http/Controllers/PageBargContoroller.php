@@ -22,8 +22,10 @@ class PageBargContoroller extends Controller
 
     }
 
-    public function index()
+    public function index(Request $request)
     {
+        $request->session()->forget('city_name');
+
         $limit = 5;
         $catx = 2;
         $cityid = 1;
@@ -33,10 +35,32 @@ class PageBargContoroller extends Controller
         foreach($important as $id)
         {
             $category = Category::find($id);
-            $Barg  =  Barg::where('F_CityID',$cityid)->where('F_CategoryID',$id)->where('F_State',1)->orderBy('F_Off','ASC')->take($limit)->get();
+            $Barg  =  Barg::with('DocumentDetail')->where('F_CityID',$cityid)->where('F_CategoryID',$id)->where('F_State',1)->orderBy('F_Off','ASC')->take($limit)->get();
             $Bargs = array('F_Category'=> $category,'F_Barg' =>$Barg);
             array_push($push ,$Bargs);
         }
+
+        return view('page.home',["section"=>$push]);
+
+    }
+    public function indexByCity($slug,Request $request)
+    {
+        $city=City::where('F_Url',$slug)->first();
+        $limit = 5;
+        $catx = 2;
+        $cityid = $city->F_CityID;
+        $cat =  Category::with('Barg')->take(2)->get();
+        $important = json_decode(Category::where('F_Important',1)->pluck('F_CategoryID'));
+        $push = array();
+        foreach($important as $id)
+        {
+            $category = Category::find($id);
+            $Barg  =  Barg::with('DocumentDetail')->where('F_CityID',$cityid)->where('F_CategoryID',$id)->where('F_State',1)->orderBy('F_Off','ASC')->take($limit)->get();
+            $Bargs = array('F_Category'=> $category,'F_Barg' =>$Barg);
+            array_push($push ,$Bargs);
+        }
+
+        $request->session()->put('city_name',$city->F_Name);
 
         return view('page.home',["section"=>$push]);
 

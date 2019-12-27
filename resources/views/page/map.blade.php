@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset=utf-8/>
-    <title>Filtering markers</title>
+    <title>بندر تخفیف</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
     <script src='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.js'></script>
     <link href='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.css' rel='stylesheet'/>
@@ -378,552 +378,7 @@
 
 </head>
 <body>
-<header>
-    <div class="t-fix"></div>
-    <div class="tape-1"></div>
-    <div class="header">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-1 hidden-sm hidden-xs"></div>
-                <div class="burger-col hidden-lg hidden-md col-xs-8"><i class="burger-icon"><i class="icon icon-menu-options"></i></i></div>
-                <div class="col-md-6 col-xs-8 col-logo ">
-                    <a href="/tehran/" class="logo"><img src="/assets/site/img/netbarg.png" class="img-responsive" alt="نت برگ"></a>
-                </div>
-                <div class="btn-col hidden-lg hidden-md col-xs-8"><i class="header-icon toggle-search-js"><i class="icon icon-search"></i></i>
-                    <a href="/tehran/baskets/">
-                        <i class="header-icon">
-                            <i class="icon icon-shopping-cart_main_r crm"></i>
-                            <span class="basket-item-quantity">1</span>
-                        </i>
-                    </a>
-                </div>
-                <div class="col-md-10 col-xs-24 hidden-sm hidden-xs toggle-hidden">
-                    <form class="search">
-                        <div class="input-btn site-search">
-                            <i class="icon icon-arrow-back search-close hidden"></i>
-                            <input autocomplete="off" name="mapSearch" placeholder="جستجو در نقشه (رستوران، پینت بال، کافی‌شاپ، تور، آتلیه، ...)" type="text">
-                            <button class="btn btn-warning btn-type-1"><i class="icon icon-map-search"></i>جستجو
-                            </button>
-                            <i id="closeSearchResult" class="icon icon-close search-clean hidden"></i>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-6 hidden-sm hidden-xs">
-                    <div class="clearfix"><span class="getBack"><span>بازگشت</span><i class="icon"></i></span></div>
-                </div>
-                <div class="col-md-1 hidden-sm hidden-xs"></div>
-            </div>
-        </div>
-    </div>
 
-    <div class="bar clearfix">
-        <div class="bar-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-1 hidden-sm hidden-xs"></div>
-                    <div class="col-lg-3 col-md-4 hidden-sm hidden-xs">
-                        <div class="clearfix"><a href="/tehran/" class="home-link"><i class="icon icon-home"></i></a></div>
-                    </div>
-                    <div class="col-lg-13 col-md-11 clearfix mobile">
-                        <!--button.compass-->
-                        <div id="chooseCity" class="dropdown dropdown-1">
-                            <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"><span class="name">تهران</span><span class="inline-block icon icon-arrow-down"></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#" data-city_slug="arak" data-title="اراک" data-centerlat="34.0917" data-centerlon="49.6892">
-                                        <span class="badge"></span>اراک                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="ardebil" data-title="اردبیل" data-centerlat="38.2489" data-centerlon="48.2956">
-                                        <span class="badge"></span>اردبیل                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="oroomieh" data-title="ارومیه" data-centerlat="37.5553" data-centerlon="45.0725">
-                                        <span class="badge"></span>ارومیه                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="isfahan" data-title="اصفهان" data-centerlat="32.6546" data-centerlon="51.668">
-                                        <span class="badge"></span>اصفهان                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="ahwaz" data-title="اهواز" data-centerlat="31.3183" data-centerlon="48.6706">
-                                        <span class="badge"></span>اهواز                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="ilam" data-title="ایلام" data-centerlat="33.635" data-centerlon="46.4153">
-                                        <span class="badge"></span>ایلام                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="bojnoord" data-title="بجنورد" data-centerlat="37.475" data-centerlon="57.3333">
-                                        <span class="badge"></span>بجنورد                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="booshehr" data-title="بندر بوشهر" data-centerlat="28.9234" data-centerlon="50.8203">
-                                        <span class="badge"></span>بندر بوشهر                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="bandarabbas" data-title="بندرعباس" data-centerlat="27.1832" data-centerlon="56.2666">
-                                        <span class="badge"></span>بندرعباس                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="birjand" data-title="بیرجند" data-centerlat="32.8649" data-centerlon="59.2262">
-                                        <span class="badge"></span>بیرجند                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="tabriz" data-title="تبریز" data-centerlat="38.0667" data-centerlon="46.3">
-                                        <span class="badge"></span>تبریز                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="tehran" data-title="تهران" data-centerlat="35.6961" data-centerlon="51.4231">
-                                        <span class="badge"></span>تهران                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="khoramabad" data-title="خرم‌آباد" data-centerlat="33.4682" data-centerlon="48.3516">
-                                        <span class="badge"></span>خرم‌آباد                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="rasht" data-title="رشت" data-centerlat="37.2808" data-centerlon="49.5831">
-                                        <span class="badge"></span>رشت                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="zahedan" data-title="زاهدان" data-centerlat="29.4964" data-centerlon="60.8628">
-                                        <span class="badge"></span>زاهدان                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="zanjan" data-title="زنجان" data-centerlat="36.6751" data-centerlon="48.4939">
-                                        <span class="badge"></span>زنجان                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="mazandaran" data-title="ساری" data-centerlat="36.5659" data-centerlon="53.0589">
-                                        <span class="badge"></span>ساری                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="semnan" data-title="سمنان" data-centerlat="35.5795" data-centerlon="53.3871">
-                                        <span class="badge"></span>سمنان                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="sanandaj" data-title="سنندج" data-centerlat="35.3219" data-centerlon="46.9862">
-                                        <span class="badge"></span>سنندج                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="northerncities" data-title="شهرهای شمالی" data-centerlat="36.5659" data-centerlon="53.0589">
-                                        <span class="badge"></span>شهرهای شمالی                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="shahrekord" data-title="شهرکرد" data-centerlat="32.3256" data-centerlon="50.8644">
-                                        <span class="badge"></span>شهرکرد                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="shiraz" data-title="شیراز" data-centerlat="29.5918" data-centerlon="52.5837">
-                                        <span class="badge"></span>شیراز                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="ghazvin" data-title="قزوین" data-centerlat="36.2791" data-centerlon="50.0039">
-                                        <span class="badge"></span>قزوین                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="qom" data-title="قم" data-centerlat="34.6399" data-centerlon="50.8759">
-                                        <span class="badge"></span>قم                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="mashhad" data-title="مشهد" data-centerlat="36.2605" data-centerlon="59.6168">
-                                        <span class="badge"></span>مشهد                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="hamedan" data-title="همدان" data-centerlat="34.8042" data-centerlon="48.5194">
-                                        <span class="badge"></span>همدان                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="karaj" data-title="کرج" data-centerlat="35.84" data-centerlon="50.9391">
-                                        <span class="badge"></span>کرج                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="kerman" data-title="کرمان" data-centerlat="30.2893" data-centerlon="57.071">
-                                        <span class="badge"></span>کرمان                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="kermanshah" data-title="کرمانشاه" data-centerlat="34.3444" data-centerlon="47.0892">
-                                        <span class="badge"></span>کرمانشاه                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="kish" data-title="کیش" data-centerlat="27.1832" data-centerlon="56.2666">
-                                        <span class="badge"></span>کیش                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="gorgan" data-title="گرگان" data-centerlat="36.8456" data-centerlon="54.4393">
-                                        <span class="badge"></span>گرگان                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="yasooj" data-title="یاسوج" data-centerlat="30.6692" data-centerlon="51.5862">
-                                        <span class="badge"></span>یاسوج                                        </a>
-                                </li>
-                                <li><a href="#" data-city_slug="yazd" data-title="یزد" data-centerlat="31.891" data-centerlon="54.338">
-                                        <span class="badge"></span>یزد                                        </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-6 col-md-7 hidden-sm hidden-xs">
-                        <a href="/tehran/baskets/">
-                            <div class="basket-wrapper">
-                        	<span class="badge">
-                        		<i class="basket-item-quantity">1</i>
-                        	</span>
-                                <i class="icon icon-shopping-cart_main"></i>
-                            </div>
-                        </a>
-                        <div class="loginout">
-                            <a href="/tehran/users/login/" class="login">
-			<span>
-				<i class="icon icon-Login"></i>
-				ورود
-			</span>
-                            </a>
-                            <a href="/tehran/users/register/" class="signup">
-			<span>
-				<i class="icon icon-signup"></i>
-				ثبت نام
-			</span>
-                            </a>
-                        </div>
-
-
-                    </div>
-
-
-                    <div class="col-md-1 hidden-sm hidden-xs"></div>
-                </div>
-            </div>
-        </div>
-        <div class="bar-alert">
-            <div class="nb-alert-wrapper">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-1 hidden-sm hidden-xs"></div>
-                        <div class="col-md-22 col-xs-24 header_alert_wrapper">
-                        </div>
-                        <div class="col-md-1 hidden-sm hidden-xs"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="burger-menu-right hidden-lg hidden-md clearfix out">
-        <div class="fix"></div>
-        <div class="wrapper">
-            <div class="loginout">
-                <a href="/tehran/users/login/" class="login">
-			<span>
-				<i class="icon icon-Login"></i>
-				ورود
-			</span>
-                </a>
-                <a href="/tehran/users/register/" class="signup">
-			<span>
-				<i class="icon icon-signup"></i>
-				ثبت نام
-			</span>
-                </a>
-            </div>
-
-
-            <div class="clearfix"></div>
-            <nav>
-                <ul class="side-cat" itemscope="" itemtype="http://www.schema.org/SiteNavigationElement">
-                    <li class="li-home"><a href="/tehran/c:todaydeals/"><i><i class="icon icon-logo_e"></i></i><span>نت برگ های امروز</span></a></li>
-
-                    <li class="li-all" itemprop="name"><a itemprop="url" href="/tehran/c:all/"><i><i class="icon icon-menu"></i></i><span>همه پیشنهادها</span></a>
-                    </li>
-
-                    <li class="li-restaurant">
-
-                        <a itemprop="url" href="/tehran/c:restaurant/" data-toggle="collapse" data-target="#sub-menu-8">
-
-                            <i>
-                                <i class="icon icon-burger"></i>
-                            </i>
-                            <span itemprop="name">رستوران و فست فود</span>
-                        </a>
-                        <ul class="clearfix step2">
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=31">
-                                <a itemprop="url" href="/tehran/c:traditionalrestaurants/">
-                                    غذای ايرانی و سنتی                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=34">
-                                <a itemprop="url" href="/tehran/c:italianrestaurants/">
-                                    غذای ایتالیایی و ملل                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=37">
-                                <a itemprop="url" href="/tehran/c:fastfood/">
-                                    فست فود                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=40">
-                                <a itemprop="url" href="/tehran/c:sofrekhane/">
-                                    سفره خانه                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=74">
-                                <a itemprop="url" href="/tehran/c:buffet/">
-                                    بوفه                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=75">
-                                <a itemprop="url" href="/tehran/c:coffeeshop/">
-                                    كافی شاپ                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=76">
-                                <a itemprop="url" href="/tehran/c:breakfast/">
-                                    صبحانه                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=433">
-                                <a itemprop="url" href="/tehran/c:catering/">
-                                    کیترینگ                                </a>                            </li>
-                        </ul>
-                    </li>
-
-
-
-
-                    <li class="li-entertainment">
-
-                        <a itemprop="url" href="/tehran/c:entertainment/" data-toggle="collapse" data-target="#sub-menu-6">
-
-                            <i>
-                                <i class="icon icon-basketball"></i>
-                            </i>
-                            <span itemprop="name">تفریحی و ورزشی</span>
-                        </a>
-                        <ul class="clearfix step2">
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=43">
-                                <a itemprop="url" href="/tehran/c:traveltours/">
-                                    تورهای مسافرتی                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=46">
-                                <a itemprop="url" href="/tehran/c:hotels/">
-                                    هتل و اقامتگاه                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=80">
-                                <a itemprop="url" href="/tehran/c:amusementpark/">
-                                    شهربازی و مراکز تفریحی                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=81">
-                                <a itemprop="url" href="/tehran/c:groupgames/">
-                                    بازی های گروهی و زمین بازی                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=82">
-                                <a itemprop="url" href="/tehran/c:swimmingpool/">
-                                    استخر و ورزش های آبی                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=83">
-                                <a itemprop="url" href="/tehran/c:aerobics/">
-                                    ورزش های هوایی                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=84">
-                                <a itemprop="url" href="/tehran/c:sportclub/">
-                                    باشگاه ورزشی                                </a>                            </li>
-                        </ul>
-                    </li>
-
-
-
-
-                    <li class="li-health">
-
-                        <a itemprop="url" href="/tehran/c:health/" data-toggle="collapse" data-target="#sub-menu-15">
-
-                            <i>
-                                <i class="icon icon-car-first-aid-kit"></i>
-                            </i>
-                            <span itemprop="name">پزشکی و سلامت</span>
-                        </a>
-                        <ul class="clearfix step2">
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=52">
-                                <a itemprop="url" href="/tehran/c:laser/">
-                                    لیزر موهای زائد                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=92">
-                                <a itemprop="url" href="/tehran/c:botox/">
-                                    ژل و بوتاکس                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=93">
-                                <a itemprop="url" href="/tehran/c:fitness/">
-                                    خدمات تناسب اندام و لاغری                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=94">
-                                <a itemprop="url" href="/tehran/c:massage/">
-                                    ماساژ                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=95">
-                                <a itemprop="url" href="/tehran/c:skinandbeauty/">
-                                    پوست و زیبایی                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=96">
-                                <a itemprop="url" href="/tehran/c:dental/">
-                                    خدمات دندانپزشکی                                </a>                            </li>
-                        </ul>
-                    </li>
-
-
-
-
-                    <li class="li-art">
-
-                        <a itemprop="url" href="/tehran/c:art/" data-toggle="collapse" data-target="#sub-menu-9">
-
-                            <i>
-                                <i class="icon icon-Theater"></i>
-                            </i>
-                            <span itemprop="name">هنر و تئاتر</span>
-                        </a>
-                        <ul class="clearfix step2">
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=58">
-                                <a itemprop="url" href="/tehran/c:performance/">
-                                    نمایشی و فرهنگی                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=61">
-                                <a itemprop="url" href="/tehran/c:atelier/">
-                                    آتلیه و خدمات چاپ                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=77">
-                                <a itemprop="url" href="/tehran/c:theater/">
-                                    تئاتر                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=78">
-                                <a itemprop="url" href="/tehran/c:concert/">
-                                    کنسرت                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=79">
-                                <a itemprop="url" href="/tehran/c:cinema/">
-                                    سینما                                </a>                            </li>
-                        </ul>
-                    </li>
-
-
-
-
-                    <li class="li-education">
-
-                        <a itemprop="url" href="/tehran/c:education/" data-toggle="collapse" data-target="#sub-menu-16">
-
-                            <i>
-                                <i class="icon icon-earth-globe"></i>
-                            </i>
-                            <span itemprop="name">آموزشی</span>
-                        </a>
-                        <ul class="clearfix step2">
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=64">
-                                <a itemprop="url" href="/tehran/c:computercourses/">
-                                    کامپیوتر                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=85">
-                                <a itemprop="url" href="/tehran/c:music/">
-                                    موسیقی                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=86">
-                                <a itemprop="url" href="/tehran/c:cooking/">
-                                    آشپزی                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=87">
-                                <a itemprop="url" href="/tehran/c:foreignlanguages/">
-                                    زبان های خارجی                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=88">
-                                <a itemprop="url" href="/tehran/c:conference/">
-                                    گردهمایی و همایش                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=89">
-                                <a itemprop="url" href="/tehran/c:art/">
-                                    هنر                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=90">
-                                <a itemprop="url" href="/tehran/c:accounting/">
-                                    حسابداری                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=91">
-                                <a itemprop="url" href="/tehran/c:skill/">
-                                    مهارت های فردی                                </a>                            </li>
-                        </ul>
-                    </li>
-
-
-
-
-                    <li class="li-beauty">
-
-                        <a itemprop="url" href="/tehran/c:beauty/" data-toggle="collapse" data-target="#sub-menu-7">
-
-                            <i>
-                                <i class="icon icon-lipstick-with-cover"></i>
-                            </i>
-                            <span itemprop="name">زیبایی و آرایشی</span>
-                        </a>
-                        <ul class="clearfix step2">
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=97">
-                                <a itemprop="url" href="/tehran/c:hairdressing/">
-                                    آرایش مو و صورت                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=98">
-                                <a itemprop="url" href="/tehran/c:nail/">
-                                    خدمات ناخن                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=99">
-                                <a itemprop="url" href="/tehran/c:skin/">
-                                    خدمات پوست                                </a>                            </li>
-                            <li mj-success="successMegaMenu" class="item2" mj-target="/Categories/getDescendents?id=100">
-                                <a itemprop="url" href="/tehran/c:waxing/">
-                                    اپیلاسیون                                </a>                            </li>
-                        </ul>
-                    </li>
-
-
-
-
-                    <li class="li-product">
-
-                        <a itemprop="url" href="/tehran/c:product/" data-toggle="collapse" data-target="#sub-menu-5">
-
-                            <i>
-                                <i class="icon icon-shopping-bag-1"></i>
-                            </i>
-                            <span itemprop="name">کالا</span>
-                        </a>
-                        <ul class="clearfix step2">
-                            <li mj-success="successMegaMenu" class="item2 sc3" mj-type="hover" mj-target="/Categories/getDescendents?id=107">
-                                <a itemprop="url" href="/tehran/c:product/s:digitaldevices/">
-                                    کالای دیجیتال و لوازم جانبی                                </a>
-                            </li>
-                            <li mj-success="successMegaMenu" class="item2 sc3" mj-type="hover" mj-target="/Categories/getDescendents?id=101">
-                                <a itemprop="url" href="/tehran/c:product/s:home/">
-                                    خانه و آشپزخانه                                </a>
-                            </li>
-                            <li mj-success="successMegaMenu" class="item2 sc3" mj-type="hover" mj-target="/Categories/getDescendents?id=102">
-                                <a itemprop="url" href="/tehran/c:product/s:healthAndBeauty/">
-                                    آرایشی بهداشتی و پزشکی                                </a>
-                            </li>
-                            <li mj-success="successMegaMenu" class="item2 sc3" mj-type="hover" mj-target="/Categories/getDescendents?id=103">
-                                <a itemprop="url" href="/tehran/c:product/s:fashionAndAccessories/">
-                                    مد، پوشاک و اکسسوری                                </a>
-                            </li>
-                            <li mj-success="successMegaMenu" class="item2 sc3" mj-type="hover" mj-target="/Categories/getDescendents?id=105">
-                                <a itemprop="url" href="/tehran/c:product/s:juvenile/">
-                                    کودکانه و سرگرمی                                </a>
-                            </li>
-                            <li mj-success="successMegaMenu" class="item2 sc3" mj-type="hover" mj-target="/Categories/getDescendents?id=108">
-                                <a itemprop="url" href="/tehran/c:product/s:sports/">
-                                    ورزش و سفر                                </a>
-                            </li>
-                            <li mj-success="successMegaMenu" class="item2 sc3" mj-type="hover" mj-target="/Categories/getDescendents?id=106">
-                                <a itemprop="url" href="/tehran/c:product/s:culture/">
-                                    ملزومات اداری و هنر                                </a>
-                            </li>
-                            <li mj-success="successMegaMenu" class="item2 sc3" mj-type="hover" mj-target="/Categories/getDescendents?id=110">
-                                <a itemprop="url" href="/tehran/c:product/s:tools/">
-                                    ابزارآلات                                </a>
-                            </li>
-                            <li mj-success="successMegaMenu" class="item2 sc3" mj-type="hover" mj-target="/Categories/getDescendents?id=132">
-                                <a itemprop="url" href="/tehran/c:product/s:software/">
-                                    نرم افزار و بازی                                </a>
-                            </li>
-                        </ul>
-                    </li>
-
-
-
-
-
-                    <li class="li-giftcode" itemprop="name">
-                        <a itemprop="url" href="/tehran/c:giftcode/" data-toggle="collapse" data-target="#sub-menu-504">
-                            <i>
-                                <i class="icon icon-couponcodes"></i>
-                            </i>
-                            <span>کد تخفیف</span>
-                        </a>
-                    </li>
-
-
-
-
-
-                    <li class="li-vip" itemprop="name">
-                        <a itemprop="url" href="/tehran/c:vip/" data-toggle="collapse" data-target="#sub-menu-507">
-                            <i>
-                                <i class="icon icon-vip"></i>
-                            </i>
-                            <span>پیشنهادات لوکس</span>
-                            <div class="new-item">جدید </div>
-                        </a>
-                    </li>
-
-
-
-
-
-                    <li class="li-services" itemprop="name">
-                        <a itemprop="url" href="/tehran/c:services/" data-toggle="collapse" data-target="#sub-menu-506">
-                            <i>
-                                <i class="icon icon-cleaning"></i>
-                            </i>
-                            <span>خدمات</span>
-                        </a>
-                    </li>
-
-
-
-                    <li class="sc li-last" itemprop="name">
-                        <a itemprop="url" href="/tehran/c:last/">
-                            <i>
-                                <i class="icon icon-timer"></i>
-                            </i>
-                            <span>لحظه آخری</span>
-                        </a>
-                    </li></ul>            </nav>
-            <div class="spacer"></div>
-            <ul class="side-extra-items">
-                <li><a href="tel:+982141096000"><i><i class="icon icon-home-phone"></i></i><span>۰۲۱-۴۱۰۹۶۰۰۰</span></a></li>
-                <li><a href="/page/buy-netbarg/"><i><i class="icon icon-lifebuoy"></i></i><span>راهنمای خرید</span></a></li>
-            </ul>
-        </div>
-    </div>
-
-</header>
 
 <div id="over" class="row">
     <div id="cards" class="col-lg-8 col-md-9 col-sm-11">
@@ -1637,10 +1092,6 @@
         color: #FFF;
     }
 </style>
-<nav id='menu-ui' class='menu-ui'>
-    <a href='#' class='active' id='filter-all'>All taquerias</a>
-    <a href='#' id='filter-beer'>Great margaritas</a>
-</nav>
 <div id='map'></div>
 
 
@@ -1656,24 +1107,60 @@
     L.mapbox.accessToken = 'pk.eyJ1IjoibWVocmRhZGhleGUiLCJhIjoiY2p4bG5ydHRnMDgyMjN5bnVzbWQ0bGd0NyJ9.a3YeBVPewDXN8ZTHapWNNQ';
 
     var map = L.mapbox.map('map')
-        .setView([37.77396, -122.4366], 12)
+        .setView([{{$city->F_lat}},{{$city->F_lang}}],{{$city->F_Dist}})
         .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
 
-    var myFeatureLayer = L.mapbox.featureLayer('{{url('assets/json/sf_locations.geojson')}}')
+  //  56.29789945499169,"lat":27.192132066462804
+    var location_city ={
+        "type": "FeatureCollection",
+        "features": [
+            @foreach($barg as $item)
+            {
+                "type": "Feature",
+                "properties": {
+                    "marker-color": "#f76565",
+                    "title": "بیتانیک سیستم ee",
+                    "marker-symbol": "alcohol-shop"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        {{$item->F_lang}},
+                        {{$item->F_lat}}
+
+                    ]
+                }
+            },
+           @endforeach
+        ]
+    };
+
+
+    var myFeatureLayer = L.mapbox.featureLayer(location_city)
         .addTo(map);
 
-    var food = document.getElementById('filter-beer');
-    var all = document.getElementById('filter-all');
+
+
+
+    var food = document.getElementById('check_product');
+    var all = document.getElementById('check_entertainment');
 
     food.onclick = function (e) {
-        all.className = '';
-        this.className = 'active';
         // The setFilter function takes a GeoJSON feature object
         // and returns true to show it or false to hide it.
-        myFeatureLayer.setFilter(function (f) {
-            return f.properties['marker-symbol'] === 'bar';
-        });
-        return false;
+        if (this.checked == true){
+            myFeatureLayer.setFilter(function (f) {
+                return f.properties['marker-symbol'] === 'bar';
+            });
+        } else {
+            myFeatureLayer.setFilter(function (f) {
+                // Returning true for all markers shows everything.
+                return true;
+            });
+
+        }
+
+
     };
 
     all.onclick = function () {

@@ -422,7 +422,7 @@
                                             <span class="address">
                                         <div class="pull-right">
                                             <i class="icon icon-location74"></i>
-                                            <a href="/area/اتوبان حقانی/">اتوبان حقانی</a>
+                                            <a href="#">{{$barg->F_Mohale}}</a>
                                         </div>
                                     </span>
 

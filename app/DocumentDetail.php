@@ -15,6 +15,11 @@ class DocumentDetail extends Model
         return $this->belongsTo('App\Document','F_DocumentID');
     }
 
+    public function Barg()
+    {
+        return $this->belongsTo('App\Barg','F_BargID');
+    }
+
     public function User()
     {
         return $this->belongsTo('App\User','id');

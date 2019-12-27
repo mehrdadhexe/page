@@ -78,7 +78,7 @@
     <script src="{{url('/assets/site/js/client-function.js')}}"></script>
     <script src="{{url('/assets/site/js/AutoComplete/jquery.easy-autocomplete.js')}}"></script>
     <script src="{{url('/assets/site/js/elastic.js')}}"></script>
-
+<script type="text/javascript"> (function(){ var now = new Date(); var version = now.getFullYear().toString() + "0" + now.getMonth() + "0" + now.getDate() + "0" + now.getHours(); var head = document.getElementsByTagName("head")[0]; var link = document.createElement("link"); link.rel = "stylesheet"; link.href = "https://app.najva.com/static/css/local-messaging.css" + "?v=" + version; head.appendChild(link); var script = document.createElement("script"); script.type = "text/javascript"; script.async = true; script.src = "https://app.najva.com/static/js/scripts/bitanik-website-8871-7a4d5d75-f3ac-4125-86d2-98d7c0639510.js" + "?v=" + version; head.appendChild(script); })() </script> 
 
 </head>
 
@@ -104,6 +104,13 @@
 @yield('footer')
 
 {{--<script src="{{url('/assets/site/js/app.js')}}"></script>--}}
+<script type="text/javascript">
+    window.vasleSettings = {
+        app_id: "oSiEcawV",
+    }
+</script><script type="text/javascript">
+    !function(){function t(){var t=n.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://www.retain.ir/app/oSiEcawV/widget/?"+Math.random().toString(34).slice(2);var e=n.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}var e=window,a=e.Vasle;if("function"==typeof a)a("reattach_activator"),a("update",e.vasleSettings);else{var n=document,c=function(){c.c(arguments)};c.q=[],c.c=function(t){c.q.push(t)},e.Vasle=c,e.attachEvent?e.attachEvent("onload",t):e.addEventListener("load",t,!1)}}();
+</script>
 </body>
 
 </html>

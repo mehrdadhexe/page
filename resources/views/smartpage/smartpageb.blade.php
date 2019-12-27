@@ -30,7 +30,7 @@
                 <span class="settings-button service-button add_setting_bt">تنظیمات</span><a
                     class="insights-button service-button" href="/">صفحات من</a>
 
-                <div src-data=""  class="avatar"
+                <div class="avatar"
                      style="">
                     <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="camera"
                          class="svg-inline--fa fa-w-16 fa-camera" role="img" xmlns="http://www.w3.org/2000/svg"

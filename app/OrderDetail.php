@@ -15,5 +15,9 @@ class OrderDetail extends Model
     {
         return $this->belongsTo('App\Order','F_OrderID');
     }
+    public function Barg()
+    {
+        return $this->belongsTo('App\Barg','F_BargID');
+    }
 
 }

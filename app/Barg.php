@@ -51,6 +51,11 @@ class Barg extends Model
     {
         return $this->hasMany('App\Rate','F_BargID');
     }
+    public function DocumentDetail()
+    {
+        return $this->hasMany('App\DocumentDetail','F_BargID');
+    }
+
 
 
 
