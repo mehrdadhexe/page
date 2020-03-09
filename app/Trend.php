@@ -14,6 +14,6 @@ class Trend extends Model
 
     public function Barg()
     {
-        return $this->hasMany('App\Barg','F_TrendID');
+        return $this->hasMany('App\Barg','trend_id');
     }
 }

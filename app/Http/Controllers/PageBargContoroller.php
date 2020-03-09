@@ -35,7 +35,7 @@ class PageBargContoroller extends Controller
         foreach($important as $id)
         {
             $category = Category::find($id);
-            $Barg  =  Barg::with('DocumentDetail')->where('F_CityID',$cityid)->where('F_CategoryID',$id)->where('F_State',1)->orderBy('F_Off','ASC')->take($limit)->get();
+            $Barg  =  Barg::with('DocumentDetail','Trend')->where('F_CityID',$cityid)->where('F_CategoryID',$id)->where('F_State',1)->orderBy('F_Off','ASC')->take($limit)->get();
             $Bargs = array('F_Category'=> $category,'F_Barg' =>$Barg);
             array_push($push ,$Bargs);
         }
@@ -49,7 +49,7 @@ class PageBargContoroller extends Controller
         $limit = 5;
         $catx = 2;
         $cityid = $city->F_CityID;
-        $cat =  Category::with('Barg')->take(2)->get();
+        //$cat =  Category::with('Barg','Trend')->take(2)->get();
         $important = json_decode(Category::where('F_Important',1)->pluck('F_CategoryID'));
         $push = array();
         foreach($important as $id)
@@ -67,12 +67,5 @@ class PageBargContoroller extends Controller
     }
 
 
-    public function search()
-    {
-        $cityid = 1;
-        $text = $_GET['q'];
-        return Barg::
-                    where('F_Title','like',"%$text%")
-                    ->orWhere('F_Text','like',"%$text%")->get();
-    }
+
 }

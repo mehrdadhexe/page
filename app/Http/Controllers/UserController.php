@@ -3,8 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\SMS;
+use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Response;
+use Illuminate\Support\Facades\Session;
 
 
 class UserController extends Controller
@@ -16,6 +19,44 @@ class UserController extends Controller
         $this->sms = new SMS();
 
     }
+    public function tab1()
+    {
+
+        $userID=Auth::user()->id;
+        $user=User::find($userID);
+        return view('users.tab1',["user"=>$user]);
+
+    }
+    public function tab2()
+    {
+        return view('users.tab2');
+
+    }
+
+    public function tab3()
+    {
+        return view('users.tab3');
+
+    }
+    public function tab4()
+    {
+        return view('users.tab4');
+
+    }
+    public function tab5()
+    {
+        return view('users.tab5');
+
+    }
+    public function tab6()
+    {
+        $userID=Auth::user()->id;
+        $user=User::with('Like')->find($userID);
+
+        return view('users.tab6',["Like"=>$user->Like]);
+
+    }
+
 
     public function VerifyCode(Request $request)
     {

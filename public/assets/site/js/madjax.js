@@ -8,6 +8,11 @@ madjax.var.temp     = false;
 madjax.var.value    = {};
 
 madjax.fn.run = function (d){
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
 
     var fixedData = d.data;
 

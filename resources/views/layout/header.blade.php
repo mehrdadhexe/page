@@ -38,15 +38,16 @@
                         <a href="{{url('baskets')}}">
                             <i class="header-icon">
                                 <i class="icon icon-shopping-cart_main_r crm"></i>
-                                <span class="basket-item-quantity">0</span>
+                                <span class="basket-item-quantity">{{\App\Http\Controllers\CartController::getCartCount()}}</span>
                             </i>
                         </a>
                     </div>
                     <div class="col-md-10 col-xs-24 hidden-sm hidden-xs toggle-hidden">
-                        <form id="search-form" method="get" class="search" action="/tehran/search/">
+                        <form id="search-form" method="get" class="search" action="{{url("search")}}">
+                            @csrf
                             <div style="overflow: visible" class="search-form-box input-btn site-search"><i
                                     class="icon icon-arrow-back search-close hidden"></i>
-                                <div class="easy-autocomplete" style="width: 513px;"><input name="q" id="search-box"
+                                <div class="easy-autocomplete" style="width: 513px;"><input name="s" id="search-box"
                                                                                             type="text"
                                                                                             placeholder="جستجو (رستوران، مکان ورزشی، کالا، ...)"
                                                                                             autocomplete="off">
@@ -63,12 +64,8 @@
                     <div class="col-md-6 hidden-sm hidden-xs">
                         <div class="clearfix">
                             @php
-                                $url='bandar';
-                                if(Session::has('city_name')){
-                                 $city=\App\City::where('F_Name',Session::get('city_name'))->first();
-                                 $url=$city->F_Url;
+                                $url=\App\Setting::getCity();
 
-                             }
 
 
 
@@ -91,7 +88,7 @@
                     <div class="row">
                         <div class="col-md-1 hidden-sm hidden-xs"></div>
                         <div class="col-lg-3 col-md-4 hidden-sm hidden-xs">
-                            <div class="clearfix"><a href="/tehran/" class="home-link"><i
+                            <div class="clearfix"><a href="{{url("/city")}}/{{\App\Setting::getCity()}}" class="home-link"><i
                                         class="icon icon-home"></i></a>
                             </div>
                         </div>
@@ -127,10 +124,10 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-7 hidden-sm hidden-xs">
-                            <a href="/tehran/baskets/">
+                            <a href="{{url("/baskets")}}">
                                 <div class="basket-wrapper">
                         	<span class="badge">
-                        		<i class="basket-item-quantity">0</i>
+                        		<i class="basket-item-quantity">{{\App\Http\Controllers\CartController::getCartCount()}}</i>
                         	</span>
                                     <i class="icon icon-shopping-cart_main"></i>
 
@@ -162,21 +159,21 @@
                                         <span class="inline-block icon icon-arrow-down"></span>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/user/userProfiles/index#tab1" data-tab="#tab1"><span><i
+                                        <li><a href="{{url('users/userProfiles/tab1')}}" data-tab="#tab1"><span><i
                                                         class="icon icon-user-avatar"></i></span>ویرایش پروفایل شخصی</a>
                                         </li>
-                                        <li><a href="/user/userProfiles/index#tab2" data-tab="#tab2"><span><i
+                                        <li><a href="{{url('users/userProfiles/tab2')}}" data-tab="#tab2"><span><i
                                                         class="icon icon-wallet"></i></span>کیـف
                                                 پول</a></li>
-                                        <li><a href="/user/userProfiles/index#tab3" data-tab="#tab3"><span><i
+                                        <li><a href="{{url('users/userProfiles/tab3')}}" data-tab="#tab3"><span><i
                                                         class="icon icon-logo_e"></i></span>نت
                                                 برگ های من</a></li>
-                                        <li><a href="/user/userProfiles/index#tab4" data-tab="#tab4"><span><i
+                                        <li><a href="{{url('users/userProfiles/tab4')}}" data-tab="#tab4"><span><i
                                                         class="icon icon-transaction"></i></span>تراکنش ها</a></li>
-                                        <li><a href="/user/userProfiles/index#tab5" data-tab="#tab5"><span><i
+                                        <li><a href="{{url('users/userProfiles/tab5')}}" data-tab="#tab5"><span><i
                                                         class="icon icon-Comment"></i></span>نظرات
                                                 من</a></li>
-                                        <li><a href="/user/userProfiles/index#tab6" data-tab="#tab6"><span><i
+                                        <li><a href="{{url('users/userProfiles/tab6')}}" data-tab="#tab6"><span><i
                                                         class="icon icon-favorite"></i></span>علاقه
                                                 مندی ها</a></li>
                                         <li>

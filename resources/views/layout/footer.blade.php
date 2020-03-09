@@ -247,7 +247,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row rfcr-p1 dis-no dis-block-479 after-copy"><span>کلیه حقوق این وب سایت متعلق به شرکت کسب و کار نوین ایرانیان است.</span>
+                    <div class="row rfcr-p1 dis-no dis-block-479 after-copy"><span>کلیه حقوق این وب سایت متعلق به شرکت بیتانیک سیستم است.</span>
                     </div>
                 </div>
                 <div class="col-md-1 hidden-sm hidden-xs"></div>

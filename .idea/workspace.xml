@@ -2,31 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3d2b50c-4c2a-4b18-a602-935f63a195bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/baskets/back.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/baskets/error.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/baskets/pay.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/component/dd.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/component/float_cat.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/component/slider.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/component/support.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/page/trend.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Ajax.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Barg.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Barg.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DocumentDetail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DocumentDetail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BargController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BargController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PageBargContoroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageBargContoroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PageSmart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageSmart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/OrderDetail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/OrderDetail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/SMS.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/SMS.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/site/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/site/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/site/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/site/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/site/css/kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/site/css/kit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/smartpage/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/smartpage/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Trend.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Trend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/site/js/ajax-result-function.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/site/js/ajax-result-function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/site/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/site/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/site/js/madjax.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/site/js/madjax.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/baskets.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/baskets.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/footer.blade.php" afterDir="false" />
@@ -35,12 +34,10 @@
       <change beforePath="$PROJECT_DIR$/resources/views/page/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/page/map.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/map.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/page/off_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/off_page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/smartpage/page_edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/smartpage/smartpageb.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/smartpage/smartpageb.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page/search.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/userProfiles.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/userProfiles.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/takhfifan(1).sql" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,6 +179,10 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/simplesoftwareio/simple-qrcode" />
+      <path value="$PROJECT_DIR$/vendor/werneckbh/laravel-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/werneckbh/qr-code" />
     </include_path>
   </component>
   <component name="ProjectId" id="1SQyqIoV28DhZyyzvMkrAlY8saM" />
@@ -192,18 +193,20 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/page" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/untitled2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel\resources\views\baskets" />
+      <recent name="C:\xampp\htdocs\laravel\resources\views\component" />
+      <recent name="C:\xampp\htdocs\laravel\resources\views\page" />
       <recent name="C:\xampp\htdocs\laravel\public\smartpage\css" />
       <recent name="F:\xamppp7\htdocs\laravel\resources\views\layout" />
-      <recent name="F:\xamppp7\htdocs\laravel\resources\views\page" />
-      <recent name="F:\xampp\htdocs\laravel\public\assets\site\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -280,7 +283,24 @@
       <workItem from="1575234512983" duration="14053000" />
       <workItem from="1575306926727" duration="613000" />
       <workItem from="1577386034623" duration="4235000" />
+      <workItem from="1577426819730" duration="17130000" />
+      <workItem from="1577562346666" duration="605000" />
+      <workItem from="1577810331475" duration="4828000" />
+      <workItem from="1577817211683" duration="7828000" />
+      <workItem from="1577895209386" duration="17352000" />
+      <workItem from="1577939890907" duration="11873000" />
+      <workItem from="1577955207716" duration="6294000" />
+      <workItem from="1578072458408" duration="17107000" />
+      <workItem from="1578155493953" duration="22917000" />
+      <workItem from="1578415321439" duration="202000" />
     </task>
+    <task id="LOCAL‎۰۰۰۰۱" summary="98/10/6">
+      <created>1577427163415</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۱" />
+      <updated>1577427163415</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,11 +311,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="98/10/6" />
+    <option name="LAST_COMMIT_MESSAGE" value="98/10/6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -304,6 +330,35 @@
           <url>file://$PROJECT_DIR$/public/smartpage/js/app.js</url>
           <line>212</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/assets/site/js/ajax-result-function.js</url>
+          <line>256</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/assets/site/js/ajax-result-function.js</url>
+          <line>508</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/baskets/back.blade.php</url>
+          <line>47</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/baskets.blade.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/CartController.php</url>
+          <line>227</line>
+          <properties>
+            <option name="className" value="\App\Http\Controllers\CartController" />
+            <option name="methodName" value="save_order" />
+          </properties>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

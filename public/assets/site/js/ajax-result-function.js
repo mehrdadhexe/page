@@ -1,8 +1,15 @@
+calcTotalPrice();
+
 $.fn.digits = function () {
     return this.each(function () {
         $(this).text($(this).text().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
     })
 };
+
+function likeActivity(data, target) {
+
+    console.log(data);
+}
 
 function unveilCall() {
     $(".main-row img,.under-slider-banner img,.figure-ads-baner img").unveil();
@@ -493,6 +500,62 @@ function deleteComment(data, element) {
         $("#commentBox").html(data);
     });
 }
+
+function testLib(data, element) {
+    console.log(data)
+    console.log(element)
+}
+
+function removeItemCart(data, element) {
+    $(".madJaxWait").addClass("hidden");
+    //var host = "http://"+window.location.hostname;
+    var full = location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+    window.location.href ='/baskets';
+   // deleteFromBasket(data, element);
+    calcTotalPrice();
+}
+
+function calcTotalPrice() {
+    let total_price = 0;
+
+
+    $(".basket-item").each(function (index) {
+        let price = parseInt($(this).find('.nb-total-item').attr('nb-total'));
+        total_price = total_price + price;
+    });
+
+    $('#nb-totalbasket').html(formatMoney(total_price, 0))
+
+}
+
+function formatMoney(amount, decimalCount = 2, decimal = ".", thousands = ",") {
+    try {
+        decimalCount = Math.abs(decimalCount);
+        decimalCount = isNaN(decimalCount) ? 2 : decimalCount;
+
+        const negativeSign = amount < 0 ? "-" : "";
+
+        let i = parseInt(amount = Math.abs(Number(amount) || 0).toFixed(decimalCount)).toString();
+        let j = (i.length > 3) ? i.length % 3 : 0;
+
+        return negativeSign + (j ? i.substr(0, j) + thousands : '') + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + thousands) + (decimalCount ? decimal + Math.abs(amount - i).toFixed(decimalCount).slice(2) : "");
+    } catch (e) {
+        console.log(e)
+    }
+};
+
+function changItemCount(data, element) {
+    $(".madJaxWait").addClass("hidden");
+    var id = $(element).attr('id-barg');
+
+
+    $('#nb-total-item-' + id).html(formatMoney(data.price, 0));
+    $('#nb-total-item-' + id).attr('nb-total', data.price);
+    calcTotalPrice();
+
+
+}
+
 
 function responseDataCommentAdmin(data, element) {
     $(".madJaxWait").addClass("hidden");

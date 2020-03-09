@@ -1,4 +1,3 @@
-
 <html lang="fa">
 {{--<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv"></script>--}}
 {{--<script src="https://oss.maxcdn.com/libs/respond/1.4.2/respond.min"></script>--}}
@@ -122,13 +121,13 @@
             <div class="row">
                 <div class="col-md-1 hidden-sm hidden-xs"></div>
                 <div class="burger-col hidden-lg hidden-md col-xs-8"><i class="burger-icon"><i
-                                class="icon icon-menu-options"></i></i></div>
+                            class="icon icon-menu-options"></i></i></div>
                 <div class="col-md-6 col-xs-8 col-logo ">
                     <a href="/tehran/" class="logo"><img src="/assets/site/img/netbarg.png" class="img-responsive"
                                                          alt=" نت برگ"></a>
                 </div>
                 <div class="btn-col hidden-lg hidden-md col-xs-8"><i class="header-icon toggle-search-js"><i
-                                class="icon icon-search"></i></i>
+                            class="icon icon-search"></i></i>
                     <a href="/tehran/baskets/">
                         <i class="header-icon">
                             <i class="icon icon-shopping-cart_main_r crm"></i>
@@ -139,7 +138,7 @@
                 <div class="col-md-10 col-xs-24 hidden-sm hidden-xs toggle-hidden">
                     <form id="search-form" method="get" class="search" action="/tehran/search/">
                         <div style="overflow: visible" class="search-form-box input-btn site-search"><i
-                                    class="icon icon-arrow-back search-close hidden"></i>
+                                class="icon icon-arrow-back search-close hidden"></i>
                             <div class="easy-autocomplete" style="width: 513px;"><input name="q" id="search-box"
                                                                                         type="text"
                                                                                         placeholder="جستجو (رستوران، مکان ورزشی، کالا، ...)"
@@ -224,7 +223,7 @@
                                 </li>
                                 <li><a href="#" type="button" data-toggle="modal" data-target="#mapModal"
                                        class="cities_map"><span class="pull-right"> تمامی شهر ها</span><span
-                                                class="map_icon icon icon-more-fill"></span></a></li>
+                                            class="map_icon icon icon-more-fill"></span></a></li>
 
                             </ul>
                         </div>
@@ -630,7 +629,7 @@
                             <ul class="side-cat" itemscope="" itemtype="http://www.schema.org/SiteNavigationElement">
                                 <li class="li-home"><a href="/tehran/c:todaydeals/"
                                                        style="height: 39.3333px; line-height: 38.3333px;"><i><i
-                                                    class="icon icon-logo_e"></i></i><span>نت برگ های امروز</span></a>
+                                                class="icon icon-logo_e"></i></i><span>نت برگ های امروز</span></a>
                                 </li>
 
 
@@ -1097,11 +1096,11 @@
                                 <!-- Controls--><a href="#carousel_2" role="button" data-slide="prev"
                                                    class="left carousel-control"><span aria-hidden="true"
                                                                                        class="icon icon-arrow-left"></span><span
-                                            class="sr-only">Previous</span></a><a href="#carousel_2" role="button"
-                                                                                  data-slide="next"
-                                                                                  class="right carousel-control"><span
-                                            aria-hidden="true" class="icon icon-arrow-right"></span><span
-                                            class="sr-only">Next</span></a>
+                                        class="sr-only">Previous</span></a><a href="#carousel_2" role="button"
+                                                                              data-slide="next"
+                                                                              class="right carousel-control"><span
+                                        aria-hidden="true" class="icon icon-arrow-right"></span><span
+                                        class="sr-only">Next</span></a>
                             </div>
                         </div>
                     </div>
@@ -1115,22 +1114,25 @@
                                 <a target="_blank"
                                    href="http://netbarg.com/trend/%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D8%AF%D8%B1%D9%85/"
                                    class="figure m-b">
-                                    <img src="http://static.netbarg.com/img/banner/banners/rightSmallBanner/93/50f40701.jpg"
-                                         alt="netbarg"> </a>
+                                    <img
+                                        src="http://static.netbarg.com/img/banner/banners/rightSmallBanner/93/50f40701.jpg"
+                                        alt="netbarg"> </a>
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-8">
                                 <a target="_blank"
                                    href="http://netbarg.com/trend/%D9%87%D8%AA%D9%84-%D9%85%D8%B4%D9%87%D8%AF/"
                                    class="figure m-b">
-                                    <img src="http://static.netbarg.com/img/banner/banners/centerSmallBanner/91/59010762.jpg"
-                                         alt="netbarg"> </a>
+                                    <img
+                                        src="http://static.netbarg.com/img/banner/banners/centerSmallBanner/91/59010762.jpg"
+                                        alt="netbarg"> </a>
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-8">
                                 <a target="_blank"
                                    href="http://netbarg.com/trend/%D8%A7%D8%B3%D8%AA%D8%AE%D8%B1%D9%87%D8%A7%DB%8C-%D8%BA%D8%B1%D8%A8-%D8%AA%D9%87%D8%B1%D8%A7%D9%86/"
                                    class="figure m-b">
-                                    <img src="http://static.netbarg.com/img/banner/banners/leftSmallBanner/89/47f7068c.jpg"
-                                         alt="netbarg"> </a>
+                                    <img
+                                        src="http://static.netbarg.com/img/banner/banners/leftSmallBanner/89/47f7068c.jpg"
+                                        alt="netbarg"> </a>
                             </div>
                         </div>
                     </div>
@@ -1141,112 +1143,12 @@
         <div class="wrapper-2">
             <div class="container-fluid">
                 <div class="row h-position">
-                    <div class="col-lg-1 col-md-1 hidden-sm hidden-xs right-aside sticky-aside">
-                        <div id="nava" class="affix-top" style="">
-                            <div class="float-cat">
-                                <ul>
-                                    <a href="/tehran/c:todaydeals/" class="float-cat-todaydeal">
-                                        <li>
-                                            <i><i class="icon icon-logo_e"></i></i><span>نت‌برگ‌های امروز</span>
-                                        </li>
-                                    </a>
-
-                                    <a href="/tehran/c:restaurant/" class="float-cat-restaurant">
-                                        <li>
-                                            <i>
-                                                <i class="icon icon-burger"></i>
-                                            </i>
-                                            <span>رستوران و فست فود</span>
-                                        </li>
-                                    </a>
-                                    <a href="/tehran/c:entertainment/" class="float-cat-entertainment">
-                                        <li>
-                                            <i>
-                                                <i class="icon icon-basketball"></i>
-                                            </i>
-                                            <span>تفریحی و ورزشی</span>
-                                        </li>
-                                    </a>
-                                    <a href="/tehran/c:health/" class="float-cat-health">
-                                        <li>
-                                            <i>
-                                                <i class="icon icon-car-first-aid-kit"></i>
-                                            </i>
-                                            <span>پزشکی و سلامت</span>
-                                        </li>
-                                    </a>
-                                    <a href="/tehran/c:art/" class="float-cat-art">
-                                        <li>
-                                            <i>
-                                                <i class="icon icon-Theater"></i>
-                                            </i>
-                                            <span>هنر و تئاتر</span>
-                                        </li>
-                                    </a>
-                                    <a href="/tehran/c:education/" class="float-cat-education">
-                                        <li>
-                                            <i>
-                                                <i class="icon icon-earth-globe"></i>
-                                            </i>
-                                            <span>آموزشی</span>
-                                        </li>
-                                    </a>
-                                    <a href="/tehran/c:beauty/" class="float-cat-beauty">
-                                        <li>
-                                            <i>
-                                                <i class="icon icon-lipstick-with-cover"></i>
-                                            </i>
-                                            <span>زیبایی و آرایشی</span>
-                                        </li>
-                                    </a>
-                                    <a href="/tehran/c:product/" class="float-cat-product">
-                                        <li>
-                                            <i>
-                                                <i class="icon icon-shopping-bag-1"></i>
-                                            </i>
-                                            <span>کالا</span>
-                                        </li>
-                                    </a>
-                                    <a href="/tehran/c:giftcode/" class="float-cat-giftcode">
-                                        <li>
-                                            <i>
-                                                <i class="icon icon-couponcodes"></i>
-                                            </i>
-                                            <span>کد تخفیف</span>
-                                        </li>
-                                    </a>
-                                    <a href="/tehran/c:vip/" class="float-cat-vip">
-                                        <li>
-                                            <i>
-                                                <i class="icon icon-vip"></i>
-                                            </i>
-                                            <span>پیشنهادات لوکس</span>
-                                        </li>
-                                    </a>
-                                    <a href="/tehran/c:services/" class="float-cat-services">
-                                        <li>
-                                            <i>
-                                                <i class="icon icon-cleaning"></i>
-                                            </i>
-                                            <span>خدمات</span>
-                                        </li>
-                                    </a>
-                                    <a href="/tehran/c:last/" class="float-cat-last">
-                                        <li class="sc">
-                                            <i>
-                                                <i class="icon icon-timer"></i>
-                                            </i>
-                                            <span>لحظه آخری</span>
-                                        </li>
-                                    </a></ul>
-                            </div>
-                        </div>
-                    </div>
+                    @include('component.float_cat')
                     <div class="col-lg-22 col-md-22 col-sm-24 col-xs-24 padd-0-xs clearfix">
                         <section class="related cat-deal-color main-cat around-me clearfix">
                             <header class="section-header">
                                 <h6 class="hx"><span class="icon icon-special-user-offer"></span><span
-                                            class="article-h3">پیشنهادات ویژه نت برگ</span></h6>
+                                        class="article-h3">پیشنهادات ویژه نت برگ</span></h6>
                             </header>
                             <div class="main-cat-deal-thumbnail clearfix main-row">
                                 <div itemscope="" itemtype="http://schema.org/Offer"
@@ -1261,10 +1163,11 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/158240/21d70411.jpg"
-                                                     alt="جشنواره سرزمین فکر بازیا در باغ کتاب" data-type="lazy"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/158240/21d70411.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/158240/21d70411.jpg"
+                                                    alt="جشنواره سرزمین فکر بازیا در باغ کتاب" data-type="lazy"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/158240/21d70411.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title">
@@ -1318,9 +1221,10 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/156549/1e4c03da.jpg"
-                                                     alt="دلفیناریوم برج میلاد" data-type="lazy" class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/156549/1e4c03da.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/156549/1e4c03da.jpg"
+                                                    alt="دلفیناریوم برج میلاد" data-type="lazy" class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/156549/1e4c03da.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title">
@@ -1375,10 +1279,11 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/158139/1e0103dd.jpg"
-                                                     alt="دریاچه شهدای خلیج فارس (چیتگر) با 6 بازی جذاب"
-                                                     data-type="lazy" class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/158139/1e0103dd.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/158139/1e0103dd.jpg"
+                                                    alt="دریاچه شهدای خلیج فارس (چیتگر) با 6 بازی جذاب"
+                                                    data-type="lazy" class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/158139/1e0103dd.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title">
@@ -1433,10 +1338,11 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159073/897.jpg"
-                                                     alt="ناهار رستوران گردان برج میلاد" data-type="lazy"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159073/897.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159073/897.jpg"
+                                                    alt="ناهار رستوران گردان برج میلاد" data-type="lazy"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159073/897.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title">
@@ -1485,7 +1391,7 @@
                                 <header class="section-header"><a href="/tehran/c:restaurant/"
                                                                   class="visible-xs">بیشتر</a>
                                     <h3 class="hx"><span class="ir"><i class="icon icon-burger"></i></span><a
-                                                href="/tehran/c:restaurant/" class="article-h3">رستوران و کافی‌شاپ</a>
+                                            href="/tehran/c:restaurant/" class="article-h3">رستوران و کافی‌شاپ</a>
                                     </h3>
                                 </header>
                                 <div class="main-row clearfix">
@@ -1497,11 +1403,12 @@
                                                 <ul class="deal-tag list-unstyled">
                                                     <li class="violet-label"></li>
                                                 </ul>
-                                                <img data-src="http://static.netbarg.com/img/responsive_large/deals/154389/1eab03e1.jpg"
-                                                     alt="فودکورت پل طبیعت" data-type="lazy" shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_large/deals/154389/1eab03e1.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_large/deals/154389/1eab03e1.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_large/deals/154389/1eab03e1.jpg"
+                                                    alt="فودکورت پل طبیعت" data-type="lazy" shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_large/deals/154389/1eab03e1.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_large/deals/154389/1eab03e1.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -1510,21 +1417,21 @@
                                                         طبیعت</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                 6948                            </span></span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><span class="cdbf-takhfif"><span
-                                                            class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%34</span></span></span><a
-                                                        href="/area/ونک/" class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">ونک</span></a><a
-                                                        href="/tehran/d/c:restaurant/154389/فودکورت-پل-طبیعت-65/"
-                                                        class="cdbf-buy-icon">
+                                                        class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%34</span></span></span><a
+                                                    href="/area/ونک/" class="cdbf-location truncate"><span
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">ونک</span></a><a
+                                                    href="/tehran/d/c:restaurant/154389/فودکورت-پل-طبیعت-65/"
+                                                    class="cdbf-buy-icon">
                                                     <button class="nb-btn nb-btn-icon nb-btn-success">مشاهده و خرید<i
-                                                                class="icon icon-shopping-cart2"></i></button>
+                                                            class="icon icon-shopping-cart2"></i></button>
                                                 </a><span class="cdbf-price">
             <del class="cdbf-real-price"><span>۲۵,۰۰۰</span></del><ins class="cdbf-netbarg-price">
             <span itemprop="price" content="165000">۱۶,۵۰۰ </span><span itemprop="priceCurrency"
@@ -1536,9 +1443,9 @@
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:restaurant/159010/صبحانه-سالم-در-عمارت-خانه-پدری/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/159010/1b4f03ab.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:restaurant/159010/صبحانه-سالم-در-عمارت-خانه-پدری/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/159010/1b4f03ab.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                             <li class="orange-label"></li>
                                                             <li class="violet-label"></li>
@@ -1546,12 +1453,13 @@
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/159010/1b4f03ab.jpg"
-                                                             alt="صبحانه سالم در عمارت خانه پدری" data-type="lazy"
-                                                             shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/159010/1b4f03ab.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/159010/1b4f03ab.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/159010/1b4f03ab.jpg"
+                                                            alt="صبحانه سالم در عمارت خانه پدری" data-type="lazy"
+                                                            shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/159010/1b4f03ab.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/159010/1b4f03ab.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:restaurant/159010/صبحانه-سالم-در-عمارت-خانه-پدری/"
@@ -1559,32 +1467,32 @@
                                                                 سالم در عمارت خانه پدری</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             1094                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a href="/area/هفت-تیر/"
                                                                                                  class="cdbf-location truncate"><span
-                                                                    class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">هفت تیر</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%45</span></span></span><span
-                                                                class="cdbf-price">
+                                                                class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">هفت تیر</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%45</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۱۸,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="99000">۹,۹۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="99000">۹,۹۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:restaurant/158081/بوفه-آزاد-رستوران-زیتون/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/158081/1b5e03ab.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:restaurant/158081/بوفه-آزاد-رستوران-زیتون/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/158081/1b5e03ab.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                             <li class="orange-label"></li>
                                                             <li class="violet-label"></li>
@@ -1592,12 +1500,13 @@
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/158081/1b5e03ab.jpg"
-                                                             alt="بوفه آزاد رستوران زیتون" data-type="lazy" shema="1"
-                                                             itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/158081/1b5e03ab.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/158081/1b5e03ab.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/158081/1b5e03ab.jpg"
+                                                            alt="بوفه آزاد رستوران زیتون" data-type="lazy" shema="1"
+                                                            itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/158081/1b5e03ab.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/158081/1b5e03ab.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:restaurant/158081/بوفه-آزاد-رستوران-زیتون/"
@@ -1605,32 +1514,32 @@
                                                                 آزاد رستوران زیتون</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             1470                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a href="/area/پارک-وی/"
                                                                                                  class="cdbf-location truncate"><span
-                                                                    class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">پارک وی</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%50</span></span></span><span
-                                                                class="cdbf-price">
+                                                                class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">پارک وی</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%50</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۱۲۵,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="625000">۶۲,۵۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="625000">۶۲,۵۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:restaurant/157579/پیتزا-خوراک-و-برگر-در-رستوران-ایتالیایی-آوا-پلاس/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/157579/1ef603e0.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:restaurant/157579/پیتزا-خوراک-و-برگر-در-رستوران-ایتالیایی-آوا-پلاس/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/157579/1ef603e0.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                             <li class="orange-label"></li>
                                                             <li class="violet-label"></li>
@@ -1638,12 +1547,13 @@
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/157579/1ef603e0.jpg"
-                                                             alt="پیتزا ، خوراک و برگر در رستوران ایتالیایی آوا پلاس"
-                                                             data-type="lazy" shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/157579/1ef603e0.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/157579/1ef603e0.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/157579/1ef603e0.jpg"
+                                                            alt="پیتزا ، خوراک و برگر در رستوران ایتالیایی آوا پلاس"
+                                                            data-type="lazy" shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/157579/1ef603e0.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/157579/1ef603e0.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:restaurant/157579/پیتزا-خوراک-و-برگر-در-رستوران-ایتالیایی-آوا-پلاس/"
@@ -1651,29 +1561,29 @@
                                                                 ، خوراک و برگر در رستوران ایتالیایی آوا پلاس</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             1173                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a href="/area/نیاوران/"
                                                                                                  class="cdbf-location truncate"><span
-                                                                    class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">نیاوران</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%49</span></span></span><span
-                                                                class="cdbf-price">
+                                                                class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">نیاوران</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%49</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۳۹,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="198900">۱۹,۸۹۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="198900">۱۹,۸۹۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-24 cds-item hidden-xs done">
                                                 <div class="cds-all-view-box"><span class="ir"><i
-                                                                class="icon icon-burger"></i></span>
+                                                            class="icon icon-burger"></i></span>
                                                     <h4 class="cds-title">113 پیشنهاد رستوران و کافی شاپ</h4>
                                                     <a href="/tehran/c:restaurant/">
                                                         <button class="nb-btn nb-btn-success">مشاهده همه</button>
@@ -1687,13 +1597,14 @@
                             <figure class="figure-ads-baner hidden-xs visible-lg">
                                 <a href="http://netbarg.com/trend/%D8%B3%D9%81%D8%B1%D9%87-%D8%AE%D8%A7%D9%86%D9%87/"
                                    target="_blank">
-                                    <img src="http://static.netbarg.com/img/banner/banners/restaurantBanner/77/c6d90dc9.jpg"
-                                         alt="رستوران و کافی شاپ"> </a>
+                                    <img
+                                        src="http://static.netbarg.com/img/banner/banners/restaurantBanner/77/c6d90dc9.jpg"
+                                        alt="رستوران و کافی شاپ"> </a>
                             </figure>
                             <article id="float-cat-entertainment" class="cat-deal-color color-inter-sport">
                                 <header class="section-header"><a href="/tehran/c:entertainment/" class="visible-xs">بیشتر</a>
                                     <h3 class="hx"><span class="ir"><i class="icon icon-basketball"></i></span><a
-                                                href="/tehran/c:entertainment/" class="article-h3">تفریحی و ورزشی</a>
+                                            href="/tehran/c:entertainment/" class="article-h3">تفریحی و ورزشی</a>
                                     </h3>
                                 </header>
                                 <div class="main-row clearfix">
@@ -1706,12 +1617,13 @@
                                                 <ul class="deal-tag list-unstyled">
                                                     <li class="orange-label"></li>
                                                 </ul>
-                                                <img data-src="http://static.netbarg.com/img/responsive_large/deals/158240/21d70411.jpg"
-                                                     alt="جشنواره سرزمین فکر بازیا در باغ کتاب" data-type="lazy"
-                                                     shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_large/deals/158240/21d70411.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_large/deals/158240/21d70411.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_large/deals/158240/21d70411.jpg"
+                                                    alt="جشنواره سرزمین فکر بازیا در باغ کتاب" data-type="lazy"
+                                                    shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_large/deals/158240/21d70411.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_large/deals/158240/21d70411.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -1720,26 +1632,26 @@
                                                         سرزمین فکر بازیا در باغ کتاب</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                 2387                            </span></span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><span class="cdbf-takhfif"><span
-                                                            class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%60</span></span></span><a
-                                                        href="/area/اتوبان حقانی/" class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">اتوبان حقانی</span></a><a
-                                                        href="/tehran/d/c:entertainment/158240/جشنواره-سرزمین-فکر-بازیا-در-باغ-کتاب/"
-                                                        class="cdbf-buy-icon">
+                                                        class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%60</span></span></span><a
+                                                    href="/area/اتوبان حقانی/" class="cdbf-location truncate"><span
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">اتوبان حقانی</span></a><a
+                                                    href="/tehran/d/c:entertainment/158240/جشنواره-سرزمین-فکر-بازیا-در-باغ-کتاب/"
+                                                    class="cdbf-buy-icon">
                                                     <button class="nb-btn nb-btn-icon nb-btn-success">مشاهده و خرید<i
-                                                                class="icon icon-shopping-cart2"></i></button>
+                                                            class="icon icon-shopping-cart2"></i></button>
                                                 </a><span class="cdbf-price">
             <del class="cdbf-real-price"><span>۹۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                itemprop="price">۳۶,۰۰۰</span><span
-                                                                itemprop="priceCurrency"
-                                                                content="IRR"> تومان</span></ins></span></div>
+                                                            itemprop="price">۳۶,۰۰۰</span><span
+                                                            itemprop="priceCurrency"
+                                                            content="IRR"> تومان</span></ins></span></div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-24 col-xs-24 cat-deal-smallbox">
@@ -1755,12 +1667,13 @@
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/155121/1bdc03bb.jpg"
-                                                             alt="تونل آکواریوم انزلی" data-type="lazy" shema="1"
-                                                             itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/155121/1bdc03bb.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/155121/1bdc03bb.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/155121/1bdc03bb.jpg"
+                                                            alt="تونل آکواریوم انزلی" data-type="lazy" shema="1"
+                                                            itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/155121/1bdc03bb.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/155121/1bdc03bb.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:entertainment/155121/تونل-آکواریوم-انزلی/"
@@ -1768,24 +1681,24 @@
                                                                 آکواریوم انزلی</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             4805                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a
-                                                                href="/area/گیلان-منطقه آزاد انزلی/"
-                                                                class="cdbf-location truncate"><span class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">گیلان-منطقه آزاد انزلی</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%40</span></span></span><span
-                                                                class="cdbf-price">
+                                                            href="/area/گیلان-منطقه آزاد انزلی/"
+                                                            class="cdbf-location truncate"><span class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">گیلان-منطقه آزاد انزلی</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%40</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۶۹,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="414000">۴۱,۴۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="414000">۴۱,۴۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div itemscope="" itemtype="http://schema.org/Offer"
@@ -1801,12 +1714,13 @@
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/153591/1b7203b0.jpg"
-                                                             alt="شنا و آب درمانی در استخر سپیدار" data-type="lazy"
-                                                             shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/153591/1b7203b0.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/153591/1b7203b0.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/153591/1b7203b0.jpg"
+                                                            alt="شنا و آب درمانی در استخر سپیدار" data-type="lazy"
+                                                            shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/153591/1b7203b0.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/153591/1b7203b0.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:entertainment/153591/شنا-و-آب-درمانی-در-استخر-سپیدار/"
@@ -1814,24 +1728,24 @@
                                                                 آب درمانی در استخر سپیدار</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             42156                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a
-                                                                href="/area/میدان-پاستور/"
-                                                                class="cdbf-location truncate"><span class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">میدان پاستور</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%35</span></span></span><span
-                                                                class="cdbf-price">
+                                                            href="/area/میدان-پاستور/"
+                                                            class="cdbf-location truncate"><span class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">میدان پاستور</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%35</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۴۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="260000">۲۶,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="260000">۲۶,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div itemscope="" itemtype="http://schema.org/Offer"
@@ -1847,12 +1761,13 @@
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/156767/222e0419.jpg"
-                                                             alt="تله سیژ دربند ، گردشی بر فراز طبیعت" data-type="lazy"
-                                                             shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/156767/222e0419.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/156767/222e0419.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/156767/222e0419.jpg"
+                                                            alt="تله سیژ دربند ، گردشی بر فراز طبیعت" data-type="lazy"
+                                                            shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/156767/222e0419.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/156767/222e0419.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:entertainment/156767/تله-سیژ-دربند-گردشی-بر-فراز-طبیعت/"
@@ -1860,29 +1775,29 @@
                                                                 سیژ دربند ، گردشی بر فراز طبیعت</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             605                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a href="/area/دربند/"
                                                                                                  class="cdbf-location truncate"><span
-                                                                    class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">دربند</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%30</span></span></span><span
-                                                                class="cdbf-price">
+                                                                class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">دربند</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%30</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۲۵,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="175000">۱۷,۵۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="175000">۱۷,۵۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-24 cds-item hidden-xs done">
                                                 <div class="cds-all-view-box"><span class="ir"><i
-                                                                class="icon icon-basketball"></i></span>
+                                                            class="icon icon-basketball"></i></span>
                                                     <h4 class="cds-title">197 پیشنهاد تفریحی و ورزشی</h4>
                                                     <a href="/tehran/c:entertainment/">
                                                         <button class="nb-btn nb-btn-success">مشاهده همه</button>
@@ -1896,13 +1811,14 @@
                             <figure class="figure-ads-baner hidden-xs visible-lg">
                                 <a href="http://netbarg.com/trend/%D8%AA%D9%88%D8%B1-%DB%8C%DA%A9-%D8%B1%D9%88%D8%B2%D9%87/"
                                    target="_blank">
-                                    <img src="http://static.netbarg.com/img/banner/banners/entertainmentBanner/68/37730672.jpg"
-                                         alt="تفریحی و ورزشی"> </a>
+                                    <img
+                                        src="http://static.netbarg.com/img/banner/banners/entertainmentBanner/68/37730672.jpg"
+                                        alt="تفریحی و ورزشی"> </a>
                             </figure>
                             <article id="float-cat-health" class="cat-deal-color color-health">
                                 <header class="section-header"><a href="/tehran/c:health/" class="visible-xs">بیشتر</a>
                                     <h3 class="hx"><span class="ir"><i class="icon icon-car-first-aid-kit"></i></span><a
-                                                href="/tehran/c:health/" class="article-h3">پزشکی و سلامت</a>
+                                            href="/tehran/c:health/" class="article-h3">پزشکی و سلامت</a>
                                     </h3>
                                 </header>
                                 <div class="main-row clearfix">
@@ -1915,12 +1831,13 @@
                                                 <ul class="deal-tag list-unstyled">
                                                     <li class="violet-label"></li>
                                                 </ul>
-                                                <img data-src="http://static.netbarg.com/img/responsive_large/deals/152604/21ca0412.jpg"
-                                                     alt="لیزر الکساندرایت در مطب دکتر سعادت" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_large/deals/152604/21ca0412.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_large/deals/152604/21ca0412.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_large/deals/152604/21ca0412.jpg"
+                                                    alt="لیزر الکساندرایت در مطب دکتر سعادت" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_large/deals/152604/21ca0412.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_large/deals/152604/21ca0412.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -1929,26 +1846,26 @@
                                                         الکساندرایت در مطب دکتر سعادت</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                 6467                            </span></span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><span class="cdbf-takhfif"><span
-                                                            class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%80</span></span></span><a
-                                                        href="/area/مترو-شریعتی/" class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">مترو شریعتی</span></a><a
-                                                        href="/tehran/d/c:health/152604/لیزر-الکساندرایت-در-مطب-دکتر-سعادت-27/"
-                                                        class="cdbf-buy-icon">
+                                                        class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%80</span></span></span><a
+                                                    href="/area/مترو-شریعتی/" class="cdbf-location truncate"><span
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">مترو شریعتی</span></a><a
+                                                    href="/tehran/d/c:health/152604/لیزر-الکساندرایت-در-مطب-دکتر-سعادت-27/"
+                                                    class="cdbf-buy-icon">
                                                     <button class="nb-btn nb-btn-icon nb-btn-success">مشاهده و خرید<i
-                                                                class="icon icon-shopping-cart2"></i></button>
+                                                            class="icon icon-shopping-cart2"></i></button>
                                                 </a><span class="cdbf-price">
             <del class="cdbf-real-price"><span>۲۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                itemprop="price">۴,۰۰۰</span><span
-                                                                itemprop="priceCurrency"
-                                                                content="IRR"> تومان</span></ins></span></div>
+                                                            itemprop="price">۴,۰۰۰</span><span
+                                                            itemprop="priceCurrency"
+                                                            content="IRR"> تومان</span></ins></span></div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-24 col-xs-24 cat-deal-smallbox">
@@ -1956,9 +1873,9 @@
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:health/150123/الکساندرایت-در-مطب-دکتر-قنبر-پور-31-95/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/150123/34450569.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:health/150123/الکساندرایت-در-مطب-دکتر-قنبر-پور-31-95/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/150123/34450569.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                             <li class="orange-label"></li>
                                                             <li class="violet-label"></li>
@@ -1966,12 +1883,13 @@
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/150123/34450569.jpg"
-                                                             alt="الکساندرایت در مطب دکتر قنبر پور" data-type="lazy"
-                                                             shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/150123/34450569.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/150123/34450569.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/150123/34450569.jpg"
+                                                            alt="الکساندرایت در مطب دکتر قنبر پور" data-type="lazy"
+                                                            shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/150123/34450569.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/150123/34450569.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:health/150123/الکساندرایت-در-مطب-دکتر-قنبر-پور-31-95"
@@ -1979,32 +1897,32 @@
                                                                 در مطب دکتر قنبر پور</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             1937                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a
-                                                                href="/area/شهرک-راه-آهن/"
-                                                                class="cdbf-location truncate"><span class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">شهرک راه آهن</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%80</span></span></span><span
-                                                                class="cdbf-price">
+                                                            href="/area/شهرک-راه-آهن/"
+                                                            class="cdbf-location truncate"><span class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">شهرک راه آهن</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%80</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۲۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="40000">۴,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="40000">۴,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:health/157542/لیزر-موهای-زائد-الکساندرایت-در-مطب-دکتر-پوراکبری/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/157542/1b7903ac.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:health/157542/لیزر-موهای-زائد-الکساندرایت-در-مطب-دکتر-پوراکبری/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/157542/1b7903ac.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                             <li class="orange-label"></li>
                                                             <li class="violet-label"></li>
@@ -2012,12 +1930,13 @@
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/157542/1b7903ac.jpg"
-                                                             alt="لیزر موهای زائد الکساندرایت در مطب دکتر پوراکبری"
-                                                             data-type="lazy" shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/157542/1b7903ac.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/157542/1b7903ac.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/157542/1b7903ac.jpg"
+                                                            alt="لیزر موهای زائد الکساندرایت در مطب دکتر پوراکبری"
+                                                            data-type="lazy" shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/157542/1b7903ac.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/157542/1b7903ac.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:health/157542/لیزر-موهای-زائد-الکساندرایت-در-مطب-دکتر-پوراکبری"
@@ -2025,32 +1944,32 @@
                                                                 موهای زائد الکساندرایت در مطب دکتر پوراکبری</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             301                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a href="/area/مرزداران/"
                                                                                                  class="cdbf-location truncate"><span
-                                                                    class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">مرزداران</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%80</span></span></span><span
-                                                                class="cdbf-price">
+                                                                class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">مرزداران</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%80</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۲۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="40000">۴,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="40000">۴,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:health/149395/لیزر-الکساندرایت-پلاتینیوم-2018-در-مطب-پزشک-17/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/149395/1eab03e7.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:health/149395/لیزر-الکساندرایت-پلاتینیوم-2018-در-مطب-پزشک-17/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/149395/1eab03e7.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                             <li class="orange-label"></li>
                                                             <li class="violet-label"></li>
@@ -2058,12 +1977,13 @@
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/149395/1eab03e7.jpg"
-                                                             alt="لیزر الکساندرایت پلاتینیوم 2018 در مطب پزشک"
-                                                             data-type="lazy" shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/149395/1eab03e7.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/149395/1eab03e7.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/149395/1eab03e7.jpg"
+                                                            alt="لیزر الکساندرایت پلاتینیوم 2018 در مطب پزشک"
+                                                            data-type="lazy" shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/149395/1eab03e7.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/149395/1eab03e7.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:health/149395/لیزر-الکساندرایت-پلاتینیوم-2018-در-مطب-پزشک-17"
@@ -2071,29 +1991,29 @@
                                                                 الکساندرایت پلاتینیوم 2018 در مطب پزشک</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             384                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a href="/area/پاسداران/"
                                                                                                  class="cdbf-location truncate"><span
-                                                                    class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">پاسداران</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%80</span></span></span><span
-                                                                class="cdbf-price">
+                                                                class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">پاسداران</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%80</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۲۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="40000">۴,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="40000">۴,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-24 cds-item hidden-xs done">
                                                 <div class="cds-all-view-box"><span class="ir"><i
-                                                                class="icon icon-car-first-aid-kit"></i></span>
+                                                            class="icon icon-car-first-aid-kit"></i></span>
                                                     <h4 class="cds-title">310 پیشنهاد پزشکی و سلامت</h4>
                                                     <a href="/tehran/c:health/">
                                                         <button class="nb-btn nb-btn-success">مشاهده همه</button>
@@ -2113,7 +2033,7 @@
                             <article id="float-cat-art" class="cat-deal-color color-art">
                                 <header class="section-header"><a href="/tehran/c:art/" class="visible-xs">بیشتر</a>
                                     <h3 class="hx"><span class="ir"><i class="icon icon-Theater"></i></span><a
-                                                href="/tehran/c:art/" class="article-h3">فرهنگی و هنری</a></h3>
+                                            href="/tehran/c:art/" class="article-h3">فرهنگی و هنری</a></h3>
                                 </header>
                                 <div class="main-row clearfix">
                                     <div itemscope="" itemtype="http://schema.org/Offer"
@@ -2124,12 +2044,13 @@
                                                style="background-image: url(&quot;http://static.netbarg.com/img/responsive_large/deals/152484/1bb703bc.jpg&quot;); background-size: cover;">
                                                 <ul class="deal-tag list-unstyled">
                                                 </ul>
-                                                <img data-src="http://static.netbarg.com/img/responsive_large/deals/152484/1bb703bc.jpg"
-                                                     alt="نمایش کمدی، موزیکال و شاد فرحزاد" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_large/deals/152484/1bb703bc.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_large/deals/152484/1bb703bc.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_large/deals/152484/1bb703bc.jpg"
+                                                    alt="نمایش کمدی، موزیکال و شاد فرحزاد" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_large/deals/152484/1bb703bc.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_large/deals/152484/1bb703bc.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -2139,21 +2060,21 @@
                                                 </h4>
 
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                 535                            </span></span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><span class="cdbf-takhfif"><span
-                                                            class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%50</span></span></span><a
-                                                        href="/area/شهرک-اکباتان/" class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">شهرک اکباتان</span></a><a
-                                                        href="/tehran/d/c:art/152484/نمایش-کمدی-موزیکال-و-شاد-فرحزاد-18/"
-                                                        class="cdbf-buy-icon">
+                                                        class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%50</span></span></span><a
+                                                    href="/area/شهرک-اکباتان/" class="cdbf-location truncate"><span
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">شهرک اکباتان</span></a><a
+                                                    href="/tehran/d/c:art/152484/نمایش-کمدی-موزیکال-و-شاد-فرحزاد-18/"
+                                                    class="cdbf-buy-icon">
                                                     <button class="nb-btn nb-btn-icon nb-btn-success">مشاهده و خرید<i
-                                                                class="icon icon-shopping-cart2"></i></button>
+                                                            class="icon icon-shopping-cart2"></i></button>
                                                 </a><span class="cdbf-price">
             <del class="cdbf-real-price"><span>۳۰,۰۰۰</span></del><ins class="cdbf-netbarg-price">
             <span itemprop="price">۱۵,۰۰۰</span><span itemprop="priceCurrency" content="IRR"> تومان</span></ins></span>
@@ -2165,21 +2086,22 @@
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:art/158226/نمایش-کمدی-موزیکال-نوستالژی-25/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/158226/1e3803dd.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:art/158226/نمایش-کمدی-موزیکال-نوستالژی-25/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/158226/1e3803dd.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                             <li class="orange-label"></li>
                                                         </ul>
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/158226/1e3803dd.jpg"
-                                                             alt="نمایش کمدی موزیکال نوستالژی" data-type="lazy"
-                                                             shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/158226/1e3803dd.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/158226/1e3803dd.jpg">
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/158226/1e3803dd.jpg"
+                                                            alt="نمایش کمدی موزیکال نوستالژی" data-type="lazy"
+                                                            shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/158226/1e3803dd.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/158226/1e3803dd.jpg">
                                                     </a>
 
                                                     <div class="cat-deal-box-main clearfix">
@@ -2189,44 +2111,45 @@
                                                                 کمدی موزیکال نوستالژی</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             669                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a
-                                                                href="/area/خیابان-دماوند/"
-                                                                class="cdbf-location truncate"><span class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">خیابان دماوند</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%50</span></span></span><span
-                                                                class="cdbf-price">
+                                                            href="/area/خیابان-دماوند/"
+                                                            class="cdbf-location truncate"><span class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">خیابان دماوند</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%50</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۳۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="150000">۱۵,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="150000">۱۵,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:art/155598/نمایش-کمدی-موزیکال-تحفه-فرنگ-83/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/155598/1873037d.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:art/155598/نمایش-کمدی-موزیکال-تحفه-فرنگ-83/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/155598/1873037d.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                             <li class="orange-label"></li>
                                                         </ul>
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/155598/1873037d.jpg"
-                                                             alt="نمایش کمدی موزیکال تحفه فرنگ" data-type="lazy"
-                                                             shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/155598/1873037d.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/155598/1873037d.jpg">
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/155598/1873037d.jpg"
+                                                            alt="نمایش کمدی موزیکال تحفه فرنگ" data-type="lazy"
+                                                            shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/155598/1873037d.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/155598/1873037d.jpg">
                                                     </a>
 
                                                     <div class="cat-deal-box-main clearfix">
@@ -2236,43 +2159,44 @@
                                                                 کمدی موزیکال تحفه فرنگ</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             1322                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a href="/area/تهران-نو/"
                                                                                                  class="cdbf-location truncate"><span
-                                                                    class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">تهران نو</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%50</span></span></span><span
-                                                                class="cdbf-price">
+                                                                class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">تهران نو</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%50</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۳۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="150000">۱۵,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="150000">۱۵,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:art/152478/نمایش-شاد-کمدی-موزیکال-دنیای-وارونه-98/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/152478/220d040f.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:art/152478/نمایش-شاد-کمدی-موزیکال-دنیای-وارونه-98/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/152478/220d040f.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                         </ul>
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/152478/220d040f.jpg"
-                                                             alt="نمایش شاد کمدی موزیکال دنیای وارونه" data-type="lazy"
-                                                             shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/152478/220d040f.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/152478/220d040f.jpg">
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/152478/220d040f.jpg"
+                                                            alt="نمایش شاد کمدی موزیکال دنیای وارونه" data-type="lazy"
+                                                            shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/152478/220d040f.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/152478/220d040f.jpg">
                                                     </a>
 
                                                     <div class="cat-deal-box-main clearfix">
@@ -2282,29 +2206,29 @@
                                                                 شاد کمدی موزیکال دنیای وارونه</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             452                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a
-                                                                href="/area/شهرک-غرب-فرحزادی/"
-                                                                class="cdbf-location truncate"><span class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">شهرک غرب - فرحزادی</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%50</span></span></span><span
-                                                                class="cdbf-price">
+                                                            href="/area/شهرک-غرب-فرحزادی/"
+                                                            class="cdbf-location truncate"><span class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">شهرک غرب - فرحزادی</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%50</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۴۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="200000">۲۰,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="200000">۲۰,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-24 cds-item hidden-xs done">
                                                 <div class="cds-all-view-box"><span class="ir"><i
-                                                                class="icon icon-Theater"></i></span>
+                                                            class="icon icon-Theater"></i></span>
                                                     <h4 class="cds-title">47 پیشنهاد فرهنگی و هنری</h4>
                                                     <a href="/tehran/c:art/">
                                                         <button class="nb-btn nb-btn-success">مشاهده همه</button>
@@ -2325,7 +2249,7 @@
                                 <header class="section-header"><a href="/tehran/c:education/"
                                                                   class="visible-xs">بیشتر</a>
                                     <h3 class="hx"><span class="ir"><i class="icon icon-earth-globe"></i></span><a
-                                                href="/tehran/c:education/" class="article-h3">آموزشی</a></h3>
+                                            href="/tehran/c:education/" class="article-h3">آموزشی</a></h3>
                                 </header>
                                 <div class="main-row clearfix">
                                     <div itemscope="" itemtype="http://schema.org/Offer"
@@ -2336,12 +2260,13 @@
                                                style="background-image: url(&quot;http://static.netbarg.com/img/responsive_large/deals/133909/3_2.jpg&quot;); background-size: cover;">
                                                 <ul class="deal-tag list-unstyled">
                                                 </ul>
-                                                <img data-src="http://static.netbarg.com/img/responsive_large/deals/133909/3_2.jpg"
-                                                     alt="آموزش عملی شبکه بندی کامپیوتری در ایفل" data-type="lazy"
-                                                     shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_large/deals/133909/3_2.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_large/deals/133909/3_2.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_large/deals/133909/3_2.jpg"
+                                                    alt="آموزش عملی شبکه بندی کامپیوتری در ایفل" data-type="lazy"
+                                                    shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_large/deals/133909/3_2.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_large/deals/133909/3_2.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -2350,27 +2275,27 @@
                                                         شبکه بندی کامپیوتری در ایفل</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                 248                            </span></span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><span class="cdbf-takhfif"><span
-                                                            class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%90</span></span></span><a
-                                                        href="/area/خیابان-کریم-خان-زند/"
-                                                        class="cdbf-location truncate"><span class="ir"><i
-                                                                class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">خیابان کریم خان زند</span></a><a
-                                                        href="/tehran/d/c:education/133909/آموزش-عملی-شبکه-بندی-کامپیوتری-در-ایفل-77/"
-                                                        class="cdbf-buy-icon">
+                                                        class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%90</span></span></span><a
+                                                    href="/area/خیابان-کریم-خان-زند/"
+                                                    class="cdbf-location truncate"><span class="ir"><i
+                                                            class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">خیابان کریم خان زند</span></a><a
+                                                    href="/tehran/d/c:education/133909/آموزش-عملی-شبکه-بندی-کامپیوتری-در-ایفل-77/"
+                                                    class="cdbf-buy-icon">
                                                     <button class="nb-btn nb-btn-icon nb-btn-success">مشاهده و خرید<i
-                                                                class="icon icon-shopping-cart2"></i></button>
+                                                            class="icon icon-shopping-cart2"></i></button>
                                                 </a><span class="cdbf-price">
             <del class="cdbf-real-price"><span>۱۵۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                itemprop="price">۱۵,۰۰۰</span><span
-                                                                itemprop="priceCurrency"
-                                                                content="IRR"> تومان</span></ins></span></div>
+                                                            itemprop="price">۱۵,۰۰۰</span><span
+                                                            itemprop="priceCurrency"
+                                                            content="IRR"> تومان</span></ins></span></div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-24 col-xs-24 cat-deal-smallbox">
@@ -2378,20 +2303,21 @@
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:education/154529/طراحی-سایت-با-wordpress-در-خواجه-نصیر-45/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/154529/65.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:education/154529/طراحی-سایت-با-wordpress-در-خواجه-نصیر-45/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/154529/65.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                         </ul>
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/154529/65.jpg"
-                                                             alt="طراحی سایت با WordPress در خواجه نصیر"
-                                                             data-type="lazy" shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/154529/65.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/154529/65.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/154529/65.jpg"
+                                                            alt="طراحی سایت با WordPress در خواجه نصیر"
+                                                            data-type="lazy" shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/154529/65.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/154529/65.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:education/154529/طراحی-سایت-با-wordpress-در-خواجه-نصیر-45/"
@@ -2399,43 +2325,44 @@
                                                                 سایت با WordPress در خواجه نصیر</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             275                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a
-                                                                href="/area/خیابان-شریعتی/"
-                                                                class="cdbf-location truncate"><span class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">خیابان شریعتی</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%90</span></span></span><span
-                                                                class="cdbf-price">
+                                                            href="/area/خیابان-شریعتی/"
+                                                            class="cdbf-location truncate"><span class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">خیابان شریعتی</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%90</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۸۰۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="800000">۸۰,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="800000">۸۰,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:education/154008/آموزش-نرم-افزار-spss-در-آراد-علم-32/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/154008/3777488ab9bceb52dfdb04407db74ad9471092.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:education/154008/آموزش-نرم-افزار-spss-در-آراد-علم-32/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/154008/3777488ab9bceb52dfdb04407db74ad9471092.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                         </ul>
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/154008/3777488ab9bceb52dfdb04407db74ad9471092.jpg"
-                                                             alt="آموزش نرم افزار SPSS در آراد علم" data-type="lazy"
-                                                             shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/154008/3777488ab9bceb52dfdb04407db74ad9471092.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/154008/3777488ab9bceb52dfdb04407db74ad9471092.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/154008/3777488ab9bceb52dfdb04407db74ad9471092.jpg"
+                                                            alt="آموزش نرم افزار SPSS در آراد علم" data-type="lazy"
+                                                            shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/154008/3777488ab9bceb52dfdb04407db74ad9471092.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/154008/3777488ab9bceb52dfdb04407db74ad9471092.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:education/154008/آموزش-نرم-افزار-spss-در-آراد-علم-32/"
@@ -2443,43 +2370,45 @@
                                                                 نرم افزار SPSS در آراد علم</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             35                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a
-                                                                href="/area/فرجام-غربی/" class="cdbf-location truncate"><span
-                                                                    class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">فرجام غربی</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%90</span></span></span><span
-                                                                class="cdbf-price">
+                                                            href="/area/فرجام-غربی/"
+                                                            class="cdbf-location truncate"><span
+                                                                class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">فرجام غربی</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%90</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۵۹۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="590000">۵۹,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="590000">۵۹,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:education/159079/آموزش-نرم-افزار-هلو/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/159079/1911038b.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:education/159079/آموزش-نرم-افزار-هلو/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/159079/1911038b.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                         </ul>
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/159079/1911038b.jpg"
-                                                             alt="آموزش نرم افزار هلو" data-type="lazy" shema="1"
-                                                             itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/159079/1911038b.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/159079/1911038b.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/159079/1911038b.jpg"
+                                                            alt="آموزش نرم افزار هلو" data-type="lazy" shema="1"
+                                                            itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/159079/1911038b.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/159079/1911038b.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:education/159079/آموزش-نرم-افزار-هلو/"
@@ -2487,29 +2416,29 @@
                                                                 نرم افزار هلو</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             2                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a
-                                                                href="/area/میدان-انقلاب/"
-                                                                class="cdbf-location truncate"><span class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">میدان انقلاب</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%90</span></span></span><span
-                                                                class="cdbf-price">
+                                                            href="/area/میدان-انقلاب/"
+                                                            class="cdbf-location truncate"><span class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">میدان انقلاب</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%90</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۵۹۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="590000">۵۹,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="590000">۵۹,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-24 cds-item hidden-xs done">
                                                 <div class="cds-all-view-box"><span class="ir"><i
-                                                                class="icon icon-earth-globe"></i></span>
+                                                            class="icon icon-earth-globe"></i></span>
                                                     <h4 class="cds-title">112 پیشنهاد آموزشی</h4>
                                                     <a href="/tehran/c:education/">
                                                         <button class="nb-btn nb-btn-success">مشاهده همه</button>
@@ -2524,13 +2453,14 @@
                             <figure class="figure-ads-baner hidden-xs visible-lg">
                                 <a href="http://netbarg.com/trend/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%85%D9%88%D8%B3%DB%8C%D9%82%DB%8C/"
                                    target="_blank">
-                                    <img src="http://static.netbarg.com/img/banner/banners/educationalBanner/86/7f3c0ace.jpg"
-                                         alt="آموزشی"> </a>
+                                    <img
+                                        src="http://static.netbarg.com/img/banner/banners/educationalBanner/86/7f3c0ace.jpg"
+                                        alt="آموزشی"> </a>
                             </figure>
                             <article id="float-cat-beauty" class="cat-deal-color color-beauty">
                                 <header class="section-header"><a href="/tehran/c:beauty/" class="visible-xs">بیشتر</a>
                                     <h3 class="hx"><span class="ir"><i class="icon icon-lipstick-with-cover"></i></span><a
-                                                href="/tehran/c:beauty/" class="article-h3">زیبایی و آرایشی</a>
+                                            href="/tehran/c:beauty/" class="article-h3">زیبایی و آرایشی</a>
                                     </h3>
                                 </header>
                                 <div class="main-row clearfix">
@@ -2544,12 +2474,13 @@
                                                     <li class="orange-label"></li>
                                                     <li class="violet-label"></li>
                                                 </ul>
-                                                <img data-src="http://static.netbarg.com/img/responsive_large/deals/156708/1ea903dc.jpg"
-                                                     alt="کاشت ناخن و ترمیم ناخن در آرایشگاه لی لی" data-type="lazy"
-                                                     shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_large/deals/156708/1ea903dc.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_large/deals/156708/1ea903dc.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_large/deals/156708/1ea903dc.jpg"
+                                                    alt="کاشت ناخن و ترمیم ناخن در آرایشگاه لی لی" data-type="lazy"
+                                                    shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_large/deals/156708/1ea903dc.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_large/deals/156708/1ea903dc.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -2558,27 +2489,27 @@
                                                         ترمیم ناخن در آرایشگاه لی لی</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                 409                            </span></span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><span class="cdbf-takhfif"><span
-                                                            class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%80</span></span></span><a
-                                                        href="/area/بلوار-فردوس-شرق/"
-                                                        class="cdbf-location truncate"><span class="ir"><i
-                                                                class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">بلوار فردوس شرق</span></a><a
-                                                        href="/tehran/d/c:beauty/156708/کاشت-ناخن-و-ترمیم-ناخن-در-آرایشگاه-لی-لی-12/"
-                                                        class="cdbf-buy-icon">
+                                                        class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%80</span></span></span><a
+                                                    href="/area/بلوار-فردوس-شرق/"
+                                                    class="cdbf-location truncate"><span class="ir"><i
+                                                            class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">بلوار فردوس شرق</span></a><a
+                                                    href="/tehran/d/c:beauty/156708/کاشت-ناخن-و-ترمیم-ناخن-در-آرایشگاه-لی-لی-12/"
+                                                    class="cdbf-buy-icon">
                                                     <button class="nb-btn nb-btn-icon nb-btn-success">مشاهده و خرید<i
-                                                                class="icon icon-shopping-cart2"></i></button>
+                                                            class="icon icon-shopping-cart2"></i></button>
                                                 </a><span class="cdbf-price">
             <del class="cdbf-real-price"><span>۷۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                itemprop="price">۱۴,۰۰۰</span><span
-                                                                itemprop="priceCurrency"
-                                                                content="IRR"> تومان</span></ins></span></div>
+                                                            itemprop="price">۱۴,۰۰۰</span><span
+                                                            itemprop="priceCurrency"
+                                                            content="IRR"> تومان</span></ins></span></div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-24 col-xs-24 cat-deal-smallbox">
@@ -2586,9 +2517,9 @@
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:beauty/156547/ویتامینه-موی-سر-بانوان-در-آرایشگاه-بهار-زندگی/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/156547/1ec803ea.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:beauty/156547/ویتامینه-موی-سر-بانوان-در-آرایشگاه-بهار-زندگی/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/156547/1ec803ea.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                             <li class="orange-label"></li>
                                                             <li class="violet-label"></li>
@@ -2596,12 +2527,13 @@
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/156547/1ec803ea.jpg"
-                                                             alt="ویتامینه موی سر بانوان در آرایشگاه بهار زندگی"
-                                                             data-type="lazy" shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/156547/1ec803ea.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/156547/1ec803ea.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/156547/1ec803ea.jpg"
+                                                            alt="ویتامینه موی سر بانوان در آرایشگاه بهار زندگی"
+                                                            data-type="lazy" shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/156547/1ec803ea.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/156547/1ec803ea.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:beauty/156547/ویتامینه-موی-سر-بانوان-در-آرایشگاه-بهار-زندگی/"
@@ -2609,32 +2541,32 @@
                                                                 موی سر بانوان در آرایشگاه بهار زندگی</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             13                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a
-                                                                href="/area/خیابان-آزادی/"
-                                                                class="cdbf-location truncate"><span class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">خیابان آزادی</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%76</span></span></span><span
-                                                                class="cdbf-price">
+                                                            href="/area/خیابان-آزادی/"
+                                                            class="cdbf-location truncate"><span class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">خیابان آزادی</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%76</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۵۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="120000">۱۲,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="120000">۱۲,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:beauty/151661/لیفت-یا-لمینت-مژه-در-آموزشگاه-بانو-عامری-30/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/151661/1c3103bd.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:beauty/151661/لیفت-یا-لمینت-مژه-در-آموزشگاه-بانو-عامری-30/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/151661/1c3103bd.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                             <li class="orange-label"></li>
                                                             <li class="violet-label"></li>
@@ -2642,12 +2574,13 @@
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/151661/1c3103bd.jpg"
-                                                             alt="لیفت یا لمینت مژه در آموزشگاه بانو عامری"
-                                                             data-type="lazy" shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/151661/1c3103bd.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/151661/1c3103bd.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/151661/1c3103bd.jpg"
+                                                            alt="لیفت یا لمینت مژه در آموزشگاه بانو عامری"
+                                                            data-type="lazy" shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/151661/1c3103bd.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/151661/1c3103bd.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:beauty/151661/لیفت-یا-لمینت-مژه-در-آموزشگاه-بانو-عامری-30/"
@@ -2655,44 +2588,45 @@
                                                                 یا لمینت مژه در آموزشگاه بانو عامری</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             48                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a
-                                                                href="/area/پیروزی-متروی ابن سینا/"
-                                                                class="cdbf-location truncate"><span class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">پیروزی-متروی ابن سینا</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%88</span></span></span><span
-                                                                class="cdbf-price">
+                                                            href="/area/پیروزی-متروی ابن سینا/"
+                                                            class="cdbf-location truncate"><span class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">پیروزی-متروی ابن سینا</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%88</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۳۰۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="360000">۳۶,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="360000">۳۶,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:beauty/148305/میکروپیگمنتیشن-چشم-در-آرایشگاه-زیباکده-مریم/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/148305/1b5103a8.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:beauty/148305/میکروپیگمنتیشن-چشم-در-آرایشگاه-زیباکده-مریم/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/148305/1b5103a8.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                             <li class="violet-label"></li>
                                                         </ul>
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/148305/1b5103a8.jpg"
-                                                             alt="میکروپیگمنتیشن چشم در آرایشگاه زیباکده مریم"
-                                                             data-type="lazy" shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/148305/1b5103a8.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/148305/1b5103a8.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/148305/1b5103a8.jpg"
+                                                            alt="میکروپیگمنتیشن چشم در آرایشگاه زیباکده مریم"
+                                                            data-type="lazy" shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/148305/1b5103a8.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/148305/1b5103a8.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:beauty/148305/میکروپیگمنتیشن-چشم-در-آرایشگاه-زیباکده-مریم/"
@@ -2700,29 +2634,29 @@
                                                                 چشم در آرایشگاه زیباکده مریم</a>
                                                         </h4>
                                                         <span class="cdbm-total-buy"><span class="ir"><i
-                                                                        class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                        class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                                    class="cdbm-tb-total">
+                                                                    class="icon icon-shopping-cart hidden-xs"></i><i
+                                                                    class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                                class="cdbm-tb-total">
                                             18                                        </span></span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a href="/area/فردوس-شرق/"
                                                                                                  class="cdbf-location truncate"><span
-                                                                    class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">فردوس شرق</span></a><span
-                                                                class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%84</span></span></span><span
-                                                                class="cdbf-price">
+                                                                class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">فردوس شرق</span></a><span
+                                                            class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                                    class="cdbft-shape-text">%84</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۳۵۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="560000">۵۶,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="560000">۵۶,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-24 cds-item hidden-xs done">
                                                 <div class="cds-all-view-box"><span class="ir"><i
-                                                                class="icon icon-lipstick-with-cover"></i></span>
+                                                            class="icon icon-lipstick-with-cover"></i></span>
                                                     <h4 class="cds-title">310 پیشنهاد زیبایی و آرایشی</h4>
                                                     <a href="/tehran/c:beauty/">
                                                         <button class="nb-btn nb-btn-success">مشاهده همه</button>
@@ -2742,7 +2676,7 @@
                             <article id="float-cat-product" class="cat-deal-color color-product">
                                 <header class="section-header"><a href="/tehran/c:product/" class="visible-xs">بیشتر</a>
                                     <h3 class="hx"><span class="ir"><i class="icon icon-shopping-bag-1"></i></span><a
-                                                href="/tehran/c:product/" class="article-h3">کالا</a></h3>
+                                            href="/tehran/c:product/" class="article-h3">کالا</a></h3>
                                 </header>
                                 <div class="main-row clearfix">
                                     <div itemscope="" itemtype="http://schema.org/Offer"
@@ -2752,12 +2686,13 @@
                                                style="background-image: url(&quot;http://static.netbarg.com/img/responsive_large/deals/157134/188a037a.jpg&quot;); background-size: cover;">
                                                 <ul class="deal-tag list-unstyled">
                                                 </ul>
-                                                <img data-src="http://static.netbarg.com/img/responsive_large/deals/157134/188a037a.jpg"
-                                                     alt="آرام پز کنوود مدل CP657" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_large/deals/157134/188a037a.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_large/deals/157134/188a037a.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_large/deals/157134/188a037a.jpg"
+                                                    alt="آرام پز کنوود مدل CP657" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_large/deals/157134/188a037a.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_large/deals/157134/188a037a.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -2771,20 +2706,20 @@
                                                                     </span></span> -->
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><span class="cdbf-takhfif"><span
-                                                            class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%24</span></span></span><a
-                                                        href="/area/ارسال-رایگان/" class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">ارسال رایگان</span></a><a
-                                                        href="/tehran/d/c:product/157134/آرام-پز-کنوود-مدل-cp657/"
-                                                        class="cdbf-buy-icon">
+                                                        class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%24</span></span></span><a
+                                                    href="/area/ارسال-رایگان/" class="cdbf-location truncate"><span
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">ارسال رایگان</span></a><a
+                                                    href="/tehran/d/c:product/157134/آرام-پز-کنوود-مدل-cp657/"
+                                                    class="cdbf-buy-icon">
                                                     <button class="nb-btn nb-btn-icon nb-btn-success">مشاهده و خرید<i
-                                                                class="icon icon-shopping-cart2"></i></button>
+                                                            class="icon icon-shopping-cart2"></i></button>
                                                 </a><span class="cdbf-price">
             <del class="cdbf-real-price"><span>۱,۰۰۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                itemprop="price">۷۶۰,۰۰۰</span><span
-                                                                itemprop="priceCurrency"
-                                                                content="IRR"> تومان</span></ins></span></div>
+                                                            itemprop="price">۷۶۰,۰۰۰</span><span
+                                                            itemprop="priceCurrency"
+                                                            content="IRR"> تومان</span></ins></span></div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-24 col-xs-24 cat-deal-smallbox">
@@ -2792,20 +2727,21 @@
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:product/154424/ساعت-هوشمند-گارمین-vivomove-sport-32/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/154424/18450376.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:product/154424/ساعت-هوشمند-گارمین-vivomove-sport-32/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/154424/18450376.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                         </ul>
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/154424/18450376.jpg"
-                                                             alt="ساعت هوشمند گارمین vivomove sport" data-type="lazy"
-                                                             shema="1" itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/154424/18450376.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/154424/18450376.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/154424/18450376.jpg"
+                                                            alt="ساعت هوشمند گارمین vivomove sport" data-type="lazy"
+                                                            shema="1" itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/154424/18450376.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/154424/18450376.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:product/154424/ساعت-هوشمند-گارمین-vivomove-sport-32/"
@@ -2819,37 +2755,38 @@
                                                                             </span></span> -->
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a
-                                                                href="/area/گاندی-جنوبی/"
-                                                                class="cdbf-location truncate"><span class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">گاندی جنوبی </span></a>
+                                                            href="/area/گاندی-جنوبی/"
+                                                            class="cdbf-location truncate"><span class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">گاندی جنوبی </span></a>
                                                         <span class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%35</span></span></span><span
-                                                                class="cdbf-price">
+                                                                    class="cdbft-shape-text">%35</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۲,۵۴۰,۰۰۰</span></del><ins
-                                                                    class="cdbf-netbarg-price"><span itemprop="price"
-                                                                                                     content="25400000">۱,۶۵۱,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                class="cdbf-netbarg-price"><span itemprop="price"
+                                                                                                 content="25400000">۱,۶۵۱,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:product/157183/غذاساز-کنوود-مدل-fpm250/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/157183/16280354.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:product/157183/غذاساز-کنوود-مدل-fpm250/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/157183/16280354.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                         </ul>
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/157183/16280354.jpg"
-                                                             alt="غذاساز کنوود مدل FPM250" data-type="lazy" shema="1"
-                                                             itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/157183/16280354.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/157183/16280354.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/157183/16280354.jpg"
+                                                            alt="غذاساز کنوود مدل FPM250" data-type="lazy" shema="1"
+                                                            itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/157183/16280354.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/157183/16280354.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:product/157183/غذاساز-کنوود-مدل-fpm250/"
@@ -2863,37 +2800,38 @@
                                                                             </span></span> -->
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a
-                                                                href="/area/ارسال-رایگان/"
-                                                                class="cdbf-location truncate"><span class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">ارسال رایگان</span></a>
+                                                            href="/area/ارسال-رایگان/"
+                                                            class="cdbf-location truncate"><span class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">ارسال رایگان</span></a>
                                                         <span class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%14</span></span></span><span
-                                                                class="cdbf-price">
+                                                                    class="cdbft-shape-text">%14</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۱,۵۵۰,۰۰۰</span></del><ins
-                                                                    class="cdbf-netbarg-price"><span itemprop="price"
-                                                                                                     content="15500000">۱,۳۳۳,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                class="cdbf-netbarg-price"><span itemprop="price"
+                                                                                                 content="15500000">۱,۳۳۳,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div itemscope="" itemtype="http://schema.org/Offer"
                                                  class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                 <div class="cat-deal-box"><a
-                                                            href="/tehran/d/c:product/158040/سشوار-پاناسونیک/"
-                                                            class="figure"
-                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/158040/18b4037c.jpg&quot;); background-size: cover;">
+                                                        href="/tehran/d/c:product/158040/سشوار-پاناسونیک/"
+                                                        class="figure"
+                                                        style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/158040/18b4037c.jpg&quot;); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
                                                         </ul>
                                                         <div class="overlay">
                                                             <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                         </div>
-                                                        <img data-src="http://static.netbarg.com/img/responsive_small/deals/158040/18b4037c.jpg"
-                                                             alt="سشوار پاناسونیک" data-type="lazy" shema="1"
-                                                             itemprop="image"
-                                                             content="http://static.netbarg.com/img/responsive_small/deals/158040/18b4037c.jpg"
-                                                             class="sr-only"
-                                                             src="http://static.netbarg.com/img/responsive_small/deals/158040/18b4037c.jpg"></a>
+                                                        <img
+                                                            data-src="http://static.netbarg.com/img/responsive_small/deals/158040/18b4037c.jpg"
+                                                            alt="سشوار پاناسونیک" data-type="lazy" shema="1"
+                                                            itemprop="image"
+                                                            content="http://static.netbarg.com/img/responsive_small/deals/158040/18b4037c.jpg"
+                                                            class="sr-only"
+                                                            src="http://static.netbarg.com/img/responsive_small/deals/158040/18b4037c.jpg"></a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
                                                                                                   href="/tehran/d/c:product/158040/سشوار-پاناسونیک/"
@@ -2907,23 +2845,23 @@
                                                                             </span></span> -->
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix"><a
-                                                                href="/area/خیابان-پیروزی/"
-                                                                class="cdbf-location truncate"><span class="ir"><i
-                                                                        class="icon icon-location74"></i></span><span
-                                                                    class="cdbfl-address">خیابان پیروزی</span></a>
+                                                            href="/area/خیابان-پیروزی/"
+                                                            class="cdbf-location truncate"><span class="ir"><i
+                                                                    class="icon icon-location74"></i></span><span
+                                                                class="cdbfl-address">خیابان پیروزی</span></a>
                                                         <span class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                        class="cdbft-shape-text">%34</span></span></span><span
-                                                                class="cdbf-price">
+                                                                    class="cdbft-shape-text">%34</span></span></span><span
+                                                            class="cdbf-price">
                 <del class="cdbf-real-price visible-xs"><span>۲۵۰,۰۰۰</span></del><ins class="cdbf-netbarg-price"><span
-                                                                        itemprop="price"
-                                                                        content="2500000">۱۶۵,۰۰۰</span><span
-                                                                        itemprop="priceCurrency"
-                                                                        content="IRR"> تومان</span></ins></span></div>
+                                                                    itemprop="price"
+                                                                    content="2500000">۱۶۵,۰۰۰</span><span
+                                                                    itemprop="priceCurrency"
+                                                                    content="IRR"> تومان</span></ins></span></div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-24 cds-item hidden-xs done">
                                                 <div class="cds-all-view-box"><span class="ir"><i
-                                                                class="icon icon-shopping-bag-1"></i></span>
+                                                            class="icon icon-shopping-bag-1"></i></span>
                                                     <h4 class="cds-title">106 پیشنهاد کالا</h4>
                                                     <a href="/tehran/c:product/">
                                                         <button class="nb-btn nb-btn-success">مشاهده همه</button>
@@ -2937,8 +2875,9 @@
                             <figure class="figure-ads-baner hidden-xs visible-lg">
                                 <a href="http://netbarg.com/trend/%D8%A2%D9%86%D8%AA%DB%8C-%D9%88%DB%8C%D8%B1%D9%88%D8%B3/"
                                    target="_blank">
-                                    <img src="http://static.netbarg.com/img/banner/banners/productBanner/83/e92a0f3c.jpg"
-                                         alt="کالا"> </a>
+                                    <img
+                                        src="http://static.netbarg.com/img/banner/banners/productBanner/83/e92a0f3c.jpg"
+                                        alt="کالا"> </a>
                             </figure>
                         </section>
                         <article class="cat-deal-color main-cat">
@@ -2961,12 +2900,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159166/1b2b03a9.jpg"
-                                                     alt="رستوران بین المللیVIP با منو غذاهای ایرانی و فرنگی"
-                                                     data-type="lazy" shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159166/1b2b03a9.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159166/1b2b03a9.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159166/1b2b03a9.jpg"
+                                                    alt="رستوران بین المللیVIP با منو غذاهای ایرانی و فرنگی"
+                                                    data-type="lazy" shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159166/1b2b03a9.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159166/1b2b03a9.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -2975,19 +2915,19 @@
                                                         المللیVIP با منو غذاهای ایرانی و فرنگی</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy isempty"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             0                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/شهرک-غرب/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">شهرک غرب</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%33            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">شهرک غرب</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%33            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۷۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="469000"
                                                                            class="cdbf-netbarg-price">
@@ -3011,12 +2951,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159243/1d4b03ec.jpg"
-                                                     alt="پرواز با پاراگلایدر توسط خلبان باقری" data-type="lazy"
-                                                     shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159243/1d4b03ec.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159243/1d4b03ec.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159243/1d4b03ec.jpg"
+                                                    alt="پرواز با پاراگلایدر توسط خلبان باقری" data-type="lazy"
+                                                    shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159243/1d4b03ec.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159243/1d4b03ec.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3025,19 +2966,19 @@
                                                         پاراگلایدر توسط خلبان باقری</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             336                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/بلوار وردآورد/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">بلوار وردآورد</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%40            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">بلوار وردآورد</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%40            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۴۵۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="2700000"
                                                                            class="cdbf-netbarg-price">
@@ -3060,12 +3001,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/156024/216d0405.jpg"
-                                                     alt="بوفه شام رستوران شهربانو" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/156024/216d0405.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/156024/216d0405.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/156024/216d0405.jpg"
+                                                    alt="بوفه شام رستوران شهربانو" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/156024/216d0405.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/156024/216d0405.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3074,19 +3016,19 @@
                                                         رستوران شهربانو</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             18233                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/شهرک-غرب/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">شهرک غرب</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%40            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">شهرک غرب</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%40            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۱۳۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="780000"
                                                                            class="cdbf-netbarg-price">
@@ -3110,12 +3052,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159207/36a50571.jpg"
-                                                     alt="پکیج غذاهای ایرانی در رستوران هتل سیمرغ" data-type="lazy"
-                                                     shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159207/36a50571.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159207/36a50571.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159207/36a50571.jpg"
+                                                    alt="پکیج غذاهای ایرانی در رستوران هتل سیمرغ" data-type="lazy"
+                                                    shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159207/36a50571.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159207/36a50571.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3124,24 +3067,24 @@
                                                         ایرانی در رستوران هتل سیمرغ</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy isempty"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             0                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/ولیعصر-ساعی-1/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">ولیعصر-ساعی</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%25            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">ولیعصر-ساعی</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%25            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۸۹,۳۰۰</span></del>
                                                                               <ins itemprop="price" content="669750"
                                                                                    class="cdbf-netbarg-price"><span>۶۶,۹۷۵</span><span
-                                                                                          itemprop="priceCurrency"
-                                                                                          content="IRR"> تومان</span></ins></span>
+                                                                                      itemprop="priceCurrency"
+                                                                                      content="IRR"> تومان</span></ins></span>
                                             </div>
 
                                         </div>
@@ -3161,12 +3104,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159240/22dc042d.jpg"
-                                                     alt="آفرود در تهران با آفرود باقری" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159240/22dc042d.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159240/22dc042d.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159240/22dc042d.jpg"
+                                                    alt="آفرود در تهران با آفرود باقری" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159240/22dc042d.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159240/22dc042d.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3175,19 +3119,19 @@
                                                         تهران با آفرود باقری</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             30                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/وردآورد/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">وردآورد</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%50            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">وردآورد</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%50            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۲۵۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="1250000"
                                                                            class="cdbf-netbarg-price">
@@ -3211,12 +3155,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159200/1bae03b1.jpg"
-                                                     alt="انواع سرویس چای سنتی در سفره خانه سنتی کوهستان"
-                                                     data-type="lazy" shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159200/1bae03b1.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159200/1bae03b1.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159200/1bae03b1.jpg"
+                                                    alt="انواع سرویس چای سنتی در سفره خانه سنتی کوهستان"
+                                                    data-type="lazy" shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159200/1bae03b1.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159200/1bae03b1.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3225,19 +3170,19 @@
                                                         چای سنتی در سفره خانه سنتی کوهستان</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             68                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/خیابان-هنگام/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">خیابان هنگام </span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%55            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">خیابان هنگام </span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%55            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۳۵,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="157500"
                                                                            class="cdbf-netbarg-price">
@@ -3261,12 +3206,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159169/1f6703f5.jpg"
-                                                     alt="کراتینه مو در آرایشگاه و آموزشگاه سوسن" data-type="lazy"
-                                                     shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159169/1f6703f5.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159169/1f6703f5.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159169/1f6703f5.jpg"
+                                                    alt="کراتینه مو در آرایشگاه و آموزشگاه سوسن" data-type="lazy"
+                                                    shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159169/1f6703f5.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159169/1f6703f5.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3275,19 +3221,19 @@
                                                         آرایشگاه و آموزشگاه سوسن</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy isempty"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             0                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/ستاری/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">ستاری</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%70            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">ستاری</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%70            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۲۸۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="840000"
                                                                            class="cdbf-netbarg-price">
@@ -3311,12 +3257,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159187/1f2d03f0.jpg"
-                                                     alt="تزریق ژل در مطب دکتر کیوان" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159187/1f2d03f0.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159187/1f2d03f0.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159187/1f2d03f0.jpg"
+                                                    alt="تزریق ژل در مطب دکتر کیوان" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159187/1f2d03f0.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159187/1f2d03f0.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3325,19 +3272,19 @@
                                                         مطب دکتر کیوان</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy isempty"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             0                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/خیابان-ظفر/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">خیابان ظفر</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%70            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">خیابان ظفر</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%70            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۱۵۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="450000"
                                                                            class="cdbf-netbarg-price">
@@ -3361,12 +3308,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159155/1f5803f3.jpg"
-                                                     alt="آموزش زبان ترکی استانبولی در موسسه اکسیر" data-type="lazy"
-                                                     shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159155/1f5803f3.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159155/1f5803f3.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159155/1f5803f3.jpg"
+                                                    alt="آموزش زبان ترکی استانبولی در موسسه اکسیر" data-type="lazy"
+                                                    shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159155/1f5803f3.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159155/1f5803f3.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3375,19 +3323,19 @@
                                                         ترکی استانبولی در موسسه اکسیر</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             1                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/توحید/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">توحید</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%90            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">توحید</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%90            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۳۰۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="300000"
                                                                            class="cdbf-netbarg-price">
@@ -3411,12 +3359,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159190/1e5003dd.jpg"
-                                                     alt="کامپوزیت دندان توسط دکتر خانچی" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159190/1e5003dd.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159190/1e5003dd.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159190/1e5003dd.jpg"
+                                                    alt="کامپوزیت دندان توسط دکتر خانچی" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159190/1e5003dd.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159190/1e5003dd.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3425,19 +3374,19 @@
                                                         دندان توسط دکتر خانچی</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             548                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/سعادت-آباد/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">سعادت آباد</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%61            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">سعادت آباد</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%61            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۵۰۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="1950000"
                                                                            class="cdbf-netbarg-price">
@@ -3461,12 +3410,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159175/373e0573.jpg"
-                                                     alt="دوره های آموزشی ویژه کودکان در مهد کودک نوید شادی"
-                                                     data-type="lazy" shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159175/373e0573.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159175/373e0573.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159175/373e0573.jpg"
+                                                    alt="دوره های آموزشی ویژه کودکان در مهد کودک نوید شادی"
+                                                    data-type="lazy" shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159175/373e0573.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159175/373e0573.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3475,19 +3425,19 @@
                                                         آموزشی ویژه کودکان در مهد کودک نوید شادی</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             1                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/نارمک/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">نارمک</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%90            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">نارمک</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%90            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۲۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="20000"
                                                                            class="cdbf-netbarg-price">
@@ -3511,12 +3461,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159196/1e1b03d1.jpg"
-                                                     alt="پلاسما جت در مطب دکتر خاکپور" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159196/1e1b03d1.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159196/1e1b03d1.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159196/1e1b03d1.jpg"
+                                                    alt="پلاسما جت در مطب دکتر خاکپور" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159196/1e1b03d1.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159196/1e1b03d1.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3525,19 +3476,19 @@
                                                         مطب دکتر خاکپور</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy isempty"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             0                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/ولیعصر-پارک-ملت-1/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">ولیعصر- پارک ملت</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%57            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">ولیعصر- پارک ملت</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%57            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۳۰۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="1290000"
                                                                            class="cdbf-netbarg-price">
@@ -3561,12 +3512,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159183/18390378.jpg"
-                                                     alt="پاکسازی صورت و لیفتینگ صورت توسط دکتر کلانتری"
-                                                     data-type="lazy" shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159183/18390378.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159183/18390378.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159183/18390378.jpg"
+                                                    alt="پاکسازی صورت و لیفتینگ صورت توسط دکتر کلانتری"
+                                                    data-type="lazy" shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159183/18390378.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159183/18390378.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3575,19 +3527,19 @@
                                                         و لیفتینگ صورت توسط دکتر کلانتری</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             8                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/ستارخان/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">ستارخان</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%80            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">ستارخان</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%80            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۴۵,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="90000"
                                                                            class="cdbf-netbarg-price">
@@ -3609,12 +3561,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159235/3ca3062b.jpg"
-                                                     alt="تور رفتینگ زاینده رود 1/5 روزه" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159235/3ca3062b.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159235/3ca3062b.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159235/3ca3062b.jpg"
+                                                    alt="تور رفتینگ زاینده رود 1/5 روزه" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159235/3ca3062b.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159235/3ca3062b.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3623,19 +3576,19 @@
                                                         زاینده رود 1/5 روزه</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy isempty"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             0                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/تور-گردشگری/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">تور گردشگری</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%32            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">تور گردشگری</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%32            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۲۸۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="1904000"
                                                                            class="cdbf-netbarg-price">
@@ -3659,12 +3612,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159164/26ce045f.jpg"
-                                                     alt="اپیلاسیون بدن در آرایشگاه نیکان" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159164/26ce045f.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159164/26ce045f.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159164/26ce045f.jpg"
+                                                    alt="اپیلاسیون بدن در آرایشگاه نیکان" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159164/26ce045f.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159164/26ce045f.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3673,19 +3627,19 @@
                                                         در آرایشگاه نیکان</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy isempty"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             0                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/نارمك/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">نارمك</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%67            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">نارمك</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%67            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۲,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="6600"
                                                                            class="cdbf-netbarg-price">
@@ -3709,12 +3663,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159177/1f6703f5.jpg"
-                                                     alt="جوانسازی پوست در آرایشگاه و آموزشگاه سوسن" data-type="lazy"
-                                                     shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159177/1f6703f5.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159177/1f6703f5.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159177/1f6703f5.jpg"
+                                                    alt="جوانسازی پوست در آرایشگاه و آموزشگاه سوسن" data-type="lazy"
+                                                    shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159177/1f6703f5.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159177/1f6703f5.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3723,19 +3678,19 @@
                                                         در آرایشگاه و آموزشگاه سوسن</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy isempty"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             0                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/ستاری/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">ستاری</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%75            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">ستاری</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%75            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۷۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="175000"
                                                                            class="cdbf-netbarg-price">
@@ -3759,12 +3714,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159188/1b7503ad.jpg"
-                                                     alt="تزریق بوتاکس با دکتر کیوان" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159188/1b7503ad.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159188/1b7503ad.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159188/1b7503ad.jpg"
+                                                    alt="تزریق بوتاکس با دکتر کیوان" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159188/1b7503ad.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159188/1b7503ad.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3773,19 +3729,19 @@
                                                         با دکتر کیوان</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             3                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/خیابان-ظفر/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">خیابان ظفر</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%71            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">خیابان ظفر</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%71            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۱۰۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="290000"
                                                                            class="cdbf-netbarg-price">
@@ -3809,12 +3765,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159165/1b4003a9.jpg"
-                                                     alt="ثبت خاطرات به یادماندنی در آتلیه رویال آس" data-type="lazy"
-                                                     shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159165/1b4003a9.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159165/1b4003a9.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159165/1b4003a9.jpg"
+                                                    alt="ثبت خاطرات به یادماندنی در آتلیه رویال آس" data-type="lazy"
+                                                    shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159165/1b4003a9.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159165/1b4003a9.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3823,19 +3780,20 @@
                                                         یادماندنی در آتلیه رویال آس</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             66                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a
-                                                        href="/area/فلکه-اول-تهرانپارس/" class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">فلکه اول تهرانپارس</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%85            </span></span></span><span
-                                                        class="cdbf-price">
+                                                    href="/area/فلکه-اول-تهرانپارس/"
+                                                    class="cdbf-location truncate"><span
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">فلکه اول تهرانپارس</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%85            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۳۵,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="52500"
                                                                            class="cdbf-netbarg-price">
@@ -3859,12 +3817,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159193/1c2b03bf.jpg"
-                                                     alt="میکرونیدلینگ پوست توسط دکتر خدامی" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159193/1c2b03bf.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159193/1c2b03bf.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159193/1c2b03bf.jpg"
+                                                    alt="میکرونیدلینگ پوست توسط دکتر خدامی" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159193/1c2b03bf.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159193/1c2b03bf.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3873,19 +3832,19 @@
                                                         پوست توسط دکتر خدامی</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy isempty"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             0                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/مترو-شریعتی/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">مترو شریعتی</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%87            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">مترو شریعتی</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%87            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۱۵۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="195000"
                                                                            class="cdbf-netbarg-price">
@@ -3909,12 +3868,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159180/1ed803e9.jpg"
-                                                     alt="میکرودرم در مطب دکتر ملکیاری" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159180/1ed803e9.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159180/1ed803e9.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159180/1ed803e9.jpg"
+                                                    alt="میکرودرم در مطب دکتر ملکیاری" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159180/1ed803e9.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159180/1ed803e9.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3923,19 +3883,19 @@
                                                         مطب دکتر ملکیاری</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             2                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/روبروی مترو قلهک/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">روبروی مترو قلهک</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%91            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">روبروی مترو قلهک</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%91            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۸۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="72000"
                                                                            class="cdbf-netbarg-price">
@@ -3959,12 +3919,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159184/4.jpg"
-                                                     alt="تقویت و آبرسانی مو توسط دکتر کلانتری" data-type="lazy"
-                                                     shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159184/4.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159184/4.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159184/4.jpg"
+                                                    alt="تقویت و آبرسانی مو توسط دکتر کلانتری" data-type="lazy"
+                                                    shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159184/4.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159184/4.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -3973,19 +3934,19 @@
                                                         آبرسانی مو توسط دکتر کلانتری</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             8                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/ستارخان/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">ستارخان</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%80            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">ستارخان</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%80            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۴۵,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="90000"
                                                                            class="cdbf-netbarg-price">
@@ -4007,12 +3968,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159231/33d5058d.jpg"
-                                                     alt="تور آبشار دارنو ، جنگل فراخین و ساحل نوشهر یکروزه"
-                                                     data-type="lazy" shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159231/33d5058d.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159231/33d5058d.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159231/33d5058d.jpg"
+                                                    alt="تور آبشار دارنو ، جنگل فراخین و ساحل نوشهر یکروزه"
+                                                    data-type="lazy" shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159231/33d5058d.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159231/33d5058d.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -4021,19 +3983,19 @@
                                                         دارنو ، جنگل فراخین و ساحل نوشهر یکروزه</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy isempty"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             0                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/تور-گردشگری/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">تور گردشگری</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%23            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">تور گردشگری</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%23            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۸۵,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="654500"
                                                                            class="cdbf-netbarg-price">
@@ -4057,12 +4019,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159152/1c2403c0.jpg"
-                                                     alt="لیزر موهای زائد الکساندرایت در مطب دکتر خدامی"
-                                                     data-type="lazy" shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159152/1c2403c0.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159152/1c2403c0.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159152/1c2403c0.jpg"
+                                                    alt="لیزر موهای زائد الکساندرایت در مطب دکتر خدامی"
+                                                    data-type="lazy" shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159152/1c2403c0.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159152/1c2403c0.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -4071,24 +4034,24 @@
                                                         زائد الکساندرایت در مطب دکتر خدامی</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy isempty"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             0                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/مترو-شریعتی/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">مترو شریعتی</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%80            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">مترو شریعتی</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%80            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۲۰,۰۰۰</span></del>
                                                                               <ins itemprop="price" content="40000"
                                                                                    class="cdbf-netbarg-price"><span>۴,۰۰۰</span><span
-                                                                                          itemprop="priceCurrency"
-                                                                                          content="IRR"> تومان</span></ins></span>
+                                                                                      itemprop="priceCurrency"
+                                                                                      content="IRR"> تومان</span></ins></span>
                                             </div>
 
                                         </div>
@@ -4108,12 +4071,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159239/1b5803ad.jpg"
-                                                     alt="کاشت ناخن و ترمیم ناخن در آرایشگاه صدف" data-type="lazy"
-                                                     shema="1" itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159239/1b5803ad.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159239/1b5803ad.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159239/1b5803ad.jpg"
+                                                    alt="کاشت ناخن و ترمیم ناخن در آرایشگاه صدف" data-type="lazy"
+                                                    shema="1" itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159239/1b5803ad.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159239/1b5803ad.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -4122,24 +4086,24 @@
                                                         ترمیم ناخن در آرایشگاه صدف</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             1                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/جنت-آباد-مرکزی/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">جنت آباد مرکزی</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%78            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">جنت آباد مرکزی</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%78            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۶۰,۰۰۰</span></del>
                                                                               <ins itemprop="price" content="132000"
                                                                                    class="cdbf-netbarg-price"><span>۱۳,۲۰۰</span><span
-                                                                                          itemprop="priceCurrency"
-                                                                                          content="IRR"> تومان</span></ins></span>
+                                                                                      itemprop="priceCurrency"
+                                                                                      content="IRR"> تومان</span></ins></span>
                                             </div>
 
                                         </div>
@@ -4158,12 +4122,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159228/1b2e03a5.jpg"
-                                                     alt="هتل قصر خورشید مشهد با اقامت تک" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159228/1b2e03a5.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159228/1b2e03a5.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159228/1b2e03a5.jpg"
+                                                    alt="هتل قصر خورشید مشهد با اقامت تک" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159228/1b2e03a5.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159228/1b2e03a5.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -4172,19 +4137,19 @@
                                                         خورشید مشهد با اقامت تک</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             82                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/شیرودی/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">شیرودی</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%40            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">شیرودی</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%40            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۸۰,۰۰۰</span></del>
                                                                       <ins itemprop="price" content="480000"
                                                                            class="cdbf-netbarg-price">
@@ -4207,12 +4172,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159168/10b50306.jpg"
-                                                     alt="هتل آپارتمان ارمغان مشهد" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159168/10b50306.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159168/10b50306.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159168/10b50306.jpg"
+                                                    alt="هتل آپارتمان ارمغان مشهد" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159168/10b50306.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159168/10b50306.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -4221,24 +4187,24 @@
                                                         ارمغان مشهد</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             329                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/امام-رضا-16/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">امام رضا 16</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%30            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">امام رضا 16</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%30            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۹۰,۰۰۰</span></del>
                                                                               <ins itemprop="price" content="630000"
                                                                                    class="cdbf-netbarg-price"><span>۶۳,۰۰۰</span><span
-                                                                                          itemprop="priceCurrency"
-                                                                                          content="IRR"> تومان</span></ins></span>
+                                                                                      itemprop="priceCurrency"
+                                                                                      content="IRR"> تومان</span></ins></span>
                                             </div>
 
                                         </div>
@@ -4257,12 +4223,13 @@
                                                 <div class="overlay">
                                                     <div class="nb-btn nb-btn-success">مشاهده و خرید</div>
                                                 </div>
-                                                <img data-src="http://static.netbarg.com/img/responsive_medium/deals/159218/113b0318.jpg"
-                                                     alt="هتل آپارتمان فاخر مشهد" data-type="lazy" shema="1"
-                                                     itemprop="image"
-                                                     content="http://static.netbarg.com/img/responsive_medium/deals/159218/113b0318.jpg"
-                                                     class="sr-only"
-                                                     src="http://static.netbarg.com/img/responsive_medium/deals/159218/113b0318.jpg">
+                                                <img
+                                                    data-src="http://static.netbarg.com/img/responsive_medium/deals/159218/113b0318.jpg"
+                                                    alt="هتل آپارتمان فاخر مشهد" data-type="lazy" shema="1"
+                                                    itemprop="image"
+                                                    content="http://static.netbarg.com/img/responsive_medium/deals/159218/113b0318.jpg"
+                                                    class="sr-only"
+                                                    src="http://static.netbarg.com/img/responsive_medium/deals/159218/113b0318.jpg">
                                             </a>
                                             <div class="cat-deal-box-main clearfix">
                                                 <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
@@ -4271,24 +4238,24 @@
                                                         فاخر مشهد</a>
                                                 </h4>
                                                 <span class="cdbm-total-buy"><span class="ir"><i
-                                                                class="icon icon-shopping-cart hidden-xs"></i><i
-                                                                class="icon icon-shopping-cart_L visible-xs"></i></span><span
-                                                            class="cdbm-tb-total">
+                                                            class="icon icon-shopping-cart hidden-xs"></i><i
+                                                            class="icon icon-shopping-cart_L visible-xs"></i></span><span
+                                                        class="cdbm-tb-total">
                                             6                                        </span>
                                     </span>
                                             </div>
                                             <div class="cat-deal-box-footer clearfix"><a href="/area/خیابان-امام-رضا/"
                                                                                          class="cdbf-location truncate"><span
-                                                            class="ir"><i class="icon icon-location74"></i></span><span
-                                                            class="cdbfl-address">خیابان امام رضا</span></a><span
-                                                        class="cdbf-takhfif"><span class="cdbft-shape"><span
-                                                                class="cdbft-shape-text">%30            </span></span></span><span
-                                                        class="cdbf-price">
+                                                        class="ir"><i class="icon icon-location74"></i></span><span
+                                                        class="cdbfl-address">خیابان امام رضا</span></a><span
+                                                    class="cdbf-takhfif"><span class="cdbft-shape"><span
+                                                            class="cdbft-shape-text">%30            </span></span></span><span
+                                                    class="cdbf-price">
                                 <del class="cdbf-real-price"> <span>۱۲۰,۰۰۰</span></del>
                                                                               <ins itemprop="price" content="840000"
                                                                                    class="cdbf-netbarg-price"><span>۸۴,۰۰۰</span><span
-                                                                                          itemprop="priceCurrency"
-                                                                                          content="IRR"> تومان</span></ins></span>
+                                                                                      itemprop="priceCurrency"
+                                                                                      content="IRR"> تومان</span></ins></span>
                                             </div>
 
                                         </div>
@@ -4303,7 +4270,7 @@
                                         <div class="row">
                                             <div class="col-lg-24">
                                                 <h4 class="app-action-header"><span>با اپلیکیشن </span><img
-                                                            src="/assets/site/img/app-logo.png" alt="لوگو نت برگ"></h4>
+                                                        src="/assets/site/img/app-logo.png" alt="لوگو نت برگ"></h4>
                                                 <h2 class="app-action-header-2"><span>جـدیدتـرین&nbsp;</span><span>تـخـفـیـف‌ها&nbsp;</span><span>هـمـیشه در جـیـب شـماسـت!</span>
                                                 </h2>
                                             </div>
@@ -4312,11 +4279,11 @@
                                                     <div class="links">
                                                         <a href="https://play.google.com/store/apps/details?id=com.IranModernBusinesses.Netbarg&amp;hl=en"
                                                            target="_blank" class="dl-link"><img
-                                                                    src="/assets/site/img/dl-gplayer.png" class="icon">
+                                                                src="/assets/site/img/dl-gplayer.png" class="icon">
                                                             دانلود از گوگل پلی</a>
                                                         <a href="https://cafebazaar.ir/app/com.IranModernBusinesses.Netbarg/?l=en"
                                                            target="_blank" class="dl-link"><img
-                                                                    src="/assets/site/img/dl-bazar.png" class="icon">
+                                                                src="/assets/site/img/dl-bazar.png" class="icon">
                                                             دانلود از بازار</a>
                                                     </div>
                                                 </div>
@@ -4375,7 +4342,7 @@
                 <div class="Discount-form">
                     <div class="close-Discount-modal">
                         <button type="button" data-dismiss="modal" aria-label="Close" class="close"><i
-                                    aria-hidden="true" class="icon icon-close"></i></button>
+                                aria-hidden="true" class="icon icon-close"></i></button>
                     </div>
                     <form method="post" accept-charset="utf-8" class="search-input" mj-type="form"
                           mj-target="/subscriptions/subscribeEmail.json" mj-method="post" mj-success="subscribeEmail"
@@ -4386,7 +4353,7 @@
                         <div class="dropdown form-item">
                             <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                     class="btn btn-default dropdown-toggle"><span id="city-name">تهران</span><i
-                                        class="icon icon-arrow-down"></i></button>
+                                    class="icon icon-arrow-down"></i></button>
                             <div class="dropdown-menu">
                                 <ul>
                                     <li><span data-id="42598">اراک</span></li>
@@ -4430,7 +4397,7 @@
                     </form>
                     <div class="netbarg_logo"><img src="/assets/site/img/white-logo_subscription.png" alt=""></div>
                     <div class="percent-pic entertainment"><span class="num"> <span
-                                    class="symbol">%</span>60</span><span class="text">تخفیف</span></div>
+                                class="symbol">%</span>60</span><span class="text">تخفیف</span></div>
                     <a target="_blank"
                        href="/tehran/d/c:entertainment/158240/جشنواره-سرزمین-فکر-بازیا-در-باغ-کتاب/?utm_source=home&amp;utm_medium=banner&amp;utm_campaign=modal"
                        class="Discount-img">
@@ -4492,7 +4459,7 @@
                                                                                                            name="deal_user_id"
                                                                                                            id="deal-user-id"
                                                                                                            value=""><input
-                        type="hidden" name="user_id" id="user-id" value="d41d8cd98f00b204e9800998ecf8427e">
+                    type="hidden" name="user_id" id="user-id" value="d41d8cd98f00b204e9800998ecf8427e">
                 <div class="input textarea"><textarea name="opinion" placeholder="با ثبت نظر کد تخفیف بگیرید" class=""
                                                       id="opinion" rows="2"></textarea></div>
                 <button type="submit" class="nb-btn nb-btn-sm nb-btn-success btn-green">ثبت نظر</button>
@@ -4534,7 +4501,7 @@
                                 <div class="dropdown">
                                     <button type="button" data-toggle="dropdown" aria-haspopup="true"
                                             aria-expanded="true" class="btn btn-default dropdown-toggle"><span
-                                                id="city-name">تهران</span><i class="icon icon-arrow-down"></i></button>
+                                            id="city-name">تهران</span><i class="icon icon-arrow-down"></i></button>
                                     <ul class="dropdown-menu">
                                         <li><span data-id="42598">اراک</span></li>
                                         <li><span data-id="42575">اردبیل</span></li>
@@ -4734,29 +4701,29 @@
                                 <div class="right-part col-lg-12 col-md-12 col-sm-24">
                                     <div class="rfcr-contact col-lg-4 col-md-4 col-sm-8">
                                         <div class="phone-num"><span> پشتیبانی  :  </span><span
-                                                    class="tx-direct-left"><span class="number-s"> ۴۱۰۹۶۱۰۰</span><span
-                                                        class="number-s">- ۰۲۱</span></span></div>
+                                                class="tx-direct-left"><span class="number-s"> ۴۱۰۹۶۱۰۰</span><span
+                                                    class="number-s">- ۰۲۱</span></span></div>
                                         <div class="phone-num"><span>  شرکت :  </span><span class="tx-direct-left"><span
-                                                        class="number-s"> ۴۲۰۹۱۰۰۰</span><span
-                                                        class="number-s">- ۰۲۱</span></span></div>
+                                                    class="number-s"> ۴۲۰۹۱۰۰۰</span><span
+                                                    class="number-s">- ۰۲۱</span></span></div>
                                     </div>
                                     <div class="rfcr-soc col-lg-8 col-md-8 col-sm-16">
                                         <a href="https://telegram.me/joinchat/Bb5JSzvzBUylEDxkuH0Vbg" target="_blank"><i
-                                                    aria-hidden="true" class="icon icon-telegram-logo"></i></a><a
-                                                href="https://www.youtube.com/user/NetBarg" target="_blank"><i
-                                                    aria-hidden="true" class="icon icon-youtube-logo"></i></a><a
-                                                href="https://www.pinterest.com/netbarg/" target="_blank"><i
-                                                    aria-hidden="true" class="icon icon-pinterest-logo"></i></a><a
-                                                href="http://instagram.com/mynetbarg" target="_blank"><i
-                                                    aria-hidden="true" class="icon icon-instagram-logo"></i></a><a
-                                                href="http://www.linkedin.com/company/NetBarg" target="_blank"><i
-                                                    aria-hidden="true" class="icon icon-linkedin-letters"></i></a><a
-                                                href="https://plus.google.com/+NetBargCo/posts" target="_blank"><i
-                                                    aria-hidden="true" class="icon icon-google-plus"></i></a><a
-                                                href="https://twitter.com/NetBarg" target="_blank"><i aria-hidden="true"
-                                                                                                      class="icon icon-twitter"></i></a><a
-                                                href="https://www.facebook.com/NetBarg" target="_blank"><i
-                                                    aria-hidden="true" class="icon icon-facebook-logo"></i></a>
+                                                aria-hidden="true" class="icon icon-telegram-logo"></i></a><a
+                                            href="https://www.youtube.com/user/NetBarg" target="_blank"><i
+                                                aria-hidden="true" class="icon icon-youtube-logo"></i></a><a
+                                            href="https://www.pinterest.com/netbarg/" target="_blank"><i
+                                                aria-hidden="true" class="icon icon-pinterest-logo"></i></a><a
+                                            href="http://instagram.com/mynetbarg" target="_blank"><i
+                                                aria-hidden="true" class="icon icon-instagram-logo"></i></a><a
+                                            href="http://www.linkedin.com/company/NetBarg" target="_blank"><i
+                                                aria-hidden="true" class="icon icon-linkedin-letters"></i></a><a
+                                            href="https://plus.google.com/+NetBargCo/posts" target="_blank"><i
+                                                aria-hidden="true" class="icon icon-google-plus"></i></a><a
+                                            href="https://twitter.com/NetBarg" target="_blank"><i aria-hidden="true"
+                                                                                                  class="icon icon-twitter"></i></a><a
+                                            href="https://www.facebook.com/NetBarg" target="_blank"><i
+                                                aria-hidden="true" class="icon icon-facebook-logo"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -4834,14 +4801,14 @@
                         <div class="nameandfname">
                             <div class="form-group req input-label-animate">
                                 <div class="input email"><label for="modal-loginemail">آدرس ایمیل</label><input
-                                            type="email" name="email" id="modal-loginemail"
-                                            class="single-input required-input emailcheck"></div>
+                                        type="email" name="email" id="modal-loginemail"
+                                        class="single-input required-input emailcheck"></div>
                                 <span class="hint danger" style="display: none;"></span>
                             </div>
                             <div class="form-group req input-label-animate">
                                 <div class="input password"><label for="modal-loginpassword">کلمه عبور</label><input
-                                            type="password" name="password" id="modal-loginpassword"
-                                            class="single-input required-input password-check"></div>
+                                        type="password" name="password" id="modal-loginpassword"
+                                        class="single-input required-input password-check"></div>
                                 <span class="hint danger" style="display: none;"></span>
                             </div>
                             <div class="form-group remember-forget">
@@ -4851,8 +4818,8 @@
                             <div class="form-group">
                                 <button type="submit" class="nb-btn nb-btn-success">ورود</button>
                                 <div class="link-signup clearfix removing"><span>در نت برگ عضو نیستید؟</span><a
-                                            data-toggle="tab" href="javascript::" data-target="#signUpModal"
-                                            class="not-register nb-btn nb-btn-sm nb-btn-border show-page-log toggle-modal">ثبت
+                                        data-toggle="tab" href="javascript::" data-target="#signUpModal"
+                                        class="not-register nb-btn nb-btn-sm nb-btn-border show-page-log toggle-modal">ثبت
                                         نام کنید</a></div>
                             </div>
                             <div class="section-header">
@@ -4879,10 +4846,10 @@
                     <div class="clearfix so-log">
                         <button data-url="/user/users/social/Google"
                                 class="nb-btn nb-btn-icon nb-btn-warning google-bt social-btn">ورود با گوگل<i
-                                    class="icon icon-google"></i></button>
+                                class="icon icon-google"></i></button>
                         <button data-url="/user/users/social/Yahoo"
                                 class="nb-btn nb-btn-icon nb-btn-warning yahoo-bt social-btn">ورود با یاهو<i
-                                    class="icon icon-yahoo-big-logo"></i></button>
+                                class="icon icon-yahoo-big-logo"></i></button>
                     </div>
                     <div class="circle-sign"></div>
                     <div class="e"></div>
@@ -4911,8 +4878,8 @@
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group req input-label-animate">
                                     <div class="input text"><label for="user-profile-first-name">نام</label><input
-                                                type="text" name="user_profile[first_name]"
-                                                class="single-input required-input" id="user-profile-first-name"></div>
+                                            type="text" name="user_profile[first_name]"
+                                            class="single-input required-input" id="user-profile-first-name"></div>
                                     <span class="hint danger"></span>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group req input-label-animate">
@@ -4925,8 +4892,8 @@
                             </div>
                             <div class="form-group req input-label-animate">
                                 <div class="input email"><label for="modal-registeremail">ایمیل</label><input
-                                            type="email" name="email" id="modal-registeremail"
-                                            class="single-input required-input emailcheck"></div>
+                                        type="email" name="email" id="modal-registeremail"
+                                        class="single-input required-input emailcheck"></div>
                                 <span class="hint danger" style="display: none;"></span>
                             </div>
                             <div class="form-group req input-label-animate">
@@ -4938,8 +4905,8 @@
                             </div>
                             <div class="form-group req input-label-animate">
                                 <div class="input password"><label for="modal-registerpassword">کلمه عبور</label><input
-                                            type="password" name="password" id="modal-registerpassword"
-                                            class="single-input required-input password-check"></div>
+                                        type="password" name="password" id="modal-registerpassword"
+                                        class="single-input required-input password-check"></div>
                                 <span class="hint danger" style="display: none;"></span>
                             </div>
                             <div class="form-group req input-label-animate">
@@ -5006,10 +4973,11 @@
                                              id="s7ek694aa" data-recaptcha-id="0">
                                             <div style="width: 304px; height: 78px;">
                                                 <div>
-                                                    <iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfyZz0UAAAAAABOhV3qPjoUSA6U-lg1I76PjhKc&amp;co=aHR0cDovL25ldGJhcmcuY29tOjgw&amp;hl=fa&amp;v=v1560753160450&amp;size=normal&amp;cb=84np38cfoevl"
-                                                            role="presentation" name="a-gpcg7rxj5sov" scrolling="no"
-                                                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
-                                                            width="304" height="78" frameborder="0"></iframe>
+                                                    <iframe
+                                                        src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfyZz0UAAAAAABOhV3qPjoUSA6U-lg1I76PjhKc&amp;co=aHR0cDovL25ldGJhcmcuY29tOjgw&amp;hl=fa&amp;v=v1560753160450&amp;size=normal&amp;cb=84np38cfoevl"
+                                                        role="presentation" name="a-gpcg7rxj5sov" scrolling="no"
+                                                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                                                        width="304" height="78" frameborder="0"></iframe>
                                                 </div>
                                                 <textarea id="g-recaptcha-response" name="g-recaptcha-response"
                                                           class="g-recaptcha-response"
@@ -5037,10 +5005,10 @@
                     <div class="clearfix so-log">
                         <button data-url="/user/users/social/Google?type=register"
                                 class="nb-btn nb-btn-icon nb-btn-warning google-bt social-btn">ثبت نام با گوگل<i
-                                    class="icon icon-google"></i></button>
+                                class="icon icon-google"></i></button>
                         <button data-url="/user/users/social/Yahoo?type=register"
                                 class="nb-btn nb-btn-icon nb-btn-warning yahoo-bt social-btn">ثبت نام با یاهو<i
-                                    class="icon icon-yahoo-big-logo"></i></button>
+                                class="icon icon-yahoo-big-logo"></i></button>
                     </div>
                     <div class="circle-sign"></div>
                     <div class="e"></div>
@@ -5108,28 +5076,32 @@
                         <div style="display:none;"><input type="hidden" name="_method" value="POST"></div>
                         <div class="nameandfname"></div>
                         <div class="row input-verify-mobile multi-part-input-auto-next">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 form-group req input-label-animate pull-left">
+                            <div
+                                class="col-lg-6 col-md-6 col-sm-6 col-xs-6 form-group req input-label-animate pull-left">
                                 <div class="text input">
                                     <input maxlength="1" value="" name="code[0]"
                                            class="single-input required-input justnumber" dir="ltr" autocomplete="off"
                                            autofocus="autofocus" type="text" style="color: black;">
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 form-group req input-label-animate pull-left">
+                            <div
+                                class="col-lg-6 col-md-6 col-sm-6 col-xs-6 form-group req input-label-animate pull-left">
                                 <div class="text input">
                                     <input maxlength="1" value="" name="code[1]"
                                            class="single-input required-input justnumber" dir="ltr" autocomplete="off"
                                            type="text" style="color: black;">
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 form-group req input-label-animate pull-left">
+                            <div
+                                class="col-lg-6 col-md-6 col-sm-6 col-xs-6 form-group req input-label-animate pull-left">
                                 <div class="text input">
                                     <input maxlength="1" value="" name="code[2]"
                                            class="single-input required-input justnumber" dir="ltr" autocomplete="off"
                                            type="text" style="color: black;">
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 form-group req input-label-animate pull-left">
+                            <div
+                                class="col-lg-6 col-md-6 col-sm-6 col-xs-6 form-group req input-label-animate pull-left">
                                 <div class="text input">
                                     <input maxlength="1" value="" name="code[3]"
                                            class="single-input required-input justnumber" dir="ltr" autocomplete="off"
@@ -5157,10 +5129,11 @@
                                          data-recaptcha-id="1">
                                         <div style="width: 304px; height: 78px;">
                                             <div>
-                                                <iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfyZz0UAAAAAABOhV3qPjoUSA6U-lg1I76PjhKc&amp;co=aHR0cDovL25ldGJhcmcuY29tOjgw&amp;hl=fa&amp;v=v1560753160450&amp;size=normal&amp;cb=ls5v39vbh3tk"
-                                                        role="presentation" name="a-1smosx9h1x9w" scrolling="no"
-                                                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
-                                                        width="304" height="78" frameborder="0"></iframe>
+                                                <iframe
+                                                    src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfyZz0UAAAAAABOhV3qPjoUSA6U-lg1I76PjhKc&amp;co=aHR0cDovL25ldGJhcmcuY29tOjgw&amp;hl=fa&amp;v=v1560753160450&amp;size=normal&amp;cb=ls5v39vbh3tk"
+                                                    role="presentation" name="a-1smosx9h1x9w" scrolling="no"
+                                                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                                                    width="304" height="78" frameborder="0"></iframe>
                                             </div>
                                             <textarea id="g-recaptcha-response-1" name="g-recaptcha-response"
                                                       class="g-recaptcha-response"
@@ -5491,7 +5464,8 @@
                             <div style="display:none;"><input type="hidden" name="_method" value="POST"></div>
                             <div class="nameandfname">
                                 <div class="row">
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group req input-label-animate">
+                                    <div
+                                        class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group req input-label-animate">
                                         <div class="text input">
                                             <label for="cm1">نام</label>
                                             <input id="cm1" maxlength="50" value="" name="fname"
@@ -5499,7 +5473,8 @@
                                         </div>
                                         <span class="hint danger"></span>
                                     </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group req input-label-animate">
+                                    <div
+                                        class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group req input-label-animate">
                                         <div class="text input">
                                             <label for="cm2">نام خانوادگی</label>
                                             <input id="cm2" maxlength="50" name="lname"
@@ -5524,7 +5499,8 @@
                                             باشم.</label>
                                     </div>
                                     <div class="accept-law clearfix">
-                                        <div class="checkbox checkbox-success checkbox-toggle required-chechbox checked">
+                                        <div
+                                            class="checkbox checkbox-success checkbox-toggle required-chechbox checked">
                                             <input id="cm-checkbox2" type="checkbox" checked="checked"
                                                    name="accept-rule" required="" class="styled">
                                             <label for="cm-checkbox2" sync-bybutton="btn1"></label>
@@ -5576,8 +5552,8 @@
                             <div class="form-group">
                                 <button type="submit" class="nb-btn nb-btn-success">ورود</button>
                                 <div class="link-signup clearfix"><span>هنوز موبایل تان را تایید نکرده اید؟</span><a
-                                            data-toggle="tab" href="javascript::" data-target="#signInModal"
-                                            class="not-register nb-btn nb-btn-sm nb-btn-border show-page-log toggle-modal">ورود
+                                        data-toggle="tab" href="javascript::" data-target="#signInModal"
+                                        class="not-register nb-btn nb-btn-sm nb-btn-border show-page-log toggle-modal">ورود
                                         با ایمیل</a></div>
                             </div>
                         </div>
@@ -5589,10 +5565,10 @@
                     <div class="clearfix so-log">
                         <button data-url="/user/users/social/Google"
                                 class="nb-btn nb-btn-icon nb-btn-warning google-bt social-btn">ورود با گوگل<i
-                                    class="icon icon-google"></i></button>
+                                class="icon icon-google"></i></button>
                         <button data-url="/user/users/social/Yahoo"
                                 class="nb-btn nb-btn-icon nb-btn-warning yahoo-bt social-btn">ورود با یاهو<i
-                                    class="icon icon-yahoo-big-logo"></i></button>
+                                class="icon icon-yahoo-big-logo"></i></button>
                     </div>
                     <div class="circle-sign"></div>
                     <div class="e"></div>
@@ -5644,15 +5620,20 @@
 
 
 
+
 </script>
 <!--
 <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '2ed0d9a4-d810-479c-bef8-72820ada0da5', f: true }); done = true; } }; })();</script> -->
-<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
-    <div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div>
-    <div style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"
-         class="g-recaptcha-bubble-arrow"></div>
-    <div style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"
-         class="g-recaptcha-bubble-arrow"></div>
+<div
+    style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
+    <div
+        style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div>
+    <div
+        style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"
+        class="g-recaptcha-bubble-arrow"></div>
+    <div
+        style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"
+        class="g-recaptcha-bubble-arrow"></div>
     <div style="z-index: 2000000000; position: relative;">
         <iframe title="چالش reCAPTCHA"
                 src="https://www.google.com/recaptcha/api2/bframe?hl=fa&amp;v=v1560753160450&amp;k=6LfyZz0UAAAAAABOhV3qPjoUSA6U-lg1I76PjhKc&amp;cb=myf04insvly8"
@@ -5661,12 +5642,16 @@
                 frameborder="0"></iframe>
     </div>
 </div>
-<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
-    <div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div>
-    <div style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"
-         class="g-recaptcha-bubble-arrow"></div>
-    <div style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"
-         class="g-recaptcha-bubble-arrow"></div>
+<div
+    style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
+    <div
+        style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div>
+    <div
+        style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"
+        class="g-recaptcha-bubble-arrow"></div>
+    <div
+        style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"
+        class="g-recaptcha-bubble-arrow"></div>
     <div style="z-index: 2000000000; position: relative;">
         <iframe title="چالش reCAPTCHA"
                 src="https://www.google.com/recaptcha/api2/bframe?hl=fa&amp;v=v1560753160450&amp;k=6LfyZz0UAAAAAABOhV3qPjoUSA6U-lg1I76PjhKc&amp;cb=nb1h69fyv8j"
@@ -5726,12 +5711,7 @@
 </script>
 
 
-
-
-
-
 <div id="ads"></div>
-
 
 
 </body>

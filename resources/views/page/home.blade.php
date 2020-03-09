@@ -6,125 +6,19 @@
               //dd(\App\Barg::find(1)->with('Media')->get());
         @endphp
         <div class="page-index page-home">
-            <div class="wrapper-1">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-1 col-md-1 hidden-sm hidden-xs"></div>
-
-                        <div class="col-lg-3 hidden-md hidden-sm hidden-xs">
-                            <nav>
-                                <ul class="side-cat" itemscope=""
-                                    itemtype="http://www.schema.org/SiteNavigationElement">
 
 
-                                    @foreach(\App\Category::all() as $cat)
-                                        @if($cat->F_Root==1)
-                                            <li class="li-home"><a href="/tehran/c:todaydeals/"
-                                                                   style="height: 39.3333px; line-height: 38.3333px;"><i><i
-                                                                class="icon {{$cat->F_Icon}}"></i></i><span>{{$cat->F_Name}}</span></a>
-                                            </li>
-                                        @endif
-                                    @endforeach
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="col-lg-19 col-md-22">
-                            <div class="slider-full clearfix ">
-                                <div class="overlay"></div>
-                                <div id="carousel_2" data-ride="carousel" class="carousel carousel-2 slide nb-carousel">
-                                    <!-- Indicators-->
-                                    <!-- <ol class="carousel-indicators">
-                                                    <li data-target="#carousel_2" data-slide-to=""
-                                            class=" ">
-                                            <i class="icon"></i>
-                                        </li>
-                                            </ol> -->
-                                    <!-- Wrapper for slides-->
-                                    <div role="listbox" class="carousel-inner">
-                                        @php
-                                            $i=1;
-                                        @endphp
-                                        @foreach(\App\Slider::all() as $slider)
+            @include('component.slider')
 
-                                            <div class="item <?php if ($i == 1) echo 'active';?>">
-                                                <ul class="deal-tag list-unstyled">
-                                                </ul>
-                                                <a href="">
-                                                    <img src="{{$slider->img}}" alt="{{$slider->alt}}"> </a>
-                                            </div>
-                                            @php
-                                                $i++;
-                                            @endphp
-                                        @endforeach
 
-                                    </div>
-                                    <!-- Controls--><a href="#carousel_2" role="button" data-slide="prev"
-                                                       class="left carousel-control"><span aria-hidden="true"
-                                                                                           class="icon icon-arrow-left"></span><span
-                                                class="sr-only">Previous</span></a><a href="#carousel_2" role="button"
-                                                                                      data-slide="next"
-                                                                                      class="right carousel-control"><span
-                                                aria-hidden="true" class="icon icon-arrow-right"></span><span
-                                                class="sr-only">Next</span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-1 col-md-1 hidden-sm hidden-xs"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-1 col-md-1 hidden-sm hidden-xs"></div>
-                        <div class="col-lg-22 col-md-22">
-                            <div class="row under-slider-banner">
-                                <div class="col-lg-8 col-md-8 col-sm-8">
-                                    <a target="_blank"
-                                       href="http://netbarg.com/trend/%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D8%AF%D8%B1%D9%85/"
-                                       class="figure m-b">
-                                        <img src="http://static.netbarg.com/img/banner/banners/rightSmallBanner/93/50f40701.jpg"
-                                             alt="netbarg"> </a>
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-sm-8">
-                                    <a target="_blank"
-                                       href="http://netbarg.com/trend/%D9%87%D8%AA%D9%84-%D9%85%D8%B4%D9%87%D8%AF/"
-                                       class="figure m-b">
-                                        <img src="http://static.netbarg.com/img/banner/banners/centerSmallBanner/91/59010762.jpg"
-                                             alt="netbarg"> </a>
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-sm-8">
-                                    <a target="_blank"
-                                       href="http://netbarg.com/trend/%D8%A7%D8%B3%D8%AA%D8%AE%D8%B1%D9%87%D8%A7%DB%8C-%D8%BA%D8%B1%D8%A8-%D8%AA%D9%87%D8%B1%D8%A7%D9%86/"
-                                       class="figure m-b">
-                                        <img src="http://static.netbarg.com/img/banner/banners/leftSmallBanner/89/47f7068c.jpg"
-                                             alt="netbarg"> </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-1 col-md-1 hidden-sm hidden-xs"></div>
-                    </div>
-                </div>
-            </div>
             <div class="wrapper-2">
                 <div class="container-fluid">
                     <div class="row h-position">
-                        <div class="col-lg-1 col-md-1 hidden-sm hidden-xs right-aside sticky-aside">
-                            <div id="nava" class="affix-top" style="">
-                                <div class="float-cat">
-                                    <ul>
-                                        @foreach(\App\Category::all() as $cat)
-                                            @if($cat->F_Root==1)
-                                                <a href="/tehran/c:todaydeals/" class="float-cat-todaydeal">
-                                                    <li>
-                                                        <i><i class="icon {{$cat->F_Icon}}"></i></i><span>{{$cat->F_Name}}</span>
-                                                    </li>
-                                                </a>
-
-                                            @endif
-                                        @endforeach
 
 
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        @include('component.float_cat')
+
+
                         <div class="col-lg-22 col-md-22 col-sm-24 col-xs-24 padd-0-xs clearfix">
                             <section class="related cat-deal-color main-cat around-me clearfix">
                                 <header class="section-header">
@@ -139,7 +33,7 @@
                                              class="col-lg-6 col-md-12 col-sm-12 col-xs-24 cds-item  ">
                                             <div class="cat-deal-smallbox">
                                                 <div class="cat-deal-box">
-                                                    <a href=""
+                                                    <a href="{{\App\Setting::getUrlOff($offer_item->F_BargID)}}"
                                                        class="figure"
                                                        style="background-image: url({{\App\Barg::find($offer_item->F_BargID)->F_Pic}}); background-size: cover;">
                                                         <ul class="deal-tag list-unstyled">
@@ -154,7 +48,7 @@
                                                     </a>
                                                     <div class="cat-deal-box-main clearfix">
                                                         <h4 itemprop="name" class="cdbm-title">
-                                                            <a href="{{url('/bandar/off')}}/{{\App\Barg::find($offer_item->F_BargID)->F_BargID}}/{{\App\Barg::find($offer_item->F_BargID)->F_Title}}"
+                                                            <a href="{{\App\Setting::getUrlOff($offer_item->F_BargID)}}"
                                                                itemprop="url" class="truncate">
                                                                 {{\App\Barg::find($offer_item->F_BargID)->F_Title}}
                                                             </a>
@@ -170,7 +64,7 @@
                             </span>
                                                     </div>
                                                     <div class="cat-deal-box-footer clearfix">
-                                                        <a href="/area/اتوبان حقانی/" class="cdbf-location truncate">
+                                                        <a href="" class="cdbf-location truncate">
                                 <span class="ir">
                                     <i class="icon icon-location74"></i>
                                 </span>
@@ -213,11 +107,11 @@
                                 @foreach($section as $item)
 
                                     <article id="float-cat-restaurant" class="cat-deal-color color-rescoffee">
-                                        <header class="section-header"><a href="/tehran/c:restaurant/"
+                                        <header class="section-header"><a href=""
                                                                           class="visible-xs">بیشتر</a>
                                             <h3 class="hx"><span class="ir"><i
                                                             class="icon {{$item["F_Category"]->F_Icon}}"></i></span><a
-                                                        href="/tehran/c:restaurant/" class="article-h3">
+                                                        href="" class="article-h3">
                                                     {{$item["F_Category"]->F_Name}}
 
 
@@ -230,14 +124,14 @@
                                                 <div itemscope="" itemtype="http://schema.org/Offer"
                                                      class="col-lg-12 col-md-12 col-sm-24 col-xs-24 cat-deal-bigbox">
                                                     <div class="cat-deal-box ">
-                                                        <a href="/tehran/d/c:restaurant/154389/فودکورت-پل-طبیعت-65/"
+                                                        <a href="{{\App\Setting::getUrlOff($item["F_Barg"][0]->F_BargID)}}"
                                                            class="figure"
                                                            style="background-image: url(&quot;http://static.netbarg.com/img/responsive_large/deals/154389/1eab03e1.jpg&quot;); background-size: cover;">
                                                             <ul class="deal-tag list-unstyled">
                                                                 <li class="violet-label"></li>
                                                             </ul>
                                                             <img data-src="{{$item["F_Barg"][0]->F_Pic}}"
-                                                                 alt="فودکورت پل طبیعت" data-type="lazy" shema="1"
+                                                                 alt="" data-type="lazy" shema="1"
                                                                  itemprop="image"
                                                                  content="{{$item["F_Barg"][0]->F_Pic}}"
                                                                  class="sr-only"
@@ -245,7 +139,7 @@
                                                         </a>
                                                         <div class="cat-deal-box-main clearfix">
                                                             <h4 itemprop="name" class="cdbm-title"><a itemprop="url"
-                                                                                                      href="{{url('/bandar/off')}}/{{$item["F_Barg"][0]->F_BargID}}/{{$item["F_Barg"][0]->F_Title}}"
+                                                                                                      href="{{\App\Setting::getUrlOff($item["F_Barg"][0]->F_BargID)}}"
                                                                                                       class="truncate">
 
 
@@ -268,12 +162,12 @@
                                                                     class="cdbf-takhfif"><span
                                                                         class="cdbft-shape"><span
                                                                             class="cdbft-shape-text">%{{$item["F_Barg"][0]->F_Off}}</span></span></span><a
-                                                                    href="/area/ونک/"
+                                                                    href=""
                                                                     class="cdbf-location truncate"><span
                                                                         class="ir"><i
                                                                             class="icon icon-location74"></i></span><span
                                                                         class="cdbfl-address">{{$item["F_Barg"][0]->F_Mohale}}</span></a><a
-                                                                    href="/tehran/d/c:restaurant/154389/فودکورت-پل-طبیعت-65/"
+                                                                    href="{{\App\Setting::getUrlOff($item["F_Barg"][0]->F_BargID)}}"
                                                                     class="cdbf-buy-icon">
                                                                 <button class="nb-btn nb-btn-icon nb-btn-success">مشاهده
                                                                     و
@@ -323,7 +217,7 @@
                                                         <div itemscope="" itemtype="http://schema.org/Offer"
                                                              class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                             <div class="cat-deal-box"><a
-                                                                        href="/tehran/d/c:restaurant/159010/صبحانه-سالم-در-عمارت-خانه-پدری/"
+                                                                        href="{{\App\Setting::getUrlOff($item["F_Barg"][1]->F_BargID)}}"
                                                                         class="figure"
                                                                         style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/159010/1b4f03ab.jpg&quot;); background-size: cover;">
                                                                     <ul class="deal-tag list-unstyled">
@@ -345,7 +239,7 @@
                                                                 <div class="cat-deal-box-main clearfix">
                                                                     <h4 itemprop="name" class="cdbm-title"><a
                                                                                 itemprop="url"
-                                                                                href="/tehran/d/c:restaurant/159010/صبحانه-سالم-در-عمارت-خانه-پدری/"
+                                                                                href="{{\App\Setting::getUrlOff($item["F_Barg"][1]->F_BargID)}}"
                                                                                 class="truncate">
 
 
@@ -361,7 +255,7 @@
                                               {{$item["F_Barg"][1]->DocumentDetail->count()}}                                       </span></span>
                                                                 </div>
                                                                 <div class="cat-deal-box-footer clearfix"><a
-                                                                            href="/area/هفت-تیر/"
+                                                                            href=""
                                                                             class="cdbf-location truncate"><span
                                                                                 class="ir"><i
                                                                                     class="icon icon-location74"></i></span><span
@@ -393,7 +287,7 @@
                                                         <div itemscope="" itemtype="http://schema.org/Offer"
                                                              class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                             <div class="cat-deal-box"><a
-                                                                        href="/tehran/d/c:restaurant/158081/بوفه-آزاد-رستوران-زیتون/"
+                                                                        href="{{\App\Setting::getUrlOff($item["F_Barg"][2]->F_BargID)}}"
                                                                         class="figure"
                                                                         style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/158081/1b5e03ab.jpg&quot;); background-size: cover;">
                                                                     <ul class="deal-tag list-unstyled">
@@ -415,7 +309,7 @@
                                                                 <div class="cat-deal-box-main clearfix">
                                                                     <h4 itemprop="name" class="cdbm-title"><a
                                                                                 itemprop="url"
-                                                                                href="/tehran/d/c:restaurant/158081/بوفه-آزاد-رستوران-زیتون/"
+                                                                                href="{{\App\Setting::getUrlOff($item["F_Barg"][2]->F_BargID)}}"
                                                                                 class="truncate">
 
                                                                             {{$item["F_Barg"][2]->F_Title}}
@@ -462,7 +356,7 @@
                                                         <div itemscope="" itemtype="http://schema.org/Offer"
                                                              class="col-lg-12 col-md-12 col-sm-8 cds-item ">
                                                             <div class="cat-deal-box"><a
-                                                                        href="/tehran/d/c:restaurant/157579/پیتزا-خوراک-و-برگر-در-رستوران-ایتالیایی-آوا-پلاس/"
+                                                                        href="{{\App\Setting::getUrlOff($item["F_Barg"][3]->F_BargID)}}"
                                                                         class="figure"
                                                                         style="background-image: url(&quot;http://static.netbarg.com/img/responsive_small/deals/157579/1ef603e0.jpg&quot;); background-size: cover;">
                                                                     <ul class="deal-tag list-unstyled">
@@ -483,7 +377,7 @@
                                                                 <div class="cat-deal-box-main clearfix">
                                                                     <h4 itemprop="name" class="cdbm-title"><a
                                                                                 itemprop="url"
-                                                                                href="/tehran/d/c:restaurant/157579/پیتزا-خوراک-و-برگر-در-رستوران-ایتالیایی-آوا-پلاس/"
+                                                                                href="{{\App\Setting::getUrlOff($item["F_Barg"][3]->F_BargID)}}"
                                                                                 class="truncate">
 
                                                                             @if(count($item["F_Barg"])>=4)
@@ -499,7 +393,7 @@
                                              {{$item["F_Barg"][3]->DocumentDetail->count()}}                                       </span></span>
                                                                 </div>
                                                                 <div class="cat-deal-box-footer clearfix"><a
-                                                                            href="/area/نیاوران/"
+                                                                            href=""
                                                                             class="cdbf-location truncate"><span
                                                                                 class="ir"><i
                                                                                     class="icon icon-location74"></i></span><span
@@ -535,7 +429,7 @@
 
                                                                 {{\App\Category::find($item["F_Category"]->F_CategoryID)->F_Name}}
                                                             </h4>
-                                                            <a href="/tehran/c:restaurant/">
+                                                            <a href="{{\App\Setting::getUrlCat($item["F_Category"]->F_CategoryID)}}">
                                                                 <button class="nb-btn nb-btn-success">مشاهده همه
                                                                 </button>
                                                             </a>
@@ -548,10 +442,13 @@
 
                                     </article>
                                     <figure class="figure-ads-baner hidden-xs visible-lg">
-                                        <a href="http://netbarg.com/trend/%D8%B3%D9%81%D8%B1%D9%87-%D8%AE%D8%A7%D9%86%D9%87/"
+
+                                        <a href="{{url("1/trend")}}"
                                            target="_blank">
                                             <img src="http://static.netbarg.com/img/banner/banners/restaurantBanner/77/c6d90dc9.jpg"
                                                  alt="رستوران و کافی شاپ"> </a>
+
+
                                     </figure>
                                 @endforeach
 

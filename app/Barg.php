@@ -24,10 +24,15 @@ class Barg extends Model
     {
         return $this->belongsTo('App\City','F_CityID');
     }
+    public function Trend()
+    {
+        return $this->belongsTo('App\Trend','id');
+    }
+
 
     public function Media()
     {
-        return $this->hasMany('App\Media','F_MediaID');
+        return $this->hasMany('App\Media','F_BargID');
     }
 
     public function Festival()
@@ -39,6 +44,11 @@ class Barg extends Model
     {
 
         return $this->belongsTo('App\OrderDetail','F_BargID');
+    }
+    public function Category()
+    {
+
+        return $this->belongsTo('App\Category','F_CategoryID');
     }
 
     public function ordercount()
@@ -70,5 +80,5 @@ class Barg extends Model
 
 
 
-    
+
 }

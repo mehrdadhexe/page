@@ -1,19 +1,19 @@
-<div class="col-lg-1 col-md-1 hidden-sm hidden-xs left-aside sticky-aside">
-    <div id="nava2" class="affix-top">
-        <div class="float-left-button">
+<div class="col-lg-1 col-md-1 hidden-sm hidden-xs right-aside sticky-aside">
+    <div id="nava" class="affix-top" style="">
+        <div class="float-cat">
             <ul>
-                <a href="javascript:void(0)">
-                    <li><i><i class="icon icon-support"></i></i><span>076-33118 : پشتیبانی</span></li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li><i><i class="icon icon-home-phone"></i></i><span>076-33118 : شرکت</span></li>
-                </a>
-                <a href="">
-                    <li><i><i class="icon icon-lifebuoy"></i></i><span>راهنمای خرید</span></li>
-                </a>
-                <a href="javascript:void(0)" class="backtotop">
-                    <li><i><i class="icon icon-arrow-up"></i></i></li>
-                </a>
+                @foreach(\App\Category::all() as $cat)
+                    @if($cat->F_Root==1)
+                        <a href="{{url('/')}}/{{\App\Setting::getCity()}}/category/{{$cat->F_CategoryID}}/{{$cat->F_Name}}" class="float-cat-todaydeal">
+                            <li>
+                                <i><i class="icon {{$cat->F_Icon}}"></i></i><span>{{$cat->F_Name}}</span>
+                            </li>
+                        </a>
+
+                    @endif
+                @endforeach
+
+
             </ul>
         </div>
     </div>

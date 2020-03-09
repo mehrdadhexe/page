@@ -3,10 +3,11 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
     <meta charset="utf-8">
     <title>
-        در حال توسعه
+     بندر تخفیف
     </title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <meta hreflang="fa-IR" href="http://netbarg.com/" rel="alternate">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="keywords"
@@ -78,7 +79,7 @@
     <script src="{{url('/assets/site/js/client-function.js')}}"></script>
     <script src="{{url('/assets/site/js/AutoComplete/jquery.easy-autocomplete.js')}}"></script>
     <script src="{{url('/assets/site/js/elastic.js')}}"></script>
-<script type="text/javascript"> (function(){ var now = new Date(); var version = now.getFullYear().toString() + "0" + now.getMonth() + "0" + now.getDate() + "0" + now.getHours(); var head = document.getElementsByTagName("head")[0]; var link = document.createElement("link"); link.rel = "stylesheet"; link.href = "https://app.najva.com/static/css/local-messaging.css" + "?v=" + version; head.appendChild(link); var script = document.createElement("script"); script.type = "text/javascript"; script.async = true; script.src = "https://app.najva.com/static/js/scripts/bitanik-website-8871-7a4d5d75-f3ac-4125-86d2-98d7c0639510.js" + "?v=" + version; head.appendChild(script); })() </script> 
+<script type="text/javascript"> (function(){ var now = new Date(); var version = now.getFullYear().toString() + "0" + now.getMonth() + "0" + now.getDate() + "0" + now.getHours(); var head = document.getElementsByTagName("head")[0]; var link = document.createElement("link"); link.rel = "stylesheet"; link.href = "https://app.najva.com/static/css/local-messaging.css" + "?v=" + version; head.appendChild(link); var script = document.createElement("script"); script.type = "text/javascript"; script.async = true; script.src = "https://app.najva.com/static/js/scripts/bitanik-website-8871-7a4d5d75-f3ac-4125-86d2-98d7c0639510.js" + "?v=" + version; head.appendChild(script); })() </script>
 
 </head>
 

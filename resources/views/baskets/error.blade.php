@@ -47,46 +47,46 @@
                                     <div class="main-cat-deal-thumbnail clearfix main-row">
                                         <div class="card text-center">
                                             <div class="card-header">
-                                                <div class="alert alert-success" role="alert">
-                                                    خرید موفق
+                                                <div class="alert alert-danger" role="alert">
+                                                    خرید ناموفق
                                                 </div>
                                             </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">
-                                                    <div class="alert alert-success" role="alert">
-                                                     کد تخفیف:ksadlksad765sad76231
+                                                    <div class="alert alert-danger" role="alert">
+                                                    خطا در انجام تراکنش
                                                     </div>
                                                 </h5>
                                                 <p class="card-text">
                                                 <div class="alert alert-dark" role="alert">
-                                                    <table class="table table-hover table-dark">
-                                                        <thead>
-                                                        <tr>
-                                                            <th scope="col">شماره سفارش</th>
-                                                            <th scope="col">نام کاربری</th>
-                                                            <th scope="col">نام تخفیف</th>
-                                                            <th scope="col">تاریخ خرید</th>
-                                                            <th scope="col">کد پیگیری بانک</th>
-                                                            <th scope="col">کد تخفیف</th>
-                                                            <th scope="col">تاریخ انقضا</th>
-                                                        </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                        <tr>
-                                                            <th scope="col">شماره سفارش</th>
-                                                            <th scope="col">نام کاربری</th>
-                                                            <th scope="col">نام تخفیف</th>
-                                                            <th scope="col">تاریخ خرید</th>
-                                                            <th scope="col">کد پیگیری بانک</th>
-                                                            <th scope="col">کد تخفیف</th>
-                                                            <th scope="col">تاریخ انقضا</th>
-                                                        </tr>
+{{--                                                    <table class="table table-hover table-dark">--}}
+{{--                                                        <thead>--}}
+{{--                                                        <tr>--}}
+{{--                                                            <th scope="col">شماره سفارش</th>--}}
+{{--                                                            <th scope="col">نام کاربری</th>--}}
+{{--                                                            <th scope="col">نام تخفیف</th>--}}
+{{--                                                            <th scope="col">تاریخ خرید</th>--}}
+{{--                                                            <th scope="col">کد پیگیری بانک</th>--}}
+{{--                                                            <th scope="col">کد تخفیف</th>--}}
+{{--                                                            <th scope="col">تاریخ انقضا</th>--}}
+{{--                                                        </tr>--}}
+{{--                                                        </thead>--}}
+{{--                                                        <tbody>--}}
+{{--                                                        <tr>--}}
+{{--                                                            <th scope="col">شماره سفارش</th>--}}
+{{--                                                            <th scope="col">نام کاربری</th>--}}
+{{--                                                            <th scope="col">نام تخفیف</th>--}}
+{{--                                                            <th scope="col">تاریخ خرید</th>--}}
+{{--                                                            <th scope="col">کد پیگیری بانک</th>--}}
+{{--                                                            <th scope="col">کد تخفیف</th>--}}
+{{--                                                            <th scope="col">تاریخ انقضا</th>--}}
+{{--                                                        </tr>--}}
 
-                                                        </tbody>
-                                                    </table>
+{{--                                                        </tbody>--}}
+{{--                                                    </table>--}}
                                                 </div>
                                                 </p>
-                                                <a href="#" class="btn btn-primary">حساب کاربری</a>
+                                                <a href="{{url('/users/userProfiles/tab1')}}" class="btn btn-primary">حساب کاربری</a>
                                             </div>
                                             <div class="card-footer text-muted">
 
