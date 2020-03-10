@@ -11,7 +11,7 @@
                         <div class="col-md-22">
                             <ul itemscope="" itemtype="http://schema.org/BreadcrumbList">
                                 <li itemprop="itemListElement" itemscope="itemscope"
-                                    itemtype="http://schema.org/ListItem"><a href="http://netbarg.com/yazd/"
+                                    itemtype="http://schema.org/ListItem"><a href="http://takhfifbnd.ir/yazd/"
                                                                              itemprop="item" itemscope="itemscope"
                                                                              itemtype="http://schema.org/Thing"><span
                                                 itemprop="name">خانه</span></a></li>
@@ -367,7 +367,7 @@
                                                             <p>مدت زمان باقی مانده برای ارسال مجدد کد</p><span
                                                                     class="countdown"></span>
                                                             <span class="resend">
-                        <a mj-type="single" mj-method="post" mj-target="http://netbarg.com/otp/otp-send/resend-code"
+                        <a mj-type="single" mj-method="post" mj-target="http://takhfifbnd.ir/otp/otp-send/resend-code"
                            mj-success="otpResendSuccessCallback" href="#">ارسال مجدد کد</a>
                     </span>
                                                         </div>
@@ -415,7 +415,7 @@
                                         <p class="rb-header">ویرایش شماره موبایل</p>
                                         <p class="text-body">لطفا شماره تلفن همراه جدید خود را وارد کنید</p>
                                         <form method="post" accept-charset="utf-8" class="personal-pro ajaxform"
-                                              mj-target="http://netbarg.com/otp/otp-verify/edit-number" mj-type="form"
+                                              mj-target="http://takhfifbnd.ir/otp/otp-verify/edit-number" mj-type="form"
                                               mj-success="otpEditNumberSuccessCallback" mj-method="post"
                                               action="/yazd/users/login/">
                                             <div style="display:none;"><input type="hidden" name="_method" value="POST">

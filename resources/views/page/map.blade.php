@@ -100,7 +100,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script type="text/javascript"
-            src="https://bam.nr-data.net/1/322454d465?a=113564921&amp;v=1123.df1c7f8&amp;to=NlwEbEJSDUoCVUINVw8WM0pZHApXB1NOSkgJSQ%3D%3D&amp;rst=1480&amp;ref=http://netbarg.com/kish/dealMap/&amp;ap=64&amp;be=192&amp;fe=1454&amp;dc=410&amp;perf=%7B%22timing%22:%7B%22of%22:1562065117367,%22n%22:0,%22f%22:-1,%22dn%22:-1,%22dne%22:-1,%22c%22:-1,%22ce%22:-1,%22rq%22:-1,%22rp%22:-1,%22rpe%22:-1,%22dl%22:171,%22di%22:408,%22ds%22:409,%22de%22:453,%22dc%22:1453,%22l%22:1453,%22le%22:1459%7D,%22navigation%22:%7B%7D%7D&amp;at=GhsHGgpIHkQ%3D&amp;jsonp=NREUM.setToken"></script>
+            src="https://bam.nr-data.net/1/322454d465?a=113564921&amp;v=1123.df1c7f8&amp;to=NlwEbEJSDUoCVUINVw8WM0pZHApXB1NOSkgJSQ%3D%3D&amp;rst=1480&amp;ref=http://takhfifbnd.ir/kish/dealMap/&amp;ap=64&amp;be=192&amp;fe=1454&amp;dc=410&amp;perf=%7B%22timing%22:%7B%22of%22:1562065117367,%22n%22:0,%22f%22:-1,%22dn%22:-1,%22dne%22:-1,%22c%22:-1,%22ce%22:-1,%22rq%22:-1,%22rp%22:-1,%22rpe%22:-1,%22dl%22:171,%22di%22:408,%22ds%22:409,%22de%22:453,%22dc%22:1453,%22l%22:1453,%22le%22:1459%7D,%22navigation%22:%7B%7D%7D&amp;at=GhsHGgpIHkQ%3D&amp;jsonp=NREUM.setToken"></script>
     <script src="https://js-agent.newrelic.com/nr-1123.min.js"></script>
     <script type="text/javascript">window.NREUM || (NREUM = {}), __nr_require = function (e, n, t) {
             function r(t) {
@@ -348,9 +348,9 @@
     <meta property="og:title" content="netbarg">
     <meta property="og:description" content="">
     <meta property="og:image" content="">
-    <meta property="og:url" content="http://netbarg.com">
+    <meta property="og:url" content="http://takhfifbnd.ir">
     <meta property="article:publisher" content="">
-    <link rel="alternate" hreflang="fa-IR" href="http://netbarg.com/">
+    <link rel="alternate" hreflang="fa-IR" href="http://takhfifbnd.ir/">
     <!--style-->
 
     <link rel="stylesheet" href="{{url("/assets/site/css/bootstrap.min.css")}}">

@@ -281,7 +281,7 @@ class CartController extends Controller
             $order_detail->F_State = 1;
             $order_detail->save();
 
-            QrCode::size(200)->format('png')->generate($F_QRCode, storage_path() . '/qr_code/' . $F_QRCode . '.png');
+            QrCode::size(500)->format('png')->generate($F_QRCode, storage_path() . '/qr_code/' . $F_QRCode . '.png');
 
         }
         Session::forget('cart');

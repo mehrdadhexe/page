@@ -263,7 +263,7 @@
                     </div>
                     <p class="tx-just rfdtxt"><span> </span>
                         <span class="partners">
-                    <a href="http://netbarg.com" target="_blank" title="netbarg">
+                    <a href="http://takhfifbnd.ir" target="_blank" title="netbarg">
                       <img src="/assets/site/img/NetBarg-Logo3.png" alt="نت برگ">
                   </a>
                   <a href="http://chilivery.com" target="_blank" title="chilivery">

@@ -85,5 +85,7 @@ Route::prefix('users/userProfiles')->group(function () {
     Route::get('tab4','UserController@tab4');
     Route::get('tab5','UserController@tab5');
     Route::get('tab6','UserController@tab6');
+
+    Route::get('view_order/{qr}','UserController@view_order');
 });
 

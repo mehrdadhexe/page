@@ -13,7 +13,7 @@
                             <div class="col-md-1"></div>
                             <div class="col-md-22">
                                 <ul itemscope="" itemtype="http://schema.org/BreadcrumbList">
-                                    <li><a href="http://netbarg.com/yazd/"><span itemprop="name">خانه</span></a></li>
+                                    <li><a href="http://takhfifbnd.ir/yazd/"><span itemprop="name">خانه</span></a></li>
                                     <li><a href="/user/user-profiles"><span itemprop="name">پروفایل</span></a></li>
                                 </ul>
                             </div>
@@ -242,15 +242,23 @@
                                         <p class="ft-3 name">{{\Illuminate\Support\Facades\Auth::user()->name}} </p>
                                     @endAuth
                                     <span class="user-menu-link clearfix">
-                                <a href="/yazd/users/logout" class="link">
+                                <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();" class="link">
                                     <i class="icon icon-logout" style="font-size:2rem;"></i>خروج
                                 </a>
-                                <a type="button" data-toggle="modal" data-target="#changegroup" class="link">
+                          
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                                  style="display: none;">
+                                                @csrf
+                                            </form>
+
+
+                                <!-- <a type="button" data-toggle="modal" data-target="#changegroup" class="link">
                                     <i class="icon icon-organization"></i>تغییر گروه سازمانی
                                 </a>
                                 <a type="button" data-toggle="modal" data-target="#changepass" class="link">
                                     <i class="icon icon-padlock"></i>تغییر رمز عبور
-                                </a>
+                                </a> -->
                             </span>
                                 </div>
                                 <ul role="tablist" class="nav nav-tabs nav-justified">
@@ -259,16 +267,16 @@
                                                                         data-target="#tab1"><i
                                                 class="icon icon-user-avatar"></i><span class="hidden-xs hidden-sm">ویرایش پروفایل شخصی</span></a>
                                     </li>
-                                    <li role="presentation" class=""><a href="{{url('users/userProfiles/tab2')}}" aria-controls=""
+                                    <!-- <li role="presentation" class=""><a href="{{url('users/userProfiles/tab2')}}" aria-controls=""
                                                                         role="tab" data-toggle="tabajax"
                                                                         data-target="#tab2"><i
                                                 class="icon icon-wallet"></i><span
-                                                class="hidden-xs hidden-sm">کیف پول</span></a></li>
+                                                class="hidden-xs hidden-sm">کیف پول</span></a></li> -->
                                     <li role="presentation" class=""><a href="{{url('users/userProfiles/tab3')}}" aria-controls="" role="tab"
                                                                         data-toggle="tabajax" data-target="#tab3"><i
                                                 class="icon icon-logo_e"></i><span class="hidden-xs hidden-sm">نت‌برگ‌های من</span></a>
                                     </li>
-                                    <li role="presentation" class=""><a href="{{url('users/userProfiles/tab4')}}" aria-controls=""
+                                    <!-- <li role="presentation" class=""><a href="{{url('users/userProfiles/tab4')}}" aria-controls=""
                                                                         role="tab" data-toggle="tabajax"
                                                                         data-target="#tab4"><i
                                                 class="icon icon-transaction"></i><span class="hidden-xs hidden-sm">تراکنش ها</span></a>
@@ -281,7 +289,7 @@
                                                                         role="tab" data-toggle="tabajax"
                                                                         data-target="#tab6"><i
                                                 class="icon icon-favorite"></i><span class="hidden-xs hidden-sm">علاقه مندی ها</span></a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                                 <div class="tab-content clearfix">
                                     @yield('tab')

@@ -11,7 +11,7 @@
                     <div class="col-md-1"></div>
                     <div class="col-md-22">
                         <a target="_blank"
-                           href="http://netbarg.com/tehran/d/c:entertainment/158240/%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87-%D8%B3%D8%B1%D8%B2%D9%85%DB%8C%D9%86-%D9%81%DA%A9%D8%B1-%D8%A8%D8%A7%D8%B2%DB%8C%D8%A7-%D8%AF%D8%B1-%D8%A8%D8%A7%D8%BA-%DA%A9%D8%AA%D8%A7%D8%A8/"
+                           href=""
                            class="figure m-b">
                             <img src="http://static.netbarg.com/img/banner/banners/occasionsBanner/53/350505bd.jpg"
                                  class="img-responsive">
@@ -162,20 +162,20 @@
                                         <li><a href="{{url('users/userProfiles/tab1')}}" data-tab="#tab1"><span><i
                                                         class="icon icon-user-avatar"></i></span>ویرایش پروفایل شخصی</a>
                                         </li>
-                                        <li><a href="{{url('users/userProfiles/tab2')}}" data-tab="#tab2"><span><i
+                                        <!-- <li><a href="{{url('users/userProfiles/tab2')}}" data-tab="#tab2"><span><i
                                                         class="icon icon-wallet"></i></span>کیـف
-                                                پول</a></li>
+                                                پول</a></li> -->
                                         <li><a href="{{url('users/userProfiles/tab3')}}" data-tab="#tab3"><span><i
                                                         class="icon icon-logo_e"></i></span>نت
                                                 برگ های من</a></li>
-                                        <li><a href="{{url('users/userProfiles/tab4')}}" data-tab="#tab4"><span><i
+                                        <!-- <li><a href="{{url('users/userProfiles/tab4')}}" data-tab="#tab4"><span><i
                                                         class="icon icon-transaction"></i></span>تراکنش ها</a></li>
                                         <li><a href="{{url('users/userProfiles/tab5')}}" data-tab="#tab5"><span><i
                                                         class="icon icon-Comment"></i></span>نظرات
                                                 من</a></li>
                                         <li><a href="{{url('users/userProfiles/tab6')}}" data-tab="#tab6"><span><i
                                                         class="icon icon-favorite"></i></span>علاقه
-                                                مندی ها</a></li>
+                                                مندی ها</a></li> -->
                                         <li>
                                             <a href="{{ route('logout') }}"
                                                onclick="event.preventDefault();

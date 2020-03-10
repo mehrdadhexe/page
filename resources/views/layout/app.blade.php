@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <meta hreflang="fa-IR" href="http://netbarg.com/" rel="alternate">
+    <meta hreflang="fa-IR" href="http://takhfifbnd.ir/" rel="alternate">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="keywords"
           content="نت برگ,NetBarg,خرید گروهی,خرید,تخفیف,تخفیف گروهی,سایت خرید گروهی,الکترونیکی,اینترنتی,آنلاین,فروش آنلاین,تهران,حراج,حراجی,کوپن,رستوران,کالا,تفریح">

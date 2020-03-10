@@ -69,21 +69,21 @@
                 <div class="row under-slider-banner">
                     <div class="col-lg-8 col-md-8 col-sm-8">
                         <a target="_blank"
-                           href="http://netbarg.com/trend/%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D8%AF%D8%B1%D9%85/"
+                           href="http://takhfifbnd.ir/trend/%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D8%AF%D8%B1%D9%85/"
                            class="figure m-b">
                             <img src="http://static.netbarg.com/img/banner/banners/rightSmallBanner/93/50f40701.jpg"
                                  alt="netbarg"> </a>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-8">
                         <a target="_blank"
-                           href="http://netbarg.com/trend/%D9%87%D8%AA%D9%84-%D9%85%D8%B4%D9%87%D8%AF/"
+                           href="http://takhfifbnd.ir/trend/%D9%87%D8%AA%D9%84-%D9%85%D8%B4%D9%87%D8%AF/"
                            class="figure m-b">
                             <img src="http://static.netbarg.com/img/banner/banners/centerSmallBanner/91/59010762.jpg"
                                  alt="netbarg"> </a>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-8">
                         <a target="_blank"
-                           href="http://netbarg.com/trend/%D8%A7%D8%B3%D8%AA%D8%AE%D8%B1%D9%87%D8%A7%DB%8C-%D8%BA%D8%B1%D8%A8-%D8%AA%D9%87%D8%B1%D8%A7%D9%86/"
+                           href="http://takhfifbnd.ir/trend/%D8%A7%D8%B3%D8%AA%D8%AE%D8%B1%D9%87%D8%A7%DB%8C-%D8%BA%D8%B1%D8%A8-%D8%AA%D9%87%D8%B1%D8%A7%D9%86/"
                            class="figure m-b">
                             <img src="http://static.netbarg.com/img/banner/banners/leftSmallBanner/89/47f7068c.jpg"
                                  alt="netbarg"> </a>
